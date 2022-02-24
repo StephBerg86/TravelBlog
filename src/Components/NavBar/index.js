@@ -4,14 +4,14 @@ import * as S from "./styles";
 export default function NavBar() {
   return (
     <S.Container>
-      <div>LOGO</div>
+      <div>Logo</div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <S.NavText>HOME</S.NavText>
-        <S.NavText>LANDEN</S.NavText>
-        <S.NavText>TIPS</S.NavText>
-        <S.NavText>REISVIDEOS</S.NavText>
+        <S.NavText>Home</S.NavText>
+        <S.NavText>Landen</S.NavText>
+        <S.NavText>Tips</S.NavText>
+        <S.NavText>Reisvideos</S.NavText>
       </div>
-      <div>ICONS</div>
+      <div>Icons</div>
     </S.Container>
   );
 }

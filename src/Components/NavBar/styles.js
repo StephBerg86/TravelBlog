@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { accent } from "../../Constants/Tokens";
 
 export const Container = styled.div`
   height: 48px;
@@ -13,8 +14,8 @@ export const Container = styled.div`
 export const NavText = styled.p`
   margin: 14px 5px;
   font-family: Montserrat;
-  font-size: 14px;
   line-height: 20px;
   font-weight: 700;
-  color: #505050;
+  text-transform: uppercase;
+  ${accent.greyBrown}
 `;
