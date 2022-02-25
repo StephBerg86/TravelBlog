@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { accent } from "../../Constants/Tokens";
 
 export const Container = styled.div`
-  height: 48px;
+  height: 60px;
   width: 100%;
   background-color: transparent;
   border-bottom: 1px solid #ededed;
@@ -12,7 +12,16 @@ export const Container = styled.div`
 `;
 
 export const NavText = styled.p`
-  margin: 14px 5px;
+  margin: 14px 20px;
+  font-family: Montserrat;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  ${accent.greyBrown}
+`;
+
+export const Logo = styled.p`
+  margin: 14px 20px;
   font-family: Montserrat;
   line-height: 20px;
   font-weight: 700;

@@ -1,3 +1,14 @@
+export const GOTOPAGE = {
+  Mexico: "Mexico",
+  Ijsland: "IJsland",
+  Bahamas: "Bahamas",
+  Japan: "Japan",
+  Philipijnen: "Philipijnen",
+  Namibie: "Namibië",
+  ZuidAfrika: "Zuid Afrika",
+  Miami: "Miami",
+};
+
 export const cardsData = [
   {
     id: 1,
@@ -6,6 +17,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     image:
       "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
+    onClick: GOTOPAGE.Mexico,
   },
   {
     id: 2,
@@ -14,6 +26,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
+    onClick: GOTOPAGE.Ijsland,
   },
   {
     id: 3,
@@ -22,6 +35,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     image:
       "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
+    onClick: GOTOPAGE.Bahamas,
   },
   {
     id: 4,
@@ -30,6 +44,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     image:
       "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
+    onClick: GOTOPAGE.Japan,
   },
   {
     id: 5,
@@ -37,6 +52,7 @@ export const cardsData = [
     location: "Philipijnen",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: "https://lp-cms-production.imgix.net/2021-02/GettyRF_985553596.jpg",
+    onClick: GOTOPAGE.Philipijnen,
   },
   {
     id: 6,
@@ -45,6 +61,7 @@ export const cardsData = [
     text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+    onClick: GOTOPAGE.Namibie,
   },
   {
     id: 7,
@@ -53,6 +70,7 @@ export const cardsData = [
     text: "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6f/d9/3d.jpg",
+    onClick: GOTOPAGE.ZuidAfrika,
   },
   {
     id: 8,
@@ -61,6 +79,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/cd/05/41/20190602-125404-largejpg.jpg?w=1200&h=-1&s=1",
+    onClick: GOTOPAGE.Miami,
   },
   {
     id: 9,

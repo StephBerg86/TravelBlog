@@ -1,8 +1,9 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import * as S from "./styles.js";
+import { Routes, Route } from "react-router-dom";
 import StartScreen from "./Pages/StartScreen";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import NavBar from "./Components/NavBar/index.js";
 
 function App() {
   const theme = createTheme({
@@ -14,11 +15,20 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Router>
-          <Routes>
-            <Route path="/" element={<StartScreen />}></Route>
-          </Routes>
-        </Router>
+        <S.Background>
+          <S.PageContainer className="PageContainer">
+            <NavBar />
+            <div style={{ margin: "16px" }}>
+              <Routes>
+                <Route path="/" element={<StartScreen />}></Route>
+                {/* <Route path="/landen" element={}></Route>
+            <Route path="/routes" element={}></Route>
+            <Route path="/tips" element={}></Route>
+            <Route path="/videos" element={}></Route> */}
+              </Routes>
+            </div>
+          </S.PageContainer>
+        </S.Background>
       </ThemeProvider>
     </div>
   );

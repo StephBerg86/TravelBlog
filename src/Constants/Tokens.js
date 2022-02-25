@@ -10,7 +10,10 @@ export const accent = {
   greenBlue: css`
     color: #417d85;
   `,
-  greyBrown: css`
-    color: #505050;
+  brown: css`
+    color: #5a393e;
+  `,
+  orange: css`
+    color: #d79c6a;
   `,
 };
