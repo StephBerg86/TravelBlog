@@ -7,16 +7,20 @@ import { cardsData } from "../../Components/Data";
 export default function Home() {
   return (
     <S.PageContainer className="Home">
-      {cardsData.map((card, index) => (
-        <Cards
-          key={index}
-          title={card.title}
-          location={card.location}
-          text={card.text}
-          image={card.image}
-          onClick={card.onClick}
-        />
-      ))}
+      {cardsData.map((card, index) =>
+        card.homepage ? (
+          <Cards
+            key={index}
+            title={card.title}
+            location={card.location}
+            text={card.text}
+            image={card.image}
+            onClick={card.onClick}
+          />
+        ) : (
+          ""
+        )
+      )}
     </S.PageContainer>
   );
 }
