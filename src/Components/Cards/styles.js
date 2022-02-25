@@ -9,13 +9,6 @@ export const Location = styled(Typography)`
   text-align: left;
 `;
 
-export const Title = styled(Typography)`
-  ${accent.brown}
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: left;
-`;
-
 export const Text = styled(Typography)`
   ${accent.brown}
   text-align: left;
