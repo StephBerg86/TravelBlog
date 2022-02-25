@@ -31,21 +31,6 @@ export default function Landen() {
           </ul>
         </div>
         <div>
-          <SubTitle>Europa</SubTitle>
-          <ul>
-            <li>Londen</li>
-            <li>Ijsland</li>
-            <li>Zuid Afrika</li>
-            <li>Noorwegen</li>
-            <li>Polen</li>
-            <li>Spanje</li>
-          </ul>
-          <SubTitle>Oceanië</SubTitle>
-          <ul>
-            <li>Australië</li>
-          </ul>
-        </div>
-        <div>
           <SubTitle>Noord Amerika</SubTitle>
           <ul>
             <li>New York</li>
@@ -62,6 +47,21 @@ export default function Landen() {
           <SubTitle>Zuid Amerika</SubTitle>
           <ul>
             <li>Brazilië</li>
+          </ul>
+        </div>
+        <div>
+          <SubTitle>Europa</SubTitle>
+          <ul>
+            <li>Londen</li>
+            <li>Ijsland</li>
+            <li>Zuid Afrika</li>
+            <li>Noorwegen</li>
+            <li>Polen</li>
+            <li>Spanje</li>
+          </ul>
+          <SubTitle>Oceanië</SubTitle>
+          <ul>
+            <li>Australië</li>
           </ul>
         </div>
       </S.CountryContainer>
