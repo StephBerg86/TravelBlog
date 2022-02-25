@@ -1,5 +1,5 @@
 import React from "react";
-import { SubTitle, PageTitle } from "../../Constants/OverallStyles";
+import { SubTitle, PageTitle, Text } from "../../Constants/OverallStyles";
 import * as S from "./styles";
 import HeaderLanden from "./landen.jpg";
 
@@ -8,6 +8,11 @@ export default function Landen() {
     <S.PageContainer>
       <S.Img src={HeaderLanden} alt="Header Landen" />
       <PageTitle style={{ marginBottom: "16px" }}>Landen</PageTitle>
+      <Text>
+        Hieronder vind je een overzicht van de landen waar ik ben geweest en
+        waar ik tips voor heb. Klik op het land om meer te lezen over wat ik
+        daar allemaal gedaan heb.
+      </Text>
       <S.CountryContainer>
         <div>
           <SubTitle>Afrika</SubTitle>

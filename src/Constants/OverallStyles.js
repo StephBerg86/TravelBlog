@@ -27,3 +27,13 @@ export const SubTitle = styled(Typography)`
     font-size: smaller;
   }
 `;
+
+export const Text = styled(Typography)`
+  ${accent.brown}
+  text-align: left;
+
+  &&.MuiTypography-root {
+    font-size: smaller;
+    margin-bottom: 16px;
+  }
+`;
