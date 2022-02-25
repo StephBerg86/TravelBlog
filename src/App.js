@@ -10,6 +10,8 @@ import Tips from "./Pages/Tips/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
 import Cenotes from "./Pages/Landen/Mexico/Cenotes";
 import Footer from "./Components/Footer/index.js";
+import TipVarkens from "./Pages/Landen/Bahamas/TipVarkens.js";
+import Formentera from "./Pages/Landen/Spanje/Formentera.js";
 
 function App() {
   const theme = createTheme({
@@ -30,12 +32,13 @@ function App() {
                 <Route path="/landen" element={<Landen />}></Route>
                 <Route path="/mexicocenotes" element={<Cenotes />}></Route>
                 <Route path="/ijsland" element={<Cenotes />}></Route>
-                <Route path="/bahamas" element={<Cenotes />}></Route>
+                <Route path="/bahamasvarkens" element={<TipVarkens />}></Route>
                 <Route path="/japan" element={<Cenotes />}></Route>
                 <Route path="/philipijnen" element={<Cenotes />}></Route>
                 <Route path="/namibie" element={<Cenotes />}></Route>
                 <Route path="/zuidafrika" element={<Cenotes />}></Route>
                 <Route path="/miami" element={<Cenotes />}></Route>
+                <Route path="/formentera" element={<Formentera />}></Route>
 
                 <Route path="/routes" element={<RoutePagina />}></Route>
                 <Route path="/tips" element={<Tips />}></Route>

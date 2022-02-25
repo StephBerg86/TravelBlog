@@ -19,7 +19,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/7H2yCBzruxg"
-          title="YouTube video player"
+          title="Zuid Afrika, Namibie"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -28,7 +28,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/IjNYY7WxJ8U"
-          title="YouTube video player"
+          title="Mexico"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -37,7 +37,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/WxbrZeRFe2E"
-          title="YouTube video player"
+          title="Ijsland"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -46,7 +46,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/22QYULQwQzc"
-          title="YouTube video player"
+          title="Japan"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -55,7 +55,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/grgCFuJ2vhs"
-          title="YouTube video player"
+          title="Fraser Island"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -64,7 +64,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/0D7q41PCqlM"
-          title="YouTube video player"
+          title="Australie"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -73,7 +73,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/sBlKHQUUM0k"
-          title="YouTube video player"
+          title="Miami, Bahamas"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -82,7 +82,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/WxHuNd_KrCU"
-          title="YouTube video player"
+          title="Ibiza, Formentera"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -91,7 +91,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/JW7ptyn1Ij8"
-          title="YouTube video player"
+          title="Filipijnen"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -100,7 +100,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/NO6V54kdayo"
-          title="YouTube video player"
+          title="Zanzibar"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -109,7 +109,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/-F_9c0eczTw"
-          title="YouTube video player"
+          title="New York"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -118,7 +118,7 @@ export default function Videos() {
           width="350px"
           height="200px"
           src="https://www.youtube.com/embed/xl1NMuFMc-s"
-          title="YouTube video player"
+          title="Azie"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen

@@ -16,6 +16,7 @@ export const PageTitle = styled(Typography)`
   &&.MuiTypography-root {
     font-weight: 700;
     font-size: large;
+    margin-bottom: 16px;
   }
 `;
 

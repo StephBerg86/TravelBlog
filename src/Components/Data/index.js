@@ -1,12 +1,13 @@
 export const GOTOPAGE = {
   MexicoCenotes: "/mexicocenotes",
   Ijsland: "/ijsland",
-  Bahamas: "/bahamas",
+  Bahamas: "/bahamasvarkens",
   Japan: "/japan",
   Philipijnen: "/philipijnen",
   Namibie: "/namibie",
   ZuidAfrika: "/zuidafrika",
   Miami: "/miami",
+  Formentera: "/formentera",
 };
 
 export const cardsData = [
@@ -14,18 +15,18 @@ export const cardsData = [
     id: 1,
     title: "De mooiste Cenotes van Yucatan",
     location: "Mexico",
-    text: "Mexico heeft eindeloos veel Cenotes, de een nog mooier dan de andere. Maar welke mag je zeker niet overslaan? Dat lees je in dit artikel.",
+    text: "Mexico heeft eindeloos veel Cenotes, de één nog mooier dan de andere.  Maar welke mag je zeker niet overslaan? Als je voor het eerst naar Mexico gaat dan kan deze keuze best wel overweldigend zijn. Dit waren mijn favoriete cenotes.",
     image:
       "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
     onClick: GOTOPAGE.MexicoCenotes,
     category: "tip",
-    homepage: true,
+    homepage: false,
   },
   {
     id: 2,
     title: "Waterval paradijs",
     location: "Ijsland",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    text: "Als je van mooie watervallen houdt dan in IJsland echt 'the place to be'. Dit zijn de mooiste.",
     image:
       "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
     onClick: GOTOPAGE.Ijsland,
@@ -34,9 +35,9 @@ export const cardsData = [
   },
   {
     id: 3,
-    title: "Zwemmen met varkens",
+    title: "Alles wat je moet weten over zwemmen met varkens in de Bahamas",
     location: "Bahamas",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    text: "Een helderblauwe zee, witte stranden, en vrolijke varkentjes. Dit klinkt toch als het paradijs op aarde? Dit paradijs bestaat en het is in de Bahamas. Lees er alles over in dit artikel.",
     image:
       "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
     onClick: GOTOPAGE.Bahamas,
@@ -67,7 +68,7 @@ export const cardsData = [
   {
     id: 6,
     title: "Sossusvlei",
-    location: "Namibië",
+    location: "Namibie",
     text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
@@ -78,7 +79,7 @@ export const cardsData = [
   {
     id: 7,
     title: "Wijntour in Fransschoek",
-    location: "Zuid Afrika",
+    location: "ZuidAfrika",
     text: "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6f/d9/3d.jpg",
@@ -99,13 +100,24 @@ export const cardsData = [
   },
   {
     id: 9,
-    title: "Nog een artikel",
-    location: "Bahamas",
+    title: "Een paradijs in Europa, Formentera",
+    location: "Spanje",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
-      "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
-    onClick: GOTOPAGE.Miami,
+      "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
+    onClick: GOTOPAGE.Formentera,
     category: "route",
-    homepage: false,
+    homepage: true,
+  },
+  {
+    id: 10,
+    title: "Spookstad Kolmanskop",
+    location: "Namibie",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image:
+      "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
+    onClick: GOTOPAGE.Namibie,
+    category: "route",
+    homepage: true,
   },
 ];
