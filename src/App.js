@@ -9,6 +9,7 @@ import RoutePagina from "./Pages/Route/index.js";
 import Tips from "./Pages/Tips/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
 import Cenotes from "./Pages/Landen/Mexico/Cenotes";
+import Footer from "./Components/Footer/index.js";
 
 function App() {
   const theme = createTheme({
@@ -41,6 +42,7 @@ function App() {
                 <Route path="/videos" element={<Videos />}></Route>
               </Routes>
             </div>
+            <Footer />
           </S.PageContainer>
         </S.Background>
       </ThemeProvider>
