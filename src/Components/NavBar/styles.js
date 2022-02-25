@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { accent } from "../../Constants/Tokens";
+import { Link as rrdLink } from "react-router-dom";
 
 export const Container = styled.div`
   height: 60px;
@@ -17,7 +18,7 @@ export const NavText = styled.p`
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  ${accent.greyBrown}
+  ${accent.brown}
 `;
 
 export const Logo = styled.p`
@@ -26,5 +27,15 @@ export const Logo = styled.p`
   line-height: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  ${accent.greyBrown}
+  ${accent.brown}
+  text-decoration: none;
+`;
+
+export const Link = styled(rrdLink)`
+  text-decoration: none;
+  ${accent.brown}
+  &:hover {
+    transform: scale(1.02);
+    text-decoration: underline;
+  }
 `;

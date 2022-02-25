@@ -6,9 +6,10 @@ export const PageContainer = styled.div`
   flex-direction: column;
   overflow: auto;
   align-content: center;
-  height: 1200px;
+  height: 100%;
   gap: 10px;
-  max-height: 1600px;
-  min-height: 700px;
+  max-height: 1200px;
+  min-height: 600px;
   max-width: 100%;
+  padding-bottom: 1px;
 `;

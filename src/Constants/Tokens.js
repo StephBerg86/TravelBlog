@@ -4,6 +4,9 @@ export const backgrounds = {
   primary: css`
     background-color: #ffffff;
   `,
+  secondary: css`
+    background-color: #5a393e;
+  `,
 };
 
 export const accent = {
