@@ -8,6 +8,7 @@ import Landen from "./Pages/Landen/index.js";
 import RoutePagina from "./Pages/Route/index.js";
 import Tips from "./Pages/Tips/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
+import Cenotes from "./Pages/Landen/Mexico/Cenotes";
 
 function App() {
   const theme = createTheme({
@@ -26,6 +27,15 @@ function App() {
               <Routes>
                 <Route path="/" element={<StartScreen />}></Route>
                 <Route path="/landen" element={<Landen />}></Route>
+                <Route path="/mexicocenotes" element={<Cenotes />}></Route>
+                <Route path="/ijsland" element={<Cenotes />}></Route>
+                <Route path="/bahamas" element={<Cenotes />}></Route>
+                <Route path="/japan" element={<Cenotes />}></Route>
+                <Route path="/philipijnen" element={<Cenotes />}></Route>
+                <Route path="/namibie" element={<Cenotes />}></Route>
+                <Route path="/zuidafrika" element={<Cenotes />}></Route>
+                <Route path="/miami" element={<Cenotes />}></Route>
+
                 <Route path="/routes" element={<RoutePagina />}></Route>
                 <Route path="/tips" element={<Tips />}></Route>
                 <Route path="/videos" element={<Videos />}></Route>

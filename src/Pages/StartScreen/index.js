@@ -14,6 +14,7 @@ export default function Home() {
           location={card.location}
           text={card.text}
           image={card.image}
+          onClick={card.onClick}
         />
       ))}
     </S.PageContainer>

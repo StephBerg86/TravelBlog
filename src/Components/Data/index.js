@@ -1,12 +1,12 @@
 export const GOTOPAGE = {
-  Mexico: "Mexico",
-  Ijsland: "IJsland",
-  Bahamas: "Bahamas",
-  Japan: "Japan",
-  Philipijnen: "Philipijnen",
-  Namibie: "Namibië",
-  ZuidAfrika: "Zuid Afrika",
-  Miami: "Miami",
+  MexicoCenotes: "/mexicocenotes",
+  Ijsland: "/ijsland",
+  Bahamas: "/bahamas",
+  Japan: "/japan",
+  Philipijnen: "/philipijnen",
+  Namibie: "/namibie",
+  ZuidAfrika: "/zuidafrika",
+  Miami: "/miami",
 };
 
 export const cardsData = [
@@ -17,7 +17,7 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     image:
       "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
-    onClick: GOTOPAGE.Mexico,
+    onClick: GOTOPAGE.MexicoCenotes,
   },
   {
     id: 2,
@@ -88,5 +88,6 @@ export const cardsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
+    onClick: GOTOPAGE.Miami,
   },
 ];
