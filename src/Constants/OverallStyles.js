@@ -18,3 +18,12 @@ export const PageTitle = styled(Typography)`
     font-size: large;
   }
 `;
+
+export const SubTitle = styled(Typography)`
+  ${accent.brown}
+  text-transform: uppercase;
+  text-align: left;
+  &&.MuiTypography-root {
+    font-size: smaller;
+  }
+`;
