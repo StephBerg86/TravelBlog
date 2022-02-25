@@ -8,6 +8,7 @@ export const GOTOPAGE = {
   ZuidAfrika: "/zuidafrika",
   Miami: "/miami",
   Formentera: "/formentera",
+  Ibiza: "/ibiza",
 };
 
 export const cardsData = [
@@ -31,7 +32,7 @@ export const cardsData = [
       "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
     onClick: GOTOPAGE.Ijsland,
     category: "route",
-    homepage: true,
+    homepage: false,
   },
   {
     id: 3,
@@ -63,7 +64,7 @@ export const cardsData = [
     image: "https://lp-cms-production.imgix.net/2021-02/GettyRF_985553596.jpg",
     onClick: GOTOPAGE.Philipijnen,
     category: "route",
-    homepage: true,
+    homepage: false,
   },
   {
     id: 6,
@@ -96,7 +97,7 @@ export const cardsData = [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/cd/05/41/20190602-125404-largejpg.jpg?w=1200&h=-1&s=1",
     onClick: GOTOPAGE.Miami,
     category: "tip",
-    homepage: true,
+    homepage: false,
   },
   {
     id: 9,
@@ -117,6 +118,17 @@ export const cardsData = [
     image:
       "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
     onClick: GOTOPAGE.Namibie,
+    category: "route",
+    homepage: true,
+  },
+  {
+    id: 11,
+    title: "De andere kant van party-eiland Ibiza",
+    location: "Spanje",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image:
+      "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
+    onClick: GOTOPAGE.Ibiza,
     category: "route",
     homepage: true,
   },

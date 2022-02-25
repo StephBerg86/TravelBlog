@@ -12,6 +12,7 @@ import Cenotes from "./Pages/Landen/Mexico/Cenotes";
 import Footer from "./Components/Footer/index.js";
 import TipVarkens from "./Pages/Landen/Bahamas/TipVarkens.js";
 import Formentera from "./Pages/Landen/Spanje/Formentera.js";
+import Ibiza from "./Pages/Landen/Spanje/Ibiza.js";
 
 function App() {
   const theme = createTheme({
@@ -39,6 +40,7 @@ function App() {
                 <Route path="/zuidafrika" element={<Cenotes />}></Route>
                 <Route path="/miami" element={<Cenotes />}></Route>
                 <Route path="/formentera" element={<Formentera />}></Route>
+                <Route path="/ibiza" element={<Ibiza />}></Route>
 
                 <Route path="/routes" element={<RoutePagina />}></Route>
                 <Route path="/tips" element={<Tips />}></Route>

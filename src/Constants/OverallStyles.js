@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import styled from "styled-components";
 import { accent } from "./Tokens";
+import { Link } from "react-router-dom";
 
 export const CardTitle = styled(Typography)`
   ${accent.brown}
@@ -32,9 +33,13 @@ export const SubTitle = styled(Typography)`
 export const Text = styled(Typography)`
   ${accent.brown}
   text-align: left;
-
   &&.MuiTypography-root {
     font-size: smaller;
     margin-bottom: 16px;
   }
+`;
+
+export const LinkText = styled(Link)`
+  ${accent.brown}
+  font-weight: 700;
 `;

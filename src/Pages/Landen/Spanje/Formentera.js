@@ -43,30 +43,40 @@ export default function Formentera() {
         andere kant van het eiland te gaan. Halverwege heb ik me toch bedacht en
         ben ik richting Platja de Migjorn gefietst.
       </Text>
-      <SubTitle>Platja de Migjorn</SubTitle>
-      <Text>
-        Dit zandstrand is zeven kilometer lang en wordt af en toe onderbroken
-        door rotsplateaus. Aan het strand zitten een aantal resorts en grote
-        restaurants. Ik ben wat verder doorgelopen tot ik bij een heel schattig
-        strandhutje terecht kwam. Kiosko 62 noemen ze dit barretje waar ze goede
-        muziek draaien, koude drankjes serveren en waar super vriendelijke
-        surfdudes achter de bar werken.{" "}
-      </Text>
-      <SubTitle>Es Pujols</SubTitle>
-      <Text>
-        Dit is echt een schattig badplaatsje met winkeltjes en genoeg keuze uit
-        restaurants. De boulevard is heel gezellig en het heeft een super wit
-        zandstrand. Dit was het meest levendige stadje waar ik ben geweest maar
-        nog wel heel schattig en kleinschalig.
-      </Text>
-      <SubTitle>Platja de ses illetes</SubTitle>{" "}
-      <Text>
-        De weg van Es Pujols naar Platja de Ses Illetes is heel mooi omdat je
-        langs de zoutmeren fietst. Dit languitgestrekte gedeelte van het eiland
-        vond ik qua stranden absoluut het mooiste. Je kan het een beetje zien
-        als een soort lange zandbank met af en toe wat strandtentjes. Het water
-        is er turquoise omdat het in het begin vaak ondiep is.
-      </Text>
+      <div style={{ display: "flex", gap: "16px" }}>
+        <div>
+          <SubTitle>Platja de Migjorn</SubTitle>
+          <Text>
+            Dit zandstrand is zeven kilometer lang en wordt af en toe
+            onderbroken door rotsplateaus. Aan het strand zitten een aantal
+            resorts en grote restaurants. Ik ben wat verder doorgelopen tot ik
+            bij een heel schattig strandhutje terecht kwam. Kiosko 62 noemen ze
+            dit barretje waar ze goede muziek draaien, koude drankjes serveren
+            en waar super vriendelijke surfdudes achter de bar werken.{" "}
+          </Text>
+          <SubTitle>Es Pujols</SubTitle>
+          <Text>
+            Dit is echt een schattig badplaatsje met winkeltjes en genoeg keuze
+            uit restaurants. De boulevard is heel gezellig en het heeft een
+            super wit zandstrand. Dit was het meest levendige stadje waar ik ben
+            geweest maar nog wel heel schattig en kleinschalig.
+          </Text>
+          <SubTitle>Platja de ses illetes</SubTitle>{" "}
+          <Text>
+            De weg van Es Pujols naar Platja de Ses Illetes is heel mooi omdat
+            je langs de zoutmeren fietst. Dit languitgestrekte gedeelte van het
+            eiland vond ik qua stranden absoluut het mooiste. Je kan het een
+            beetje zien als een soort lange zandbank met af en toe wat
+            strandtentjes. Het water is er turquoise omdat het in het begin vaak
+            ondiep is.
+          </Text>
+        </div>
+        <img
+          src="https://cdn.getyourguide.com/img/location/5cd93dbfbf1ff.jpeg/88.jpg"
+          alt="Platja de ses Illetes"
+          style={{ width: "450px" }}
+        />
+      </div>
       <SubTitle>La Savina</SubTitle>
       <Text>
         Dit is het havenplaatsje waar je aankomt en weer vertrekt. Er liggen
@@ -74,6 +84,17 @@ export default function Formentera() {
         ook een klein marktje. Ook is er een zandstrandje waar je lekker pootje
         kan baden tot de ferry je weer op komt halen.
       </Text>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <iframe
+          width="500px"
+          height="300px"
+          src="https://www.youtube.com/embed/WxHuNd_KrCU"
+          title="Ibiza, Formentera"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   );
 }
