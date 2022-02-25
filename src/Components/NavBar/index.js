@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import * as S from "./styles";
 
 export default function NavBar() {
@@ -11,7 +12,9 @@ export default function NavBar() {
           alignItems: "center",
         }}
       >
-        <S.Logo>Stephanie Bergman</S.Logo>
+        <Link to="/">
+          <S.Logo>Stephanie Bergman</S.Logo>
+        </Link>
       </div>
       <div
         style={{
@@ -20,9 +23,18 @@ export default function NavBar() {
           alignItems: "center",
         }}
       >
-        <S.NavText>Landen</S.NavText>
-        <S.NavText>Tips</S.NavText>
-        <S.NavText>Reisvideos</S.NavText>
+        <Link to="/landen">
+          <S.NavText>Landen</S.NavText>
+        </Link>
+        <Link to="/routes">
+          <S.NavText>Routes</S.NavText>
+        </Link>
+        <Link to="/tips">
+          <S.NavText>Tips</S.NavText>
+        </Link>
+        <Link to="/videos">
+          <S.NavText>Reisvideos</S.NavText>
+        </Link>
       </div>
       {/* <div>Icons</div> */}
     </S.Container>

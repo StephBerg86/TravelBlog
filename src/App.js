@@ -4,6 +4,10 @@ import { Routes, Route } from "react-router-dom";
 import StartScreen from "./Pages/StartScreen";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import NavBar from "./Components/NavBar/index.js";
+import Landen from "./Pages/Landen/index.js";
+import RoutePagina from "./Pages/Route/index.js";
+import Tips from "./Pages/Tips/index.js";
+import Videos from "./Pages/Reisvideos/index.js";
 
 function App() {
   const theme = createTheme({
@@ -21,10 +25,10 @@ function App() {
             <div style={{ margin: "16px" }}>
               <Routes>
                 <Route path="/" element={<StartScreen />}></Route>
-                {/* <Route path="/landen" element={}></Route>
-            <Route path="/routes" element={}></Route>
-            <Route path="/tips" element={}></Route>
-            <Route path="/videos" element={}></Route> */}
+                <Route path="/landen" element={<Landen />}></Route>
+                <Route path="/routes" element={<RoutePagina />}></Route>
+                <Route path="/tips" element={<Tips />}></Route>
+                <Route path="/videos" element={<Videos />}></Route>
               </Routes>
             </div>
           </S.PageContainer>
