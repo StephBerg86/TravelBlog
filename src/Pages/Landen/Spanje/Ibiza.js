@@ -8,14 +8,14 @@ import {
 
 export default function Ibiza() {
   return (
-    <div>
+    <>
       <PageTitle>Ibiza</PageTitle>
       <Text>
         Ibiza, het eiland van de jetset en chique restaurants, waar alle mensen
         half naakt en met bloemen in hun haar rondlopen en waar je kan feesten
         tot je erbij neervalt. Dat was het beeld wat ik van Ibiza had voordat ik
         er zelf geweest was. Inmiddels weet ik dat Ibiza juist ook zeer geschikt
-        is voor de liefhebber van rust, natuur en mooie stranden.{" "}
+        is voor de liefhebber van rust, natuur en mooie stranden.
       </Text>
       <SubTitle>Beste locatie om te overnachten </SubTitle>
       <Text>
@@ -165,6 +165,6 @@ export default function Ibiza() {
         een soort zwembaden uitgehakt zijn. Hier kan je een heerlijk warm bad
         nemen als de zee niet al te wild is.
       </Text>
-    </div>
+    </>
   );
 }

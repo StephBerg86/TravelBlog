@@ -9,6 +9,7 @@ export const GOTOPAGE = {
   Miami: "/miami",
   Formentera: "/formentera",
   Ibiza: "/ibiza",
+  Srilanka: "/routesrilanka",
 };
 
 export const cardsData = [
@@ -129,6 +130,17 @@ export const cardsData = [
     image:
       "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
     onClick: GOTOPAGE.Ibiza,
+    category: "tip",
+    homepage: true,
+  },
+  {
+    id: 12,
+    title: "Sri Lanka in drie of vier weken",
+    location: "SriLanka",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image:
+      "https://d2csxpduxe849s.cloudfront.net/media/D9C47D27-CF22-4106-BDD62A07BB6C91E1/1AF92955-0C7D-4CAC-81182775001FB1B2/webimage-55FF1AEA-BE78-4EEA-BD5B453633ED3633.png",
+    onClick: GOTOPAGE.Srilanka,
     category: "route",
     homepage: true,
   },
