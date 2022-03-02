@@ -7,7 +7,7 @@ import { data } from "../../Components/Data";
 export default function Home() {
   return (
     <S.PageContainer className="Home">
-      {data.map((card, index) =>
+      {data.map((card) =>
         card.stories
           ? card.stories.map((story, storyIndex) =>
               story.homepage ? (
@@ -25,18 +25,24 @@ export default function Home() {
             )
           : ""
       )}
+      {data.map((card) =>
+        card.routes
+          ? card.routes.map((route, routeIndex) =>
+              route.homepage ? (
+                <Cards
+                  key={routeIndex}
+                  title={route.title}
+                  location={route.location}
+                  text={route.text}
+                  image={route.image}
+                  onClick={route.onClick}
+                />
+              ) : (
+                ""
+              )
+            )
+          : ""
+      )}
     </S.PageContainer>
   );
 }
-
-// card.routes &&
-//   card.routes.map((route, routeIndex) => {
-//     <Cards
-//       key={routeIndex}
-//       title={route.title}
-//       location={route.location}
-//       text={route.text}
-//       image={route.image}
-//       onClick={route.onClick}
-//     />;
-//   });

@@ -140,7 +140,7 @@ export const data = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     location: "Philippines",
     title: "Philippines",
     text: "Intro about Philippines",
@@ -159,14 +159,13 @@ export const data = [
     ],
   },
   {
-    id: 5,
-    location: "Zuidafrika",
+    id: 8,
+    location: "Zuid Afrika",
     title: "Zuid Afrika",
     text: "Intro about ZA",
     routes: [],
     stories: [
       {
-        id: 7,
         title: "Wijntour in Fransschoek",
         location: "ZuidAfrika",
         text: "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -179,12 +178,11 @@ export const data = [
     ],
   },
   {
-    id: 5,
+    id: 9,
     location: "Spanje",
     title: "Spanje",
     text: "Intro about Spain",
-    routes: [],
-    stories: [
+    routes: [
       {
         title: "Een paradijs in Europa, Formentera",
         location: "Spanje",
@@ -195,8 +193,9 @@ export const data = [
         category: "route",
         homepage: true,
       },
+    ],
+    stories: [
       {
-        id: 11,
         title: "De andere kant van party-eiland Ibiza",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -209,14 +208,13 @@ export const data = [
     ],
   },
   {
-    id: 5,
-    location: "SriLanka",
+    id: 11,
+    location: "Sri Lanka",
     title: "Sri Lanke",
     text: "Intro about sri",
     routes: [],
     stories: [
       {
-        id: 12,
         title: "Sri Lanka in drie of vier weken",
         location: "SriLanka",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -227,5 +225,13 @@ export const data = [
         homepage: true,
       },
     ],
+  },
+  {
+    id: 12,
+    location: "Sri Lanka",
+    title: "Sri Lanke",
+    text: "Intro about sri",
+    routes: [],
+    stories: [],
   },
 ];
