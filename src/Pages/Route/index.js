@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "../../Components/Cards";
-import { cardsData } from "../../Components/Data";
+import { data } from "../../Components/Data";
 import { PageTitle, Text } from "../../Constants/OverallStyles";
 
 import * as S from "./styles";
@@ -16,19 +16,20 @@ export default function Route() {
         moet hebben. Laat je inspireren voor je volgende vakantie
       </Text>
       <S.PageContainer className="Home">
-        {cardsData.map((card, index) =>
-          card.category === "route" ? (
-            <Cards
-              key={index}
-              title={card.title}
-              location={card.location}
-              text={card.text}
-              image={card.image}
-              onClick={card.onClick}
-            />
-          ) : (
-            ""
-          )
+        {data.map(
+          (card, index) =>
+            card.routes &&
+            card.routes.map((route, routeIndex) => (
+              <Cards
+                key={routeIndex}
+                title={route.title}
+                location={route.location}
+                text={route.text}
+                image={route.image}
+                alt={route.alt}
+                onClick={route.onClick}
+              />
+            ))
         )}
       </S.PageContainer>
     </>

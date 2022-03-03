@@ -1,75 +1,159 @@
 import React from "react";
 import { SubTitle, PageTitle, Text } from "../../Constants/OverallStyles";
 import * as S from "./styles";
-import HeaderLanden from "./landen.jpg";
+import Cards from "../../Components/Cards";
+import { data } from "../../Components/Data";
 
 export default function Landen() {
   return (
     <S.PageContainer>
-      <S.Img src={HeaderLanden} alt="Header Landen" />
       <PageTitle style={{ marginBottom: "16px" }}>Landen</PageTitle>
       <Text>
         Hieronder vind je een overzicht van de landen waar ik ben geweest en
         waar ik tips voor heb. Klik op het land om meer te lezen over wat ik
         daar allemaal gedaan heb.
       </Text>
-      <S.CountryContainer>
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         <div>
           <SubTitle>Afrika</SubTitle>
-          <ul>
-            <li>Namibië</li>
-            <li>Zanzibar</li>
-            <li>Zuid Afrika</li>
-          </ul>
-          <SubTitle>Azie</SubTitle>
-          <ul>
-            <li>Cambodja</li>
-            <li>China</li>
-            <li>Filipijnen</li>
-            <li>Indonesië</li>
-            <li>Japan</li>
-            <li>Laos</li>
-            <li>Maleisië</li>
-            <li>Sri Lanka</li>
-            <li>Thailand</li>
-            <li>Vietnam</li>
-          </ul>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Afrika" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
         </div>
+
+        <div>
+          <SubTitle>Azie</SubTitle>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Azie" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
+        </div>
+
         <div>
           <SubTitle>Noord Amerika</SubTitle>
-          <ul>
-            <li>New York</li>
-            <li>Miami</li>
-            <li>Bahamas</li>
-          </ul>
-          <SubTitle>Midden Amerika</SubTitle>
-          <ul>
-            <li>Mexico</li>
-            <li>Cuba</li>
-            <li>Curacao</li>
-          </ul>
-
-          <SubTitle>Zuid Amerika</SubTitle>
-          <ul>
-            <li>Brazilië</li>
-          </ul>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "USA" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
         </div>
+
+        <div>
+          <SubTitle>Midden Amerika</SubTitle>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Midden Amerika" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
+        </div>
+
+        <div>
+          <SubTitle>Zuid Amerika</SubTitle>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Zuid Amerika" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
+        </div>
+
         <div>
           <SubTitle>Europa</SubTitle>
-          <ul>
-            <li>Londen</li>
-            <li>Ijsland</li>
-            <li>Zuid Afrika</li>
-            <li>Noorwegen</li>
-            <li>Polen</li>
-            <li>Spanje</li>
-          </ul>
-          <SubTitle>Oceanië</SubTitle>
-          <ul>
-            <li>Australië</li>
-          </ul>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Europa" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
         </div>
-      </S.CountryContainer>
+
+        <div>
+          <SubTitle>Oceanië</SubTitle>
+          <div style={{ display: "flex" }}>
+            {data.map(
+              (country, index) =>
+                country.continent === "Oceanie" && (
+                  <Cards
+                    image={country.image}
+                    location={country.location}
+                    onClick={""}
+                    widthCard={"9vw"}
+                    heightImage={"70"}
+                    alt={"land1"}
+                    marginCard={"4px"}
+                  />
+                )
+            )}
+          </div>
+        </div>
+      </div>
     </S.PageContainer>
   );
 }
