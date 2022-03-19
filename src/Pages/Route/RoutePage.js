@@ -5,10 +5,8 @@ import Route from "../../Components/Route";
 
 export default function RoutePage() {
   let { country } = useParams();
-  console.log("country", country);
 
   const currentCountry = data.find((c) => c.id === country);
-  console.log("currentCountr", currentCountry);
 
   return (
     <>
