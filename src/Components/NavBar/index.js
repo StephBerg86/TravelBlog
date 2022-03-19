@@ -29,14 +29,13 @@ export default function NavBar() {
         <S.Link to="/routes">
           <S.NavText>Routes</S.NavText>
         </S.Link>
-        <S.Link to="/tips">
-          <S.NavText>Tips</S.NavText>
+        <S.Link to="/stories">
+          <S.NavText>Verhalen</S.NavText>
         </S.Link>
         <S.Link to="/videos">
           <S.NavText>Reisvideos</S.NavText>
         </S.Link>
       </div>
-      {/* <div>Icons</div> */}
     </S.Container>
   );
 }

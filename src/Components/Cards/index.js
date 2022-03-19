@@ -13,33 +13,44 @@ export default function Cards({
   text,
   onClick,
   widthCard,
+  heightCard,
+  paddingText,
   heightImage,
   alt,
   marginCard,
 }) {
-  const width = widthCard ? widthCard : "25vw";
-  const height = heightImage ? heightImage : "140";
+  const widthC = widthCard ? widthCard : "25vw";
+  const heightC = heightCard ? heightCard : "";
+  const heightI = heightImage ? heightImage : "140";
+  const paddingT = paddingText ? paddingText : "";
   const margin = marginCard ? marginCard : "";
 
   return (
     <Card
       sx={{
-        width: width,
+        width: widthC,
+        height: heightC,
         margin: margin,
       }}
     >
-      <CardMedia component="img" height={height} image={image} alt={alt} />
+      <CardMedia component="img" height={heightI} image={image} alt={alt} />
       <Link to={onClick} style={{ textDecoration: "none" }}>
-        <CardContent>
-          <S.Location variant="subtitle2" sx={{ fontWeight: "bold" }}>
-            {location}
-          </S.Location>
-          <CardTitle variant="h6" sx={{ fontWeight: "bold" }}>
-            {title}
-          </CardTitle>
-          <S.Text variant="body2" color="text.secondary">
-            {text}
-          </S.Text>
+        <CardContent sx={{ padding: paddingT, paddingBottom: 0 }}>
+          {location && (
+            <S.Location variant="subtitle2" sx={{ fontWeight: "bold" }}>
+              {location}
+            </S.Location>
+          )}
+          {title && (
+            <CardTitle variant="h6" sx={{ fontWeight: "bold" }}>
+              {title}
+            </CardTitle>
+          )}
+          {text && (
+            <S.Text variant="body2" color="text.secondary">
+              {text}
+            </S.Text>
+          )}
         </CardContent>
       </Link>
     </Card>

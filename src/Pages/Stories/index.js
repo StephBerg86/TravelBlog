@@ -5,10 +5,10 @@ import { PageTitle, Text } from "../../Constants/OverallStyles";
 
 import * as S from "./styles";
 
-export default function Tips() {
+export default function Stories() {
   return (
     <>
-      <PageTitle>Tips</PageTitle>
+      <PageTitle>Verhalen</PageTitle>
       <Text>
         Hier vind je allerlei soorten reistips, handige reisinformatie en
         reisnieuws dat je niet mag missen! Van inspirerende reisquotes en

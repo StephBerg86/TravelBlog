@@ -6,7 +6,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import NavBar from "./Components/NavBar/index.js";
 import Landen from "./Pages/Landen/index.js";
 import RoutePagina from "./Pages/Route/index.js";
-import Tips from "./Pages/Tips/index.js";
+import Stories from "./Pages/Stories/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
 import Cenotes from "./Pages/Landen/Mexico/Cenotes";
 import Footer from "./Components/Footer/index.js";
@@ -48,7 +48,7 @@ function App() {
                 ></Route>
 
                 <Route path="/routes" element={<RoutePagina />}></Route>
-                <Route path="/tips" element={<Tips />}></Route>
+                <Route path="/stories" element={<Stories />}></Route>
                 <Route path="/videos" element={<Videos />}></Route>
               </Routes>
             </div>

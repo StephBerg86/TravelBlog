@@ -21,11 +21,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Afrika" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -33,7 +36,6 @@ export default function Landen() {
             )}
           </div>
         </div>
-
         <div>
           <SubTitle>Azie</SubTitle>
           <div style={{ display: "flex", flexWrap: "wrap" }}>
@@ -41,11 +43,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Azie" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -53,7 +58,6 @@ export default function Landen() {
             )}
           </div>
         </div>
-
         <div>
           <SubTitle>Noord Amerika</SubTitle>
           <div style={{ display: "flex" }}>
@@ -61,11 +65,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "USA" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -81,11 +88,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Midden Amerika" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -101,11 +111,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Zuid Amerika" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -121,11 +134,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Europa" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
@@ -141,11 +157,14 @@ export default function Landen() {
               (country, index) =>
                 country.continent === "Oceanie" && (
                   <Cards
+                    key={index}
                     image={country.image}
                     location={country.location}
                     onClick={""}
-                    widthCard={"9vw"}
-                    heightImage={"70"}
+                    widthCard={"8vw"}
+                    heightCard={"9vh"}
+                    paddingText={"8px"}
+                    heightImage={"40"}
                     alt={"land1"}
                     marginCard={"4px"}
                   />
