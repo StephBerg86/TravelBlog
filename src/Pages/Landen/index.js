@@ -16,7 +16,7 @@ export default function Landen() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         <div>
           <SubTitle>Afrika</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "Afrika" && (
@@ -38,7 +38,9 @@ export default function Landen() {
         </div>
         <div>
           <SubTitle>Azie</SubTitle>
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <div
+            style={{ display: "flex", flexWrap: "wrap", marginBottom: "24px" }}
+          >
             {data.map(
               (country, index) =>
                 country.continent === "Azie" && (
@@ -60,7 +62,7 @@ export default function Landen() {
         </div>
         <div>
           <SubTitle>Noord Amerika</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "USA" && (
@@ -83,7 +85,7 @@ export default function Landen() {
 
         <div>
           <SubTitle>Midden Amerika</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "Midden Amerika" && (
@@ -106,7 +108,7 @@ export default function Landen() {
 
         <div>
           <SubTitle>Zuid Amerika</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "Zuid Amerika" && (
@@ -129,7 +131,7 @@ export default function Landen() {
 
         <div>
           <SubTitle>Europa</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "Europa" && (
@@ -152,7 +154,7 @@ export default function Landen() {
 
         <div>
           <SubTitle>Oceanië</SubTitle>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", marginBottom: "24px" }}>
             {data.map(
               (country, index) =>
                 country.continent === "Oceanie" && (

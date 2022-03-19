@@ -1,20 +1,30 @@
 export const GOTOPAGE = {
-  MexicoCenotes: "/mexicocenotes",
-  Ijsland: "/ijsland",
-  Bahamas: "/bahamasvarkens",
-  Japan: "/japan",
-  Philipijnen: "/philipijnen",
-  Namibie: "/namibie",
-  ZuidAfrika: "/zuidafrika",
-  Miami: "/miami",
-  Formentera: "/formentera",
-  Ibiza: "/ibiza",
-  Srilanka: "/routesrilanka",
+  MexicoRoute: "/route/mexico",
+  MexicoStory: "/mexicostory",
+  IcelandRoute: "/route/iceland",
+  IcelandStory: "/icelandstory",
+  BahamasRoute: "/route/bahamas",
+  BahamasStory: "/bahamasstory",
+  JapanRoute: "/route/japan",
+  JapanStory: "/japanstory",
+  PhilippinesRoute: "/route/philippines",
+  PhilippinesStory: "/philippinesstory",
+  NamibiaRoute: "/route/namibia",
+  NamibiaStory: "/namibiastory",
+  SouthAfricaRoute: "/route/southafrica",
+  SouthAfricaStory: "/southafricastory",
+  MiamiRoute: "/route/miami",
+  MiamiStory: "/miamistory",
+  SpainRoute: "/route/spain",
+  FormenteraStory: "/formenterastory",
+  IbizaStory: "/ibizastory",
+  SrilankaRoute: "/route/srilanka",
+  SrilankaStory: "/srilankastory",
 };
 
 export const data = [
   {
-    id: 1,
+    id: "mexico",
     location: "Mexico",
     continent: "Midden Amerika",
     title: "Mexico",
@@ -22,42 +32,73 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Mexique.png",
     alt: "Flag Mexico",
-    routes: [],
+    routes: [
+      {
+        title: "Mijn route door Yucatan",
+        category: "card",
+        location: "Mexico",
+        text: "Benieuwd naar mijn route door Mexico, lees er hier meer over",
+        image:
+          "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
+        alt: "cenote",
+        onClick: GOTOPAGE.MexicoRoute,
+        homepage: false,
+      },
+      {
+        category: "route",
+        title: "Mijn route door Yucatan",
+        location: "Mexico",
+        text: "Dit is de tekst over de route ....",
+        image:
+          "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
+        alt: "cenote",
+      },
+    ],
     stories: [
       {
-        title: "De mooiste Cenotes van Yucatan",
+        title: "Yucatan de toeristische parel van Mexico",
         location: "Mexico",
         text: "Mexico heeft eindeloos veel Cenotes, de één nog mooier dan de andere.  Maar welke mag je zeker niet overslaan? Als je voor het eerst naar Mexico gaat dan kan deze keuze best wel overweldigend zijn. Dit waren mijn favoriete cenotes.",
         image:
           "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
         alt: "cenote",
-        onClick: GOTOPAGE.MexicoCenotes,
-        category: "tip",
+        onClick: GOTOPAGE.MexicoStory,
+        category: "card",
         homepage: false,
       },
     ],
   },
   {
-    id: 2,
+    id: "namibia",
     location: "Namibie",
     continent: "Afrika",
     title: "Namibië",
     text: "Intro about Namibië",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Afrique/Namibie.png",
     alt: "Flag Namibië",
-    routes: [],
-    stories: [
+    routes: [
       {
         title: "Spookstad Kolmanskop",
+        category: "card",
         location: "Namibie",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
         alt: "Kolmanskop",
-        onClick: GOTOPAGE.Namibie,
-        category: "route",
+        onClick: GOTOPAGE.NamibiaRoute,
         homepage: true,
       },
+      {
+        category: "route",
+        title: "Route door Namibie",
+        location: "Namibie",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        image:
+          "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
+        alt: "Kolmanskop",
+      },
+    ],
+    stories: [
       {
         title: "Sossusvlei",
         location: "Namibie",
@@ -65,21 +106,42 @@ export const data = [
         image:
           "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
         alt: "Sossusvlei",
-        onClick: GOTOPAGE.Namibie,
-        category: "tip",
+        onClick: GOTOPAGE.NamibiaStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 3,
+    id: "japan",
     location: "Japan",
     continent: "Azie",
     title: "Japan",
     text: "Intro about Japan",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Japon.png",
     alt: "Flag Japan",
-    routes: [],
+    routes: [
+      {
+        title: "van Hiroshima naar Tokyo en de Yaeyama islands",
+        category: "card",
+        location: "Japan",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        image:
+          "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
+        alt: "Mario Kart Tokio",
+        onClick: GOTOPAGE.JapanRoute,
+        homepage: true,
+      },
+      {
+        category: "route",
+        title: "van Hiroshima naar Tokyo en de Yaeyama islands",
+        location: "Japan",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        image:
+          "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
+        alt: "Mario Kart Tokio",
+      },
+    ],
     stories: [
       {
         title: "Mario Kart in Tokyo",
@@ -88,14 +150,14 @@ export const data = [
         image:
           "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
         alt: "Mario Kart Tokio",
-        onClick: GOTOPAGE.Japan,
-        category: "tip",
+        onClick: GOTOPAGE.JapanStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 4,
+    id: "iceland",
     location: "Ijsland",
     continent: "Europa",
     title: "IJsland",
@@ -111,14 +173,14 @@ export const data = [
         image:
           "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
         alt: "waterval ijsland",
-        onClick: GOTOPAGE.Ijsland,
-        category: "route",
+        onClick: GOTOPAGE.IcelandStory,
+        category: "card",
         homepage: false,
       },
     ],
   },
   {
-    id: 5,
+    id: "bahamas",
     location: "Bahamas",
     continent: "USA",
     title: "Bahamas",
@@ -135,14 +197,14 @@ export const data = [
         image:
           "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
         alt: "zwemmende varkens",
-        onClick: GOTOPAGE.Bahamas,
-        category: "tip",
+        onClick: GOTOPAGE.BahamasStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 6,
+    id: "usa",
     location: "Usa",
     continent: "USA",
     title: "USA",
@@ -159,21 +221,21 @@ export const data = [
         image:
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/cd/05/41/20190602-125404-largejpg.jpg?w=1200&h=-1&s=1",
         alt: "streetart miami",
-        onClick: GOTOPAGE.Miami,
-        category: "tip",
+        onClick: GOTOPAGE.MiamiStory,
+        category: "card",
         homepage: false,
       },
     ],
   },
   {
-    id: 7,
+    id: "philippines",
     location: "Filipijnen",
     continent: "Azie",
     title: "Filipijnen",
     text: "Intro about Philippines",
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Oceanie/Philippines.png",
-    alt: "Flag Philipijnen",
+    alt: "Flag filipijnen",
     routes: [],
     stories: [
       {
@@ -183,14 +245,14 @@ export const data = [
         image:
           "https://lp-cms-production.imgix.net/2021-02/GettyRF_985553596.jpg",
         alt: "eiland philipijnen",
-        onClick: GOTOPAGE.Philipijnen,
-        category: "route",
+        onClick: GOTOPAGE.PhilippinesStory,
+        category: "card",
         homepage: false,
       },
     ],
   },
   {
-    id: 8,
+    id: "southafrica",
     location: "Zuid Afrika",
     continent: "Afrika",
     title: "Zuid Afrika",
@@ -207,14 +269,14 @@ export const data = [
         image:
           "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6f/d9/3d.jpg",
         alt: "wijntram franschhoek",
-        onClick: GOTOPAGE.ZuidAfrika,
-        category: "tip",
+        onClick: GOTOPAGE.SouthAfricaStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 9,
+    id: "spain",
     location: "Spanje",
     continent: "Europa",
     title: "Spanje",
@@ -224,14 +286,23 @@ export const data = [
     routes: [
       {
         title: "Een paradijs in Europa, Formentera",
+        category: "card",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
         alt: "strand formentera",
-        onClick: GOTOPAGE.Formentera,
-        category: "route",
+        onClick: GOTOPAGE.SpainRoute,
         homepage: true,
+      },
+      {
+        title: "Een paradijs in Europa, Formentera",
+        category: "route",
+        location: "Spanje",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        image:
+          "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
+        alt: "strand formentera",
       },
     ],
     stories: [
@@ -242,14 +313,14 @@ export const data = [
         image:
           "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
         alt: "Dalt Vila",
-        onClick: GOTOPAGE.Ibiza,
-        category: "tip",
+        onClick: GOTOPAGE.IbizaStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 11,
+    id: "srilanka",
     location: "Sri Lanka",
     continent: "Azie",
     title: "Sri Lanka",
@@ -265,14 +336,13 @@ export const data = [
         image:
           "https://d2csxpduxe849s.cloudfront.net/media/D9C47D27-CF22-4106-BDD62A07BB6C91E1/1AF92955-0C7D-4CAC-81182775001FB1B2/webimage-55FF1AEA-BE78-4EEA-BD5B453633ED3633.png",
         alt: "trein",
-        onClick: GOTOPAGE.Srilanka,
-        category: "route",
+        onClick: GOTOPAGE.SrilankaStory,
+        category: "card",
         homepage: true,
       },
     ],
   },
   {
-    id: 12,
     location: "Zanzibar",
     continent: "Afrika",
     title: "Zanzibar",
@@ -284,7 +354,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 13,
+    id: "cambodia",
     location: "Cambodja",
     continent: "Azie",
     title: "Cambodja",
@@ -296,7 +366,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 14,
+    id: "china",
     location: "China",
     continent: "Azie",
     title: "China",
@@ -307,7 +377,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 14,
+    id: "indonesia",
     location: "Indonesie",
     continent: "Azie",
     title: "Indonesië",
@@ -318,7 +388,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 15,
+    id: "laos",
     location: "Laos",
     continent: "Azie",
     title: "Laos",
@@ -329,7 +399,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 16,
+    id: "malaysia",
     location: "Maleisie",
     continent: "Azie",
     title: "Maleisië",
@@ -340,7 +410,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 17,
+    id: "thailand",
     location: "Thailand",
     continent: "Azie",
     title: "Thailand",
@@ -351,7 +421,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 17,
+    id: "vietnam",
     location: "Vietnam",
     continent: "Azie",
     title: "Vietnam",
@@ -362,7 +432,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 18,
+    id: "cuba",
     location: "Cuba",
     continent: "Midden Amerika",
     title: "Cuba",
@@ -373,7 +443,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 19,
+    id: "curacao",
     location: "Curacao",
     continent: "Midden Amerika",
     title: "Curacao",
@@ -385,7 +455,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 20,
+    id: "brasil",
     location: "Brazilie",
     continent: "Zuid Amerika",
     title: "Brazilië",
@@ -396,7 +466,7 @@ export const data = [
     stories: [],
   },
   {
-    id: 21,
+    id: "australia",
     location: "Australie",
     continent: "Oceanie",
     title: "Australië",

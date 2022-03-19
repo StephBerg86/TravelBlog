@@ -8,7 +8,7 @@ export const PageContainer = styled.div`
   align-content: center;
   height: 100%;
   gap: 10px;
-  max-height: 1200px;
+  max-height: 1900px;
   min-height: 600px;
   max-width: 100%;
   padding-bottom: 1px;

@@ -19,17 +19,21 @@ export default function Route() {
         {data.map(
           (card, index) =>
             card.routes &&
-            card.routes.map((route, routeIndex) => (
-              <Cards
-                key={routeIndex}
-                title={route.title}
-                location={route.location}
-                text={route.text}
-                image={route.image}
-                alt={route.alt}
-                onClick={route.onClick}
-              />
-            ))
+            card.routes.map((route, routeIndex) =>
+              route.category === "card" ? (
+                <Cards
+                  key={routeIndex}
+                  title={route.title}
+                  location={route.location}
+                  text={route.text}
+                  image={route.image}
+                  alt={route.alt}
+                  onClick={route.onClick}
+                />
+              ) : (
+                ""
+              )
+            )
         )}
       </S.PageContainer>
     </>

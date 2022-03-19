@@ -26,7 +26,7 @@ export default function NavBar() {
         <S.Link to="/landen">
           <S.NavText>Landen</S.NavText>
         </S.Link>
-        <S.Link to="/routes">
+        <S.Link to="/route">
           <S.NavText>Routes</S.NavText>
         </S.Link>
         <S.Link to="/stories">

@@ -1,11 +1,11 @@
 import React from "react";
 import * as S from "./styles.js";
 import { Routes, Route } from "react-router-dom";
-import StartScreen from "./Pages/StartScreen";
+import Home from "./Pages/Home";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import NavBar from "./Components/NavBar/index.js";
 import Landen from "./Pages/Landen/index.js";
-import RoutePagina from "./Pages/Route/index.js";
+import RouteOverview from "./Pages/Route/index.js";
 import Stories from "./Pages/Stories/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
 import Cenotes from "./Pages/Landen/Mexico/Cenotes";
@@ -14,6 +14,7 @@ import TipVarkens from "./Pages/Landen/Bahamas/TipVarkens.js";
 import Formentera from "./Pages/Landen/Spanje/Formentera.js";
 import Ibiza from "./Pages/Landen/Spanje/Ibiza.js";
 import RouteSriLanka from "./Pages/Landen/SriLanka/RouteSriLanka.js";
+import RoutePage from "./Pages/Route/RoutePage.js";
 
 function App() {
   const theme = createTheme({
@@ -30,26 +31,39 @@ function App() {
             <NavBar />
             <div style={{ margin: "16px" }}>
               <Routes>
-                <Route path="/" element={<StartScreen />}></Route>
+                <Route path="/" element={<Home />}></Route>
                 <Route path="/landen" element={<Landen />}></Route>
-                <Route path="/mexicocenotes" element={<Cenotes />}></Route>
-                <Route path="/ijsland" element={<Cenotes />}></Route>
-                <Route path="/bahamasvarkens" element={<TipVarkens />}></Route>
-                <Route path="/japan" element={<Cenotes />}></Route>
-                <Route path="/philipijnen" element={<Cenotes />}></Route>
-                <Route path="/namibie" element={<Cenotes />}></Route>
-                <Route path="/zuidafrika" element={<Cenotes />}></Route>
-                <Route path="/miami" element={<Cenotes />}></Route>
-                <Route path="/formentera" element={<Formentera />}></Route>
-                <Route path="/ibiza" element={<Ibiza />}></Route>
+                <Route path="/route" element={<RouteOverview />}></Route>
+                <Route path="/route/:country" element={<RoutePage />}></Route>
+                <Route path="/stories" element={<Stories />}></Route>
+                <Route path="/videos" element={<Videos />}></Route>
+
+                <Route path="/mexicoroute" element={<Cenotes />}></Route>
+                <Route path="/mexicostory" element={<Cenotes />}></Route>
+                <Route path="/icelandroute" element={<Cenotes />}></Route>
+                <Route path="/icelandstory" element={<Cenotes />}></Route>
+                <Route path="/bahamasroute" element={<Cenotes />}></Route>
+                <Route path="/bahamasstory" element={<TipVarkens />}></Route>
+                <Route path="/japanroute" element={<Cenotes />}></Route>
+                <Route path="/japanstory" element={<Cenotes />}></Route>
+                <Route path="/miamiroute" element={<Cenotes />}></Route>
+                <Route path="/formenteraroute" element={<Formentera />}></Route>
+                <Route path="/ibizastory" element={<Ibiza />}></Route>
                 <Route
-                  path="/routesrilanka"
+                  path="/srilankaroute"
                   element={<RouteSriLanka />}
                 ></Route>
 
-                <Route path="/routes" element={<RoutePagina />}></Route>
-                <Route path="/stories" element={<Stories />}></Route>
-                <Route path="/videos" element={<Videos />}></Route>
+                {/* PhilippinesRoute: "/philippinesroute",
+  PhilippinesStory: "/philippinesstory",
+  NamibiaRoute: "/namibiaroute",
+  NamibiaStory: "/namibiastory",
+  SouthAfricaRoute: "/southafricaroute",
+  SouthAfricaStory: "/southafricastory",
+  MiamiStory: "/miamistory",
+  FormenteraStory: "/formenterastory",
+  IbizaRoute: "/ibizaroute",
+  SrilankaStory: "/srilankastory", */}
               </Routes>
             </div>
             <Footer />

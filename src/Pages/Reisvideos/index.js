@@ -4,8 +4,11 @@ import { PageTitle, Text } from "../../Constants/OverallStyles";
 export default function Videos() {
   return (
     <div>
-      <PageTitle>Overzicht van mijn reisvideos</PageTitle>
-      <Text>Hier misschien nog wat text over mijn reisvideos</Text>
+      <PageTitle>Mijn reisvideos</PageTitle>
+      <Text>
+        Hieronder vind je een overzicht van mijn reisvideos die ik over de jaren
+        gemaakt heb.
+      </Text>
       <div
         style={{
           display: "flex",
