@@ -5,7 +5,7 @@ import { PageTitle, Text } from "../../Constants/OverallStyles";
 
 import * as S from "./styles";
 
-export default function Stories() {
+export default function StoryOverview() {
   return (
     <>
       <PageTitle>Verhalen</PageTitle>
@@ -19,17 +19,21 @@ export default function Stories() {
         {data.map(
           (card) =>
             card.stories &&
-            card.stories.map((story, storyIndex) => (
-              <Cards
-                key={storyIndex}
-                title={story.title}
-                location={story.location}
-                text={story.text}
-                image={story.image}
-                alt={story.alt}
-                onClick={story.onClick}
-              />
-            ))
+            card.stories.map((story, storyIndex) =>
+              story.category === "card" ? (
+                <Cards
+                  key={storyIndex}
+                  title={story.title}
+                  location={story.location}
+                  text={story.text}
+                  image={story.image}
+                  alt={story.alt}
+                  onClick={story.onClick}
+                />
+              ) : (
+                ""
+              )
+            )
         )}
       </S.PageContainer>
     </>

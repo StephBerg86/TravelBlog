@@ -13,7 +13,6 @@ export default function Home() {
         Introtext uitleg dat dit overzichtspagina is met uitgelichte verhalen en
         dat de rest van de tips en routes via het navigatiemenu te vinden zijn.
       </Text>
-
       <S.PageContainer className="Home">
         {data.map((card) =>
           card.stories

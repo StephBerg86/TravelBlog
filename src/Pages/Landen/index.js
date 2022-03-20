@@ -1,5 +1,5 @@
 import React from "react";
-import { SubTitle, PageTitle, Text } from "../../Constants/OverallStyles";
+import { PageTitle, Text } from "../../Constants/OverallStyles";
 import * as S from "./styles";
 import Cards from "../../Components/Cards";
 import { data } from "../../Components/Data";
