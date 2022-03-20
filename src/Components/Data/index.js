@@ -204,9 +204,14 @@ export const data = [
       {
         category: "story",
         title: "Alles wat je moet weten over zwemmen met varkens in de Bahamas",
-        image:
+        image1:
           "https://media.tacdn.com/media/attractions-splice-spp-720x480/0a/9e/26/3e.jpg",
-        alt: "zwemmende varkens",
+        alt1: "zwemmende varkens",
+        image2:
+          "https://www.sailcloudybay.com/wp-content/uploads/2020/01/IMG_4611.jpg",
+        alt2: "nurse sharks",
+        video: "https://www.youtube.com/embed/sBlKHQUUM0k",
+        videoTitle: "Miami, Bahamas",
         location: "Bahamas",
         text: "Toen ik voor het eerst foto's van zwemmende varkentjes in helderblauw water zag, stond dit direct bovenaan mijn bucketlist. Mijn ticket naar Miami had ik al geboekt en omdat ik toch 'in de buurt' was, heb ik besloten om de zwemmende varkens van mijn bucketlist af te strepen.",
         text1:

@@ -12,14 +12,7 @@ export default function StoryPage() {
     <>
       {currentCountry.stories.map((story, storyIndex) =>
         story.category === "story" ? (
-          <Story
-            key={storyIndex}
-            title={story.title}
-            location={story.location}
-            text={story.text}
-            image={story.image}
-            alt={story.alt}
-          />
+          <Story key={storyIndex} data={story} />
         ) : (
           ""
         )

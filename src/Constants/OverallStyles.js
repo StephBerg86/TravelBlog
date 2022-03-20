@@ -43,3 +43,10 @@ export const LinkText = styled(Link)`
   ${accent.brown}
   font-weight: 700;
 `;
+
+export const Location = styled(Typography)`
+  ${accent.orange}
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+`;
