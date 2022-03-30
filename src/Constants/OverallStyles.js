@@ -22,7 +22,7 @@ export const PageTitle = styled(Typography)`
 `;
 
 export const SubTitle = styled(Typography)`
-  ${accent.brown}
+  ${accent.dark}
   text-transform: uppercase;
   text-align: left;
   &&.MuiTypography-root {
@@ -36,6 +36,15 @@ export const Text = styled(Typography)`
   &&.MuiTypography-root {
     font-size: smaller;
     margin-bottom: 16px;
+  }
+`;
+
+export const RouteInfo = styled(Typography)`
+  ${accent.brown}
+  text-align: left;
+  &&.MuiTypography-root {
+    font-size: smaller;
+    text-decoration: underline;
   }
 `;
 

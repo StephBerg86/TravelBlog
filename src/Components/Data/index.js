@@ -1,25 +1,24 @@
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
-  MexicoStory: "/mexicostory",
+  MexicoStory: "/stories/mexico",
   IcelandRoute: "/route/iceland",
-  IcelandStory: "/icelandstory",
+  IcelandStory: "/stories/iceland",
   BahamasRoute: "/route/bahamas",
   BahamasStory: "/stories/bahamas",
   JapanRoute: "/route/japan",
-  JapanStory: "/japanstory",
+  JapanStory: "/stories/japan",
   PhilippinesRoute: "/route/philippines",
-  PhilippinesStory: "/philippinesstory",
+  PhilippinesStory: "/stories/philippines",
   NamibiaRoute: "/route/namibia",
-  NamibiaStory: "/namibiastory",
+  NamibiaStory: "/stories/namibia",
   SouthAfricaRoute: "/route/southafrica",
-  SouthAfricaStory: "/southafricastory",
+  SouthAfricaStory: "/stories/southafrica",
   MiamiRoute: "/route/miami",
-  MiamiStory: "/miamistory",
+  MiamiStory: "/stories/miami",
   SpainRoute: "/route/spain",
-  FormenteraStory: "/formenterastory",
-  IbizaStory: "/ibizastory",
+  SpainStory: "/stories/spain",
   SrilankaRoute: "/route/srilanka",
-  SrilankaStory: "/srilankastory",
+  SrilankaStory: "/stories/srilanka",
 };
 
 export const data = [
@@ -34,8 +33,8 @@ export const data = [
     alt: "Flag Mexico",
     routes: [
       {
-        title: "Mijn route door Yucatan",
         category: "card",
+        title: "Mijn route door Yucatan",
         location: "Mexico",
         text: "Benieuwd naar mijn route door Mexico, lees er hier meer over",
         image:
@@ -78,24 +77,31 @@ export const data = [
     alt: "Flag Namibië",
     routes: [
       {
-        title: "Spookstad Kolmanskop",
         category: "card",
+        title: "Wijn, wildlife en woestijn",
         location: "Namibie",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        text: "Met een 4x4 zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen.",
         image:
-          "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
-        alt: "Kolmanskop",
+          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+        alt: "Sossusvlei",
         onClick: GOTOPAGE.NamibiaRoute,
         homepage: true,
       },
       {
         category: "route",
-        title: "Route door Namibie",
+        title: "Wijn, wildlife en woestijn",
         location: "Namibie",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image:
-          "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
-        alt: "Kolmanskop",
+        introtext:
+          "Met een 4x4 zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen. Hieronder kun je lezen hoe wij in twee weken van Noordoewer naar Windhoek zijn gereden.",
+        text1:
+          "Als je net als wij via Zuid Afrika naar Namibië reist zorg dan dat je op tijd bij de grensovergang bent. Wij waren rond 15:00 uur bij de grens maar alles duurde zo lang dat we pas 18:15 uur Namibië in konden rijden. Stipt om 18:00 uur ging het licht uit dus dat betekent dat je door het pikkedonker (want geen straatverlichting) jouw slaapplek moet zien te vinden.",
+        slapen1:
+          "Wij sliepen in Noordoewer, dit is de plaats waar je direct na de grensovergang aankomt. Na een kwartiertje rijden kom je dan aan bij Amanzi Trails River Adventures. Dit is een mooie camping aan een rivier waar ook genoeg activiteiten te doen zijn.",
+        link1: "https://www.amanzitrails.co.za/amanzi-river-camp/",
+        tip1: "Direct na de grensovergang zit een groot tankstation. Zorg dat je hier je auto direct vol gooit en geld pint. In (zuid) Namibië zijn tankstations en pinautomaten namelijk schaars en je wil niet (net zoals wij) zonder cash en benzine komen te staan.",
+        image1:
+          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+        alt1: "Sossusvlei",
       },
     ],
     stories: [
@@ -104,8 +110,8 @@ export const data = [
         location: "Namibie",
         text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
-          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
-        alt: "Sossusvlei",
+          "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
+        alt: "Kolmanskop",
         onClick: GOTOPAGE.NamibiaStory,
         category: "card",
         homepage: true,
@@ -203,7 +209,7 @@ export const data = [
       },
       {
         category: "story",
-        title: "Alles wat je moet weten over zwemmen met varkens in de Bahamas",
+        title: "Alles wat je moet weten over zwemmen met varkens",
         image1:
           "https://media.tacdn.com/media/attractions-splice-spp-720x480/0a/9e/26/3e.jpg",
         alt1: "zwemmende varkens",
@@ -345,14 +351,37 @@ export const data = [
     stories: [
       {
         title: "De andere kant van party-eiland Ibiza",
-        location: "Spanje",
+        location: "Ibiza",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
         alt: "Dalt Vila",
-        onClick: GOTOPAGE.IbizaStory,
+        onClick: GOTOPAGE.SpainStory,
         category: "card",
         homepage: true,
+      },
+      {
+        category: "story",
+        title: "De andere kant van party-eiland Ibiza",
+        image1:
+          "https://media.tacdn.com/media/attractions-splice-spp-720x480/0a/9e/26/3e.jpg",
+        alt1: "zwemmende varkens",
+        image2:
+          "https://www.sailcloudybay.com/wp-content/uploads/2020/01/IMG_4611.jpg",
+        alt2: "nurse sharks",
+        video: "https://www.youtube.com/embed/sBlKHQUUM0k",
+        videoTitle: "Miami, Bahamas",
+        location: "Ibiza",
+        text: "Ibiza, het eiland van de jetset en chique restaurants, waar alle mensen half naakt en met bloemen in hun haar rondlopen en waar je kan feesten tot je erbij neervalt. Dat was het beeld wat ik van Ibiza had voordat ik er zelf geweest was. Inmiddels weet ik dat Ibiza juist ook zeer geschikt is voor de liefhebber van rust, natuur en mooie stranden.",
+        text1: "",
+        subTitle2: "Beste locatie om te overnachten",
+        text2:
+          "Het kan handig zijn om van tevoren te bedenken wat jouw reden is om naar Ibiza toe te gaan. Hou jij van een feestje op zijn tijd en wil je in het weekend de party scene van Ibiza meemaken? Neem dan zeker een hotel in Ibiza stad. Je kan hier goed uitgaan, je hebt er mooie stranden en voor wat cultuur kan je terecht in het mooie Dalt Vila. Ook San Antonio is een plek voor mensen die vooral willen feesten en een goedkope en gehorige accomodatie zoeken. Ook al ga ik in Amsterdam regelmatig naar feestjes en festivals, mijn doel in Ibiza was juist om te relaxen en te genieten van de mooie omgeving. Dus wil je wat meer rust en mooie zandstranden, ga dan voor een plaats in het noorden van het eiland. Ik heb zelf gekozen voor een hotel in Es Canar.",
+        subTitle3: "Vervoer",
+        text3:
+          "Natuurlijk kan je ervoor kiezen om een week bij je hotel te blijven en aan het strand te liggen. De stranden zijn er super mooi dus ik kan je geen ongelijk geven. Zelf wilde ik graag zoveel mogelijk van het eiland zien. Ik heb verschillende opties van vervoer overwogen. Een optie is om de bus te pakken. Nadeel is wel dat de verbindingen niet altijd even goed zijn en je dus niet makkelijk overal kan komen. Stiptheid is iets wat niet in het vocabulaire van de buschauffeurs voorkomt. Bovendien stoppen de bussen vaak dus doe je er een eeuwigheid over. Meer informatie over de bustijden en routes kun je vinden op Ibizabus.com. Een leuke manier om Ibiza ter verkennen is met de boot. Via de website van Santaeulalia fery kan je verschillende routes kiezen en je tickets vast online kopen. Ik heb deze ferry ook gebruikt om van Es Canar naar Formentera te gaan.",
+        text4:
+          "De boot is een leuke optie maar niet de snelste manier en je kan alleen naar de kustplaatsen reizen. Voor mij was de beste optie om het eiland te verkennen met de auto of scooter. Toen ik bij het verhuurbedrijf vroeg wat zij mij aanraden zeiden was het antwoord een scooter. Als je een auto huurt moet je vaak parkeergeld betalen (is trouwens niet heel duur) maar vooral in ibiza stad zijn parkeerplekken soms lastig te vinden. En je kan nergens echt hard rijden. Er zijn stukjes waar je 80 mag maar het meeste is 50km/ph. Daarom heb ik gekozen voor een scooter. In principe kan je op de scooter een groot deel van het eiland in 1 dag zien, maar als je ook af en toe ergens wat wil drinken of op het strand wil liggen kan je er beter twee of drie dagen de tijd voor nemen. Ik heb mijn tour opgedeeld in twee dagen. De eerste dag heb ik het noorden gedaan en de tweede dag Ibiza stad en het zuiden.",
       },
     ],
   },

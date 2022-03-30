@@ -12,14 +12,7 @@ export default function RoutePage() {
     <>
       {currentCountry.routes.map((route, routeIndex) =>
         route.category === "route" ? (
-          <Route
-            key={routeIndex}
-            title={route.title}
-            location={route.location}
-            text={route.text}
-            image={route.image}
-            alt={route.alt}
-          />
+          <Route key={routeIndex} props={route} />
         ) : (
           ""
         )

@@ -19,4 +19,7 @@ export const accent = {
   orange: css`
     color: #d79c6a;
   `,
+  dark: css`
+    color: #29191c;
+  `,
 };

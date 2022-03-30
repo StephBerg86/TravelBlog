@@ -9,12 +9,12 @@ import {
 export default function Story({ data }) {
   return (
     <>
-      <PageTitle>{data.title}</PageTitle>
       <Location>{data.location}</Location>
+      <PageTitle>{data.title}</PageTitle>
       <Text>{data.text}</Text>
       {data.subTitle1 ? <SubTitle>{data.subTitle1}</SubTitle> : ""}
       {data.text1 ? <Text>{data.text1}</Text> : ""}
-      <img src={data.image1} alt={data.alt1} />
+      <img src={data.image1} alt={data.alt1} style={{ width: "500px" }} />
       {data.subTitle2 ? <SubTitle>{data.subTitle2}</SubTitle> : ""}
       {data.text2 ? <Text>{data.text2}</Text> : ""}
       {data.subTitle3 ? <SubTitle>{data.subTitle3}</SubTitle> : ""}
