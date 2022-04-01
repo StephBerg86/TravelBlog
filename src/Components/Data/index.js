@@ -1,3 +1,5 @@
+import { auto, bushmen, fishriver } from "../../Images/Namibia";
+
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
   MexicoStory: "/stories/mexico",
@@ -80,7 +82,7 @@ export const data = [
         category: "card",
         title: "Wijn, wildlife en woestijn",
         location: "Namibie",
-        text: "Met een 4x4 zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen.",
+        text: "In een 4x4 zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen.",
         image:
           "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
         alt: "Sossusvlei",
@@ -91,17 +93,114 @@ export const data = [
         category: "route",
         title: "Wijn, wildlife en woestijn",
         location: "Namibie",
+        period: "Eind september t/m begin oktober",
         introtext:
-          "Met een 4x4 zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen. Hieronder kun je lezen hoe wij in twee weken van Noordoewer naar Windhoek zijn gereden.",
+          "In een 4x4 met een tent op het dak, zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen. Hieronder kun je lezen hoe wij in twee weken van Noordoewer naar Windhoek zijn gereden. (Klik op de text bij 'slapen' om naar de site van de campsites te gaan)",
         text1:
           "Als je net als wij via Zuid Afrika naar Namibië reist zorg dan dat je op tijd bij de grensovergang bent. Wij waren rond 15:00 uur bij de grens maar alles duurde zo lang dat we pas 18:15 uur Namibië in konden rijden. Stipt om 18:00 uur ging het licht uit dus dat betekent dat je door het pikkedonker (want geen straatverlichting) jouw slaapplek moet zien te vinden.",
         slapen1:
           "Wij sliepen in Noordoewer, dit is de plaats waar je direct na de grensovergang aankomt. Na een kwartiertje rijden kom je dan aan bij Amanzi Trails River Adventures. Dit is een mooie camping aan een rivier waar ook genoeg activiteiten te doen zijn.",
         link1: "https://www.amanzitrails.co.za/amanzi-river-camp/",
         tip1: "Direct na de grensovergang zit een groot tankstation. Zorg dat je hier je auto direct vol gooit en geld pint. In (zuid) Namibië zijn tankstations en pinautomaten namelijk schaars en je wil niet (net zoals wij) zonder cash en benzine komen te staan.",
-        image1:
-          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+        image1: auto,
         alt1: "Sossusvlei",
+        text2:
+          "Op deze dag reden we van Noordoewer naar Ai-Ais (richting Hobas). Voor ons was dit echt een pech dag want onze benzine raakte op en we hebben het op het nippertje gehaald tot Hobas. Hier zou een tankstation zijn volgens Google maps maar die bleek leeg te zijn. We hebben toen in Hobas bij onze campsite gewacht tot iemand 80km heen en weer had gereden naar het eerstvolgende tankstation.",
+        todo2:
+          "Je denkt vaak dat plaatsen op de kaart een stad of dorp zijn, maar in Namibië is een naam op de kaart soms alleen een campsite. In Ai-Ais kun je naar de hotspring maar dit stelt helemaal niks voor. Het is letterlijk een gat in de grond met water wat te heet is om aan te raken. De camping heeft wel een spa wat water gebruikt uit de hotspring.",
+        slapen2:
+          "Wij sliepen in Hobas op de Ai-Ais Hotsprings Spa Campsite. Dit is een hele mooie campsite met zwembad. Goede alternatieven zijn Hobas Campsite en Canyon Roadhouse (Hier hebben ze een pinautomaat en tankstation! Pinautomaat was wel leeg toen wij daar aankwamen)",
+        link2: "http://www.nwrnamibia.com/ai-ais.htm",
+        text3:
+          "In de ochtend zijn we naar Fish River Canyon gereden. Dit was 50 minuten rijden vanuit Hobas. Daarna zijn we nog 3,5 uur doorgereden naar Klein-aus-vista",
+        todo3:
+          "Wij waren alleen een ochtend bij Fish River Canyon. Omdat je hier ook verschillende hikes kunt doen kun je je hier prima een paar dagen vermaken. De Fish River Canyon is namelijk, op de Grand Canyon in de VS na, de langste canyon ter wereld.",
+        slapen3:
+          "Klein Aus Vista Desert Horse Camp is de camping waar wij verbleven. Dit is een mooie camping vanuit waar je ook mooie hikes kunt doen. Ook is het een goede uitvalsbasis om de wilde woestijn paarden te bekijken, tenminste als het niet zo droog is als toen wij er waren. Er is wel een waterbron waar de paarden vaak te vinden zijn, maar toen wij er waren (Oktober) was de omgeving te droog voor de paarden.",
+        link3:
+          "https://www.klein-aus-vista.com/accommodation/desert-horse-campsite/",
+        tip3: "Vanaf de camping is er één rechte weg richting Kolmanskop. Aan het begin van deze weg is er aan de rechterkant een pad richting een waterhole. Deze staat ontzettend slecht aangegeven dus je moet goed opletten. Wij zagen geen paarden bij deze waterhole maar er zijn meestal wel wat struisvogels, herten en andere beestjes te vinden. Het schijnt dat je heel vroeg 's ochtends of juist laat in de middag de meeste kans hebt om de paarden te zien.",
+        image3: fishriver,
+        alt3: "Fish River Canyon",
+        text4:
+          "Vroeger was Kolmanskop één van de rijkste dorpen van Afrika vanwege de diamanthandel. Toen er geen diamant meer te vinden was hebben alle bewoners het dorp verlaten. Sommigen hebben letterlijk alleen hun kleren ingepakt en zijn weggegaan. Je kunt nu ronddwalen in dit volledig verlaten dorp en ook de huizen van binnen bekijken. Omdat er in de omgeving vrijwel niets anders is dan zand, zijn de huizen in de loop der jaren steeds meer onder het zand komen te liggen. Dit geeft een surreel beeld en is fantastisch om te zien. Wij kwam al vroeg aan in Kolmanskop en daarom was er verder ook helemaal niemand. Dit maakte het extra speciaal. En omdat we nog 5 uur moesten rijden naar Sesriem was het ook nodig om vroeg te gaan.",
+        slapen4:
+          "Omdat we de volgende ochtend meteen met zonsopkomst Sossusvlei wilden bezoeken, hebben we gekozen voor een camping naast de ingang; Sossus Oasis Campsite. Dit was een mooie campsite met zwembad en je had je eigen toilet/badkamer/keuken gebouwtje. Daarnaast hebben ze ook een eigen tankstation, wat super handig is!",
+        link4: "https://www.sossus-oasis.com/",
+        tip4: "Bij een benzinestation kun je je bandenspanning laten verlagen (naar 1.6). Dit wordt overal aangeraden maar is niet nodig als je alleen op de normale weg rijdt. Aan het einde van de normale weg heb je de keuze om voor weinig geld met een jeep mee te rijden die je naar de verschillende duinen rijdt, of om zelf te gaan rijden. Als je zelf gaat rijden heb je inderdaad de lage bandenspanning nodig maar dit raden wij je niet aan. We zagen een aantal mensen die vast waren komen te zitten in het zand. Dit betekent dan ook letterlijk dat je daar vast zit want de auto kan er pas de volgende ochtend uit gesleept worden omdat het zand vanwege de warmte te zacht wordt in de middag. Ik zou het risico niet nemen want het is super makkelijk (en leuk) om één van de jeepjes te pakken die constant heen en weer rijden.",
+        text5:
+          "De dag van de Sossusvlei. Iets wat je absoluut niet mag overslaan als je naar Namibië gaat. Voor zonsopkomst rijdt je naar de poort, waar je naar binnen gelaten wordt zodra de eerste zonnestraal tevoorschijn komt. Je rijdt over een lange rechte weg met aan beide kanten prachtige rode zandduinen, in het oranje licht van de opkomende zon. Je kunt ervoor kiezen om zonsopkomst te bekijken bij Dune 45. Dit is een duin die je ziet na 45km op deze lange weg, vandaar ook de naam. Wij hebben ervoor gekozen om helemaal door te rijden tot het einde van de weg. Onze auto lieten we hier achter op de parkeerplaats en met een jeep gingen we verder naar Dodevlei. De zonsopkomst hier was magisch. Je kunt hier de verschillende duinen op klimmen of gewoon rondlopen over de uitgedroogde zoutpan van de Dodevlei. De oranje duinen met daarvoor het witte zout en de grijze dode bomen zijn super fotogeniek. Met de jeep zijn we nog naar Big Mamma en Hidden Vlei geweest.",
+        slapen5:
+          "Tussen Sesriem en Swakopmund in ligt camping: Bushman's Desert Camp. Het ligt een beetje verscholen. Zorg dat je niet net als wij vol gas gaat over het zandweggetje. De weg houdt namelijk ineens op en dan rij je een soort ravijn in waar de camping ligt. Wij waren bijna bovenop de camping gevlogen met onze auto. Wat leuk is, is dat ze ook een eigen waterhole hebben waar je 's avonds dieren kunt spotten.",
+        link5: "https://bushmans-desert-camp-self-catering.business.site/",
+        tip5: "Wij dachten dat we een hele dag zouden spenderen in de Sossusvlei maar na een halve dag hadden we het wel gezien. Voornamelijk omdat het op een gegeven moment echt te heet wordt om door het zand heen te banjeren. Neem dan ook voldoende water mee. En mocht je wel in de middag nog rond willen lopen door de duinen, doe dan dichte schoenen aan en ga niet net als wij op slippers. Als je voor de echte hitte weg gaat kun je trouwens prima op slippers lopen.",
+        image5:
+          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+        alt5: "Sossusvlei",
+        image5: bushmen,
+        alt5: "Bushman's Desert Camp",
+        text6:
+          "Vandaag staat weer een autorit van ruim 4 uur op het programma. We zijn vanuit onze campging doorgereden naar Walvisbaai en Swakopmund. Hier hebben we rondgelopen en geluncht. Omdat het toen wij er waren erg koud was (en wij hier neit op gekleed waren) zijn we uiteindelijk doorgereden naar Cape Cross Bay om hier te overnachten. Naast deze campsite zit een rescue center voor zeehondjes dus je ziet hier op het strand aardig wat van deze beestjes.",
+        slapen6:
+          "Een van de laatste campsites voordat je aankomt bij de Skeleton Coast is Cape Cross Campsite. Hier hebben wij geslapen omdat we de volgende dag graag via de Skeleton Coast wilden rijden.",
+        link6: "https://www.capecross.org/Campsite.htm",
+        text7:
+          "Het schijnt aan de kust en dan voornamelijk het stuk bij de Skeleton Coast, elke morgen grijs en bewolkt te zijn. Dit past ook super goed bij het spookachtige sfeertje wat er hier hangt. Het heet natuurlijk niet voor niks 'Skeleton Coast'. Nadat je door een hek met allemaal doodshoofden bent gereden, rij je officieel langs de Skeleton Coast. Langs deze route zijn een paar afslagen waar je shipwrecks kunt bekijken. Wij zijn ook bij de huab lagoon van de weg af gegaan om flamingo's te bekijken. Toen ik wilde uitstappen om van dichterbij een foto van de flamingo's te maken zag ik net op tijd het bord: 'Blijf in je auto! Er loopt hier een leeuw!'. De leeuw hebben we hier helaas niet gezien. We waren erg blij dat zodra we weer landinwaards reden, weg van de Skeleton Coast, de zon meteen weer begon te schijnen.",
+        slapen7:
+          "We sliepen op een plek waarvan we dachten dat het handig was voor de route richting Etosha, maar het bleek ook nog één van de mooiste campsite te zijn van onze reis; Madisa Camp. Er is een zwembad en je hebt een privé badkamer / toilet / keuken in de buitenlucht. Ook is er een grote rots waar je op kan klimmen voor de zonsopgang. Als je mazzel hebt kun je vanaf hier ook olifanten spotten.",
+        link7: "http://www.madisacamp.com/",
+        text8:
+          "Vergis je niet in de afstanden in Namibië. Ook vandaag zaten we weer 5 uur in de auto. Toch is het geen straf om hier te rijden. Oke, de wegen zijn niet altijd een pretje maar het landschap is prachtig! Hoe dichter je bij Etosha in de buurt komt, hoe meer wilde beesten je kunt spotten. Maar soms zie je ook urenlang alleen maar zandvlaktes. Als je een tegenligger tegenkomt dan zwaai je naar elkaar want dit gebeurd namelijk niet zo vaak.",
+        slapen8:
+          "Om op tijd in Etosha te kunnen zijn en daar drie volle dagen te kunnen besteden slapen we deze nacht in Etosha Safari Camp, net voor de ingang van Etosha. Dit was weer een prachtige campsite, van alle gemakken voorzien. Deze camping vonden wij extra bijzonder door wat er 's nachts gebeurde. Mijn vriend moest naar de wc en klom de tent uit. Ineens hoorde we allemaal hoeven wegrennen. Ik ritste de tent open en onze auto was omringt door zebra's en verschillende soorten hertjes. Even later zagen we ook een giraf langslopen. Zo bizar dat deze gewoon om je tent heen lopen. Wel een fijn idee dat je dan hoog bovenop de auto slaapt.",
+        link8:
+          "https://gondwana-collection.com/lodgedetail?LodgeName=ETOSHA%20SAFARI%20CAMP",
+        text9:
+          "Ook vandaag staan we weer voor zonsopkomst op, om met zonsopgang het park binnen te kunnen rijden. Het is ook mogelijk om georganiseerde tours te doen met een gids, maar wij vonden het veel leuker om zelf te rijden. Ook is het niet heel moeilijk om de beesten te spotten. Alleen de katachtigen zijn soms wat lastiger. Maar vaak als er een grote groep auto's ergens stilstaat dan weet je genoeg. Je rijdt eigenlijk van de ene waterhole naar de andere. Bij deze waterholes is het, zeker in de droge periode waarin wij er waren, super druk met allerlei beesten.",
+        slapen9:
+          "De eerste nacht in Etosha sliepen we in Okaukuejo. Dit is een vrij simpele camping maar de ligging is perfect voor de eerste nacht. Ook is er een grote waterhole waar je super veel dieren kunt spotten.",
+        link9: "https://www.etoshanationalpark.org/accommodation/okaukuejo",
+        tip9: "Je mag alleen tussen zonsopkomst en zonsondergang in het park rijden en hier zijn ze heel streng in. Als je met zonsondergang de campsite oprijdt, ga dan direkt naar de waterhole. Dit is het moment waarop veel dieren naar de waterhole komen omdat het minder heet is. En al deze dieren bij elkaar met de ondergaande zon op de achtergrond is prachtig om te zien!",
+        text10:
+          "Ook vandaag hebben we weer een hele dag rondgereden in Etosha. Het park is heel groot dus je moet er ook wel minstens twee dagen voor uittrekken. En het verveelt nooit. Als je even denkt dat je geen wildlife meer tegen gaat komen dan ligt er ineens een groep leeuwen op de weg. Het is niet te voorspellen en elke dag is anders. Maar dat je bijzondere dingen gaat zien, dat staat vast.",
+        slapen10:
+          "Tamboti Campsite hadden we gekozen omdat het helemaal aan de andere kant van Etosha ligt ten opzichte van Okaukuejo. Alleen dachten we dat de camping ook in Etosha lag maar dit bleek niet het geval. Dit maakt echter niet heel veel uit want de camping ligt letterlijk meteen na de uitgang van Etosha. De campsite is super mooi. Eigenlijk is het bijna zonde dat we hier alleen tijd hebben doorgebracht tussen zonsondergang en voor zonsopkomst.",
+        link10: "https://onguma.com/tamboti-luxury-campsite/",
+        text11:
+          "Ondanks dat het op sommige websites wel vertelt wordt kun je de big five niet zien in Etosha. Dit komt omdat de buffel niet in Etosha leeft. (Deze kun je wel b.v. bij Waterbergplateau tegenkomen.) Maar ook zonder de buffel was Etosha een van de mooiste ervaringen uit mijn leven. Dit zijn een aantal van de beesten die wij gezien hebben tijdens onze ritjes door het park: olifanten, zebra's, giraffen, neushoorns, leeuwen, hyena's, jackhalzen, luipaarden en ontelbare vogels en verschillende soorten herten.",
+        slapen11:
+          "We sliepen in Sachsenheim Guest Farm. Dit is een campsite vlakbij Tambobi. We wilden onze laatste dag in Etosha nog wel goed kunnen benutten dus we wilden niet te ver rijden. Het leuke aan deze campsite is dat het ook een soort boerderij is. Dan slaap je ineens tussen de koeien ipv tussen ze zebra's.",
+        link11: "https://sachsenheim-guest-farm.business.site/",
+        text12:
+          "Vandaag rijden we naar Waterberg plateau (4 uur). Ook deze route is prachtig, en wat opvalt is dat dit deel van Namibië een stuk groener is. Wij hebben maar één dag voor Waterberg maar anders zou dit een mooie omgeving zijn voor een langere hike.",
+        todo12:
+          "Wij hebben in de ochtend een trekking over de plateau gedaan. Dit is wel een must-do als je naar de waterbergplateau gaat. Nadat je 200m omhoog bent geklommen heb je prachtig uitzicht over het hele gebied. Daarna wandel je over de plateau waar je ook neushoorns tegen kunt komen. Bizar feitje van onze gids: Er leefden geen grote dieren op de pleteau. Alle neushoorns, giraffen etc zijn naar boven gehesen. Ze kunnen ook niet meer zelfstandig naar bendeden omdat het plateau een te stijle berg is. Dit hebben ze gedaan om de bedreigde beesten (zwarte neushoorn) te beschermen tegen stropers.",
+        slapen12:
+          "We slapen op Waterberg Plateau Campsite. Deze campsite ligt in het nationaal park.",
+        link12:
+          "https://www.waterberg-wilderness.com/waterberg-plateau-campsite.html",
+        text13:
+          "Onze laatste bestemming is Windhoek, de hoofdstad van Namibië. Het is weer eens wat anders om weer in een grote stad te zijn, na zo lang weinig mensen te zijn tegengekomen. Er is van alles te doen in Windhoek en er is voor het eerst keuze uit restaurants. Windhoek is een stad waar je prima één of twee dagen kunt verblijven omdat je reis hier vaak begint of eindigd. Maar je komt naar namibië voor de natuur en daar is in Windhoek vrijwel niets van te zien.",
+        slapen13:
+          "Omdat we de volgende dag terug naar Nederland vliegen en omdat we in de ochtend eerst nog onze 4x4 moeten inleveren slapen we op een campsite net buiten Windhoek, in de buurt van de luchthaven: Ondekaremba. Dit is een mooie campsite waar je prima langere tijd kunt verblijven als je wat meer dagen in Windhoek wilt blijven.",
+        link13: "https://www.ondekaremba.com/",
+        text14:
+          "Helaas is dit alweer de laatste dag van een fantastische reis. Namibië is geen land waar je zomaar even last-minute naar toe gaat. Het is belangijk om je van te voren wel even te verdiepen in het land. Maar wat een onvergetelijke reis is dit geworden. Bekijk onze tips voor Namnibië hieronder en dan kan ik iedereen aanraden om er een keer heen te gaan!",
+        important1:
+          "Zodra je een ATM ziet: pinnen! Pinautomaten zijn schaars en het komt ook vaak voor dat er geen geld meer in zit",
+        important2:
+          "Je kunt in Naminië ook overal met de Zuid Afrikaanse Rand betalen",
+        important3: "Download Maps.me. Google Maps klopt vaak niet",
+        important4:
+          " Gooi je auto vol bij elk tankstation. In het noorden zijn er wat meer maar in het zuiden zijn er erg weinig tankstations en ze zijn vaak ook leeg",
+        important5:
+          "Temperaturen kunnen erg verschillen tussen dag en nacht en per lokatie. Neem daarom ook voldoende warme kleren mee",
+        important6:
+          "Koop een simkaart met internet als je het belangrijk vindt om online te zijn of af en toe iets wilt opzoeken. Wifi is er vaak niet, doet het niet of is betaald en doet het dan vaak alsnog niet",
+        important7:
+          "Neem genoeg eten mee voor op de braai. Restaurants zijn er niet altijd en supermarkten ook niet",
+        important8:
+          "Ben je vegetariër? Dan heb je pech. Vega kennen ze niet in Namibië. Het vlees is wel erg lekker en ook allemaal vers en lokaal",
       },
     ],
     stories: [

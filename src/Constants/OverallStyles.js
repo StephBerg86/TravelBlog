@@ -45,6 +45,7 @@ export const RouteInfo = styled(Typography)`
   &&.MuiTypography-root {
     font-size: smaller;
     text-decoration: underline;
+    min-width: 80px;
   }
 `;
 
@@ -58,4 +59,12 @@ export const Location = styled(Typography)`
   font-weight: 700;
   text-transform: uppercase;
   text-align: left;
+`;
+
+export const ListItem = styled(Typography)`
+  ${accent.brown}
+  text-align: left;
+  &&.MuiTypography-root {
+    font-size: smaller;
+  }
 `;
