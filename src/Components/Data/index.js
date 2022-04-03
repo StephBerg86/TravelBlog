@@ -1,4 +1,4 @@
-import { auto, bushmen, fishriver } from "../../Images/Namibia";
+import { namibiaImages } from "../../Images/Namibia";
 
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
@@ -102,8 +102,6 @@ export const data = [
           "Wij sliepen in Noordoewer, dit is de plaats waar je direct na de grensovergang aankomt. Na een kwartiertje rijden kom je dan aan bij Amanzi Trails River Adventures. Dit is een mooie camping aan een rivier waar ook genoeg activiteiten te doen zijn.",
         link1: "https://www.amanzitrails.co.za/amanzi-river-camp/",
         tip1: "Direct na de grensovergang zit een groot tankstation. Zorg dat je hier je auto direct vol gooit en geld pint. In (zuid) Namibië zijn tankstations en pinautomaten namelijk schaars en je wil niet (net zoals wij) zonder cash en benzine komen te staan.",
-        image1: auto,
-        alt1: "Sossusvlei",
         text2:
           "Op deze dag reden we van Noordoewer naar Ai-Ais (richting Hobas). Voor ons was dit echt een pech dag want onze benzine raakte op en we hebben het op het nippertje gehaald tot Hobas. Hier zou een tankstation zijn volgens Google maps maar die bleek leeg te zijn. We hebben toen in Hobas bij onze campsite gewacht tot iemand 80km heen en weer had gereden naar het eerstvolgende tankstation.",
         todo2:
@@ -120,8 +118,6 @@ export const data = [
         link3:
           "https://www.klein-aus-vista.com/accommodation/desert-horse-campsite/",
         tip3: "Vanaf de camping is er één rechte weg richting Kolmanskop. Aan het begin van deze weg is er aan de rechterkant een pad richting een waterhole. Deze staat ontzettend slecht aangegeven dus je moet goed opletten. Wij zagen geen paarden bij deze waterhole maar er zijn meestal wel wat struisvogels, herten en andere beestjes te vinden. Het schijnt dat je heel vroeg 's ochtends of juist laat in de middag de meeste kans hebt om de paarden te zien.",
-        image3: fishriver,
-        alt3: "Fish River Canyon",
         text4:
           "Vroeger was Kolmanskop één van de rijkste dorpen van Afrika vanwege de diamanthandel. Toen er geen diamant meer te vinden was hebben alle bewoners het dorp verlaten. Sommigen hebben letterlijk alleen hun kleren ingepakt en zijn weggegaan. Je kunt nu ronddwalen in dit volledig verlaten dorp en ook de huizen van binnen bekijken. Omdat er in de omgeving vrijwel niets anders is dan zand, zijn de huizen in de loop der jaren steeds meer onder het zand komen te liggen. Dit geeft een surreel beeld en is fantastisch om te zien. Wij kwam al vroeg aan in Kolmanskop en daarom was er verder ook helemaal niemand. Dit maakte het extra speciaal. En omdat we nog 5 uur moesten rijden naar Sesriem was het ook nodig om vroeg te gaan.",
         slapen4:
@@ -134,11 +130,7 @@ export const data = [
           "Tussen Sesriem en Swakopmund in ligt camping: Bushman's Desert Camp. Het ligt een beetje verscholen. Zorg dat je niet net als wij vol gas gaat over het zandweggetje. De weg houdt namelijk ineens op en dan rij je een soort ravijn in waar de camping ligt. Wij waren bijna bovenop de camping gevlogen met onze auto. Wat leuk is, is dat ze ook een eigen waterhole hebben waar je 's avonds dieren kunt spotten.",
         link5: "https://bushmans-desert-camp-self-catering.business.site/",
         tip5: "Wij dachten dat we een hele dag zouden spenderen in de Sossusvlei maar na een halve dag hadden we het wel gezien. Voornamelijk omdat het op een gegeven moment echt te heet wordt om door het zand heen te banjeren. Neem dan ook voldoende water mee. En mocht je wel in de middag nog rond willen lopen door de duinen, doe dan dichte schoenen aan en ga niet net als wij op slippers. Als je voor de echte hitte weg gaat kun je trouwens prima op slippers lopen.",
-        image5:
-          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
-        alt5: "Sossusvlei",
-        image5: bushmen,
-        alt5: "Bushman's Desert Camp",
+
         text6:
           "Vandaag staat weer een autorit van ruim 4 uur op het programma. We zijn vanuit onze campging doorgereden naar Walvisbaai en Swakopmund. Hier hebben we rondgelopen en geluncht. Omdat het toen wij er waren erg koud was (en wij hier neit op gekleed waren) zijn we uiteindelijk doorgereden naar Cape Cross Bay om hier te overnachten. Naast deze campsite zit een rescue center voor zeehondjes dus je ziet hier op het strand aardig wat van deze beestjes.",
         slapen6:
@@ -186,6 +178,81 @@ export const data = [
         link13: "https://www.ondekaremba.com/",
         text14:
           "Helaas is dit alweer de laatste dag van een fantastische reis. Namibië is geen land waar je zomaar even last-minute naar toe gaat. Het is belangijk om je van te voren wel even te verdiepen in het land. Maar wat een onvergetelijke reis is dit geworden. Bekijk onze tips voor Namnibië hieronder en dan kan ik iedereen aanraden om er een keer heen te gaan!",
+        image1: namibiaImages[0],
+        alt1: "Sossusvlei",
+        image2: namibiaImages[1],
+        alt2: "view from tent",
+        image3: namibiaImages[2],
+        alt3: "Bushman's Desert Camp",
+
+        image4: namibiaImages[3],
+        alt4: "Pool at Ai-Ais campsite",
+        image5: namibiaImages[4],
+        alt5: "Fish River Canyon",
+        image6: "",
+        alt6: "",
+
+        image7: namibiaImages[5],
+        alt7: "Kolmanskop",
+        image8:
+          "https://images.unsplash.com/photo-1516822671976-480ad5131e92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        alt8: "Kolmanskop",
+        image9:
+          "https://images.unsplash.com/photo-1588453610237-cfe7f3abfc17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80",
+        alt9: "Kolmanskop",
+
+        image10: namibiaImages[6],
+        alt10: "Sossusvlei",
+        image11:
+          "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
+        alt11: "Dodevlei",
+        image12: namibiaImages[7],
+        alt12: "Sossusvlei",
+
+        image13:
+          "https://images.unsplash.com/photo-1592161443742-5dc4651dce11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        alt13: "Swakopmund",
+        image14:
+          "https://live.staticflickr.com/2947/15256164828_61a58911aa_c.jpg",
+        alt14: "Skeleton Coast",
+        image15: namibiaImages[8],
+        alt15: "Madisa Camp sunset",
+
+        image16: namibiaImages[9],
+        alt16: "giraf",
+        image17: namibiaImages[10],
+        alt17: "Sunset Okaukuejo",
+        image18: namibiaImages[11],
+        alt18: "Leeuwin etosha",
+
+        image19: namibiaImages[12],
+        alt19: "Leeuwen Etosha",
+        image20: namibiaImages[13],
+        alt20: "Neushoorn en Springbokken Etosha",
+        image21: namibiaImages[14],
+        alt21: "Waterhole Etosha",
+
+        image22: namibiaImages[15],
+        alt22: "Zebra's Etosha",
+        image23: namibiaImages[16],
+        alt23: "Jakhals",
+        image24: namibiaImages[17],
+        alt24: "Luipaard etosha",
+
+        image25: namibiaImages[18],
+        alt25: "Sossusvlei",
+        image26: namibiaImages[19],
+        alt26: "view from tent",
+        image27: namibiaImages[20],
+        alt27: "",
+
+        image28: "",
+        alt28: "",
+        image29: "",
+        alt29: "",
+        image30: "",
+        alt30: "",
+
         important1:
           "Zodra je een ATM ziet: pinnen! Pinautomaten zijn schaars en het komt ook vaak voor dat er geen geld meer in zit",
         important2:
