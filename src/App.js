@@ -25,7 +25,7 @@ function App() {
         <S.Background>
           <S.PageContainer className="PageContainer">
             <NavBar />
-            <div style={{ margin: "16px" }}>
+            <S.ContentContainer>
               <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/landen" element={<Landen />}></Route>
@@ -35,7 +35,7 @@ function App() {
                 <Route path="/stories/:country" element={<StoryPage />}></Route>
                 <Route path="/videos" element={<Videos />}></Route>
               </Routes>
-            </div>
+            </S.ContentContainer>
             <Footer />
           </S.PageContainer>
         </S.Background>

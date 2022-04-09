@@ -189,8 +189,9 @@ export const data = [
         alt4: "Pool at Ai-Ais campsite",
         image5: namibiaImages[4],
         alt5: "Fish River Canyon",
-        image6: "",
-        alt6: "",
+        image6:
+          "https://images.unsplash.com/photo-1579990555377-c0abf314dcdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80",
+        alt6: "Fish River Canyon",
 
         image7: namibiaImages[5],
         alt7: "Kolmanskop",

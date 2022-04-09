@@ -52,7 +52,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image1 && (
           <img
             src={props.image1}
@@ -121,7 +121,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image4 && (
           <img
             src={props.image4}
@@ -167,7 +167,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image7 && (
           <img
             src={props.image7}
@@ -213,7 +213,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image10 && (
           <img
             src={props.image10}
@@ -282,7 +282,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image13 && (
           <img
             src={props.image13}
@@ -351,7 +351,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image16 && (
           <img
             src={props.image16}
@@ -397,7 +397,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image19 && (
           <img
             src={props.image19}
@@ -443,7 +443,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image22 && (
           <img
             src={props.image22}
@@ -489,7 +489,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image25 && (
           <img
             src={props.image25}
@@ -558,7 +558,7 @@ export default function Route({ props }) {
           </S.routeTips>
         </S.Links>
       )}
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
         {props.image28 && (
           <img
             src={props.image28}
