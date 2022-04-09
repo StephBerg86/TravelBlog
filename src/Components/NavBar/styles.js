@@ -22,7 +22,7 @@ export const NavText = styled.p`
 `;
 
 export const Logo = styled.p`
-  margin: 14px 20px;
+  margin: 0px 20px;
   font-family: Montserrat;
   line-height: 20px;
   font-weight: 700;

@@ -90,9 +90,9 @@ export default function Formentera() {
           height="300px"
           src="https://www.youtube.com/embed/WxHuNd_KrCU"
           title="Ibiza, Formentera"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>

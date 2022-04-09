@@ -281,7 +281,7 @@ export const data = [
         alt: "Kolmanskop",
         onClick: GOTOPAGE.NamibiaStory,
         category: "card",
-        homepage: true,
+        homepage: false,
       },
     ],
   },
@@ -303,7 +303,7 @@ export const data = [
           "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
         alt: "Mario Kart Tokio",
         onClick: GOTOPAGE.JapanRoute,
-        homepage: true,
+        homepage: false,
       },
       {
         category: "route",
@@ -325,7 +325,7 @@ export const data = [
         alt: "Mario Kart Tokio",
         onClick: GOTOPAGE.JapanStory,
         category: "card",
-        homepage: true,
+        homepage: false,
       },
     ],
   },
@@ -377,15 +377,20 @@ export const data = [
       {
         category: "story",
         title: "Alles wat je moet weten over zwemmen met varkens",
+        location: "Bahamas",
+        period: "Februari 2017",
+        introtext: "",
         image1:
           "https://media.tacdn.com/media/attractions-splice-spp-720x480/0a/9e/26/3e.jpg",
         alt1: "zwemmende varkens",
         image2:
           "https://www.sailcloudybay.com/wp-content/uploads/2020/01/IMG_4611.jpg",
         alt2: "nurse sharks",
+        image3:
+          "https://images.unsplash.com/photo-1533766837525-f6d19d32149a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+        alt3: "Pig Beach",
         video: "https://www.youtube.com/embed/sBlKHQUUM0k",
         videoTitle: "Miami, Bahamas",
-        location: "Bahamas",
         text: "Toen ik voor het eerst foto's van zwemmende varkentjes in helderblauw water zag, stond dit direct bovenaan mijn bucketlist. Mijn ticket naar Miami had ik al geboekt en omdat ik toch 'in de buurt' was, heb ik besloten om de zwemmende varkens van mijn bucketlist af te strepen.",
         text1:
           " De Bahama's liggen op ruim een uur vliegen vanaf Miami en bestaan uit 700 eilandjes waarvan er zo'n 35 bewoond zijn. Meestal vlieg je op Nassau, de hoofdstad van de Bahamas en de plek waar 70% van de inwoners even.",

@@ -63,7 +63,7 @@ export default function Route({ props }) {
         {props.image2 && (
           <img
             src={props.image2}
-            alt={props.alt1}
+            alt={props.alt2}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
