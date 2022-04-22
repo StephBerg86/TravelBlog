@@ -17,7 +17,7 @@ export default function Home() {
         {data.map((card) =>
           card.stories
             ? card.stories.map((story, storyIndex) =>
-                story.homepage ? (
+                story.category === "card" ? (
                   <Cards
                     key={storyIndex}
                     title={story.title}
@@ -26,24 +26,6 @@ export default function Home() {
                     image={story.image}
                     alt={story.alt}
                     onClick={story.onClick}
-                  />
-                ) : (
-                  ""
-                )
-              )
-            : ""
-        )}
-        {data.map((card) =>
-          card.routes
-            ? card.routes.map((route, routeIndex) =>
-                route.homepage ? (
-                  <Cards
-                    key={routeIndex}
-                    title={route.title}
-                    location={route.location}
-                    text={route.text}
-                    image={route.image}
-                    onClick={route.onClick}
                   />
                 ) : (
                   ""

@@ -18,12 +18,14 @@ export default function Cards({
   heightImage,
   alt,
   marginCard,
+  marginBottom,
 }) {
-  const widthC = widthCard ? widthCard : "25vw";
+  const widthC = widthCard ? widthCard : "24vw";
   const heightC = heightCard ? heightCard : "";
   const heightI = heightImage ? heightImage : "140";
   const paddingT = paddingText ? paddingText : "";
   const margin = marginCard ? marginCard : "";
+  const marginB = marginBottom ? marginBottom : "";
 
   return (
     <Card
@@ -31,6 +33,7 @@ export default function Cards({
         width: widthC,
         height: heightC,
         margin: margin,
+        marginBottom: marginB,
       }}
     >
       <CardMedia component="img" height={heightI} image={image} alt={alt} />

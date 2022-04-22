@@ -2,7 +2,7 @@ import { namibiaImages } from "../../Images/Namibia";
 
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
-  MexicoStory: "/stories/mexico",
+  // MexicoStory: "/stories/mexico",
   IcelandRoute: "/route/iceland",
   IcelandStory: "/stories/iceland",
   BahamasRoute: "/route/bahamas",
@@ -12,7 +12,7 @@ export const GOTOPAGE = {
   PhilippinesRoute: "/route/philippines",
   PhilippinesStory: "/stories/philippines",
   NamibiaRoute: "/route/namibia",
-  NamibiaStory: "/stories/namibia",
+  // NamibiaStory: "/stories/namibia",
   SouthAfricaRoute: "/route/southafrica",
   SouthAfricaStory: "/stories/southafrica",
   MiamiRoute: "/route/miami",
@@ -33,7 +33,7 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Mexique.png",
     alt: "Flag Mexico",
-    routes: [
+    stories: [
       {
         category: "card",
         title: "Mijn route door Yucatan",
@@ -43,7 +43,6 @@ export const data = [
           "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
         alt: "cenote",
         onClick: GOTOPAGE.MexicoRoute,
-        homepage: false,
       },
       {
         category: "route",
@@ -55,19 +54,6 @@ export const data = [
         alt: "cenote",
       },
     ],
-    stories: [
-      {
-        title: "Yucatan de toeristische parel van Mexico",
-        location: "Mexico",
-        text: "Mexico heeft eindeloos veel Cenotes, de één nog mooier dan de andere.  Maar welke mag je zeker niet overslaan? Als je voor het eerst naar Mexico gaat dan kan deze keuze best wel overweldigend zijn. Dit waren mijn favoriete cenotes.",
-        image:
-          "https://media.istockphoto.com/photos/ik-kil-yucatan-mexico-picture-id471176226?s=612x612",
-        alt: "cenote",
-        onClick: GOTOPAGE.MexicoStory,
-        category: "card",
-        homepage: false,
-      },
-    ],
   },
   {
     id: "namibia",
@@ -77,7 +63,7 @@ export const data = [
     text: "Intro about Namibië",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Afrique/Namibie.png",
     alt: "Flag Namibië",
-    routes: [
+    stories: [
       {
         category: "card",
         title: "Wijn, wildlife en woestijn",
@@ -87,7 +73,6 @@ export const data = [
           "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
         alt: "Sossusvlei",
         onClick: GOTOPAGE.NamibiaRoute,
-        homepage: true,
       },
       {
         category: "route",
@@ -271,19 +256,6 @@ export const data = [
           "Ben je vegetariër? Dan heb je pech. Vega kennen ze niet in Namibië. Het vlees is wel erg lekker en ook allemaal vers en lokaal",
       },
     ],
-    stories: [
-      {
-        title: "Sossusvlei",
-        location: "Namibie",
-        text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        image:
-          "https://www.wearetravellers.nl/wp-content/uploads/kolmanskop-namibie-badkamer-2.jpg",
-        alt: "Kolmanskop",
-        onClick: GOTOPAGE.NamibiaStory,
-        category: "card",
-        homepage: false,
-      },
-    ],
   },
   {
     id: "japan",
@@ -293,17 +265,26 @@ export const data = [
     text: "Intro about Japan",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Japon.png",
     alt: "Flag Japan",
-    routes: [
+    stories: [
       {
-        title: "van Hiroshima naar Tokyo en de Yaeyama islands",
         category: "card",
+        title: "Mario Kart in Tokyo",
+        location: "Japan",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        image:
+          "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
+        alt: "Mario Kart Tokio",
+        onClick: GOTOPAGE.JapanStory,
+      },
+      {
+        category: "card",
+        title: "van Hiroshima naar Tokyo en de Yaeyama islands",
         location: "Japan",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image:
           "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
         alt: "Mario Kart Tokio",
         onClick: GOTOPAGE.JapanRoute,
-        homepage: false,
       },
       {
         category: "route",
@@ -314,18 +295,14 @@ export const data = [
           "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
         alt: "Mario Kart Tokio",
       },
-    ],
-    stories: [
       {
+        category: "story",
         title: "Mario Kart in Tokyo",
         location: "Japan",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         image:
           "https://images.dailyhive.com/20190430160748/Mario-Kart-in-Tokyo.-Shutterstock.jpg",
         alt: "Mario Kart Tokio",
-        onClick: GOTOPAGE.JapanStory,
-        category: "card",
-        homepage: false,
       },
     ],
   },
@@ -337,9 +314,9 @@ export const data = [
     text: "Intro about Iceland",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Europe/Islande.png",
     alt: "Flag IJsland",
-    routes: [],
     stories: [
       {
+        category: "card",
         title: "Waterval paradijs",
         location: "Ijsland",
         text: "Als je van mooie watervallen houdt dan in IJsland echt 'the place to be'. Dit zijn de mooiste.",
@@ -347,8 +324,15 @@ export const data = [
           "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
         alt: "waterval ijsland",
         onClick: GOTOPAGE.IcelandStory,
-        category: "card",
-        homepage: false,
+      },
+      {
+        category: "route",
+        title: "Waterval paradijs",
+        location: "Ijsland",
+        text: "Als je van mooie watervallen houdt dan in IJsland echt 'the place to be'. Dit zijn de mooiste.",
+        image:
+          "https://www.askja.nl/media/thumbnails/web/670de8c78fce524e325ab7e5884345c0faeb4fee/cheng-yuan1.jpg",
+        alt: "waterval ijsland",
       },
     ],
   },
@@ -361,7 +345,6 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Bahamas.png",
     alt: "Flag Bahamas",
-    routes: [],
     stories: [
       {
         title: "Alles wat je moet weten over zwemmen met varkens in de Bahamas",
@@ -372,7 +355,6 @@ export const data = [
           "https://cdn.holidayguru.nl/wp-content/uploads/2017/03/Swimming-pigs-of-Exumas-iStock_000033977684_Large-2.jpg",
         alt: "zwemmende varkens",
         onClick: GOTOPAGE.BahamasStory,
-        homepage: true,
       },
       {
         category: "story",
@@ -427,9 +409,9 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Etats-Unis.png",
     alt: "Flag Amerika",
-    routes: [],
     stories: [
       {
+        category: "card",
         title: "Streetart in Wynwood",
         location: "Miami",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -437,8 +419,6 @@ export const data = [
           "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/cd/05/41/20190602-125404-largejpg.jpg?w=1200&h=-1&s=1",
         alt: "streetart miami",
         onClick: GOTOPAGE.MiamiStory,
-        category: "card",
-        homepage: false,
       },
     ],
   },
@@ -451,9 +431,9 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Oceanie/Philippines.png",
     alt: "Flag filipijnen",
-    routes: [],
     stories: [
       {
+        category: "card",
         title: "De mooiste eilandentours",
         location: "Philipijnen",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -461,8 +441,6 @@ export const data = [
           "https://lp-cms-production.imgix.net/2021-02/GettyRF_985553596.jpg",
         alt: "eiland philipijnen",
         onClick: GOTOPAGE.PhilippinesStory,
-        category: "card",
-        homepage: false,
       },
     ],
   },
@@ -475,9 +453,9 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Afrique/Afrique_du_Sud.png",
     alt: "Flag Zuid Afrika",
-    routes: [],
     stories: [
       {
+        category: "card",
         title: "Wijntour in Fransschoek",
         location: "ZuidAfrika",
         text: "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -485,8 +463,6 @@ export const data = [
           "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/6f/d9/3d.jpg",
         alt: "wijntram franschhoek",
         onClick: GOTOPAGE.SouthAfricaStory,
-        category: "card",
-        homepage: true,
       },
     ],
   },
@@ -498,30 +474,28 @@ export const data = [
     text: "Intro about Spain",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Europe/Espagne.png",
     alt: "Flag Spanje",
-    routes: [
+    stories: [
       {
-        title: "Een paradijs in Europa, Formentera",
         category: "card",
+        title: "Een paradijs in Europa, Formentera",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
         alt: "strand formentera",
         onClick: GOTOPAGE.SpainRoute,
-        homepage: true,
       },
       {
-        title: "Een paradijs in Europa, Formentera",
         category: "route",
+        title: "Een paradijs in Europa, Formentera",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
         alt: "strand formentera",
       },
-    ],
-    stories: [
       {
+        category: "card",
         title: "De andere kant van party-eiland Ibiza",
         location: "Ibiza",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -529,8 +503,6 @@ export const data = [
           "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
         alt: "Dalt Vila",
         onClick: GOTOPAGE.SpainStory,
-        category: "card",
-        homepage: true,
       },
       {
         category: "story",
@@ -565,9 +537,9 @@ export const data = [
     text: "Intro about sri",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Sri_Lanka.png",
     alt: "Flag Sri Lanka",
-    routes: [],
     stories: [
       {
+        category: "card",
         title: "Sri Lanka in drie of vier weken",
         location: "Sri Lanka",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -575,8 +547,6 @@ export const data = [
           "https://d2csxpduxe849s.cloudfront.net/media/D9C47D27-CF22-4106-BDD62A07BB6C91E1/1AF92955-0C7D-4CAC-81182775001FB1B2/webimage-55FF1AEA-BE78-4EEA-BD5B453633ED3633.png",
         alt: "trein",
         onClick: GOTOPAGE.SrilankaStory,
-        category: "card",
-        homepage: true,
       },
     ],
   },
@@ -588,7 +558,6 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Afrique/Tanzanie.png",
     alt: "Flag Tanzania",
-    routes: [],
     stories: [],
   },
   {
@@ -600,7 +569,6 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Afrique/Tanzanie.png",
     alt: "Flag Cambodja",
-    routes: [],
     stories: [],
   },
   {
@@ -611,7 +579,6 @@ export const data = [
     text: "Intro about China",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Chine.png",
     alt: "Flag China",
-    routes: [],
     stories: [],
   },
   {
@@ -622,7 +589,6 @@ export const data = [
     text: "Intro about Indonesië",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Indonesie.png",
     alt: "Flag Indonesië",
-    routes: [],
     stories: [],
   },
   {
@@ -633,7 +599,6 @@ export const data = [
     text: "Intro about Laos",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Laos.png",
     alt: "Flag Laos",
-    routes: [],
     stories: [],
   },
   {
@@ -644,7 +609,6 @@ export const data = [
     text: "Intro about Maleisië",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Malaisie.png",
     alt: "Flag Maleisië",
-    routes: [],
     stories: [],
   },
   {
@@ -655,7 +619,6 @@ export const data = [
     text: "Intro about Thailand",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Thailand.png",
     alt: "Flag Thailand",
-    routes: [],
     stories: [],
   },
   {
@@ -666,7 +629,6 @@ export const data = [
     text: "Intro about Vietnam",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Asie/Vietnam.png",
     alt: "Flag Vietnam",
-    routes: [],
     stories: [],
   },
   {
@@ -677,7 +639,6 @@ export const data = [
     text: "Intro about Cuba",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Cuba.png",
     alt: "Flag cuba",
-    routes: [],
     stories: [],
   },
   {
@@ -689,7 +650,6 @@ export const data = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/266px-Flag_of_Cura%C3%A7ao.svg.png",
     alt: "Flag curacao",
-    routes: [],
     stories: [],
   },
   {
@@ -700,7 +660,6 @@ export const data = [
     text: "Intro about Brazilie",
     image: "https://www.sport-histoire.fr/Sources/Drapeaux/Amerique/Bresil.png",
     alt: "Flag Brazilië",
-    routes: [],
     stories: [],
   },
   {
@@ -712,14 +671,15 @@ export const data = [
     image:
       "https://www.sport-histoire.fr/Sources/Drapeaux/Oceanie/Australie.png",
     alt: "Flag Australië",
-    routes: [],
     stories: [],
   },
 ];
 
-<ul>
+{
+  /* <ul>
   <li>Londen</li>
   <li>Zuid Afrika</li>
   <li>Noorwegen</li>
   <li>Polen</li>
-</ul>;
+</ul>; */
+}
