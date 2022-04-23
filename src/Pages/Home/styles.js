@@ -8,4 +8,17 @@ export const PageContainer = styled.div`
   width: 100%;
   align-content: center;
   gap: 24px;
+  /* background-color: blue; */
+  &.short {
+    /* background-color: red; */
+    max-height: 500px;
+  }
+  &.medium {
+    /* background-color: purple; */
+    max-height: 900px;
+  }
+  &.long {
+    /* background-color: green; */
+    max-height: 1400;
+  }
 `;

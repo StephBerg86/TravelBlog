@@ -6,39 +6,16 @@ import CardMedia from "@mui/material/CardMedia";
 import { Link } from "react-router-dom";
 import { CardTitle } from "../../Constants/OverallStyles";
 
-export default function Cards({
-  image,
-  title,
-  location,
-  text,
-  onClick,
-  widthCard,
-  heightCard,
-  paddingText,
-  heightImage,
-  alt,
-  marginCard,
-  marginBottom,
-}) {
-  const widthC = widthCard ? widthCard : "24vw";
-  const heightC = heightCard ? heightCard : "";
-  const heightI = heightImage ? heightImage : "140";
-  const paddingT = paddingText ? paddingText : "";
-  const margin = marginCard ? marginCard : "";
-  const marginB = marginBottom ? marginBottom : "";
-
+export default function Cards({ title, location, text, image, alt, onClick }) {
   return (
     <Card
       sx={{
-        width: widthC,
-        height: heightC,
-        margin: margin,
-        marginBottom: marginB,
+        width: "24vw",
       }}
     >
-      <CardMedia component="img" height={heightI} image={image} alt={alt} />
+      <CardMedia component="img" height="140" image={image} alt={alt} />
       <Link to={onClick} style={{ textDecoration: "none" }}>
-        <CardContent sx={{ padding: paddingT, paddingBottom: 0 }}>
+        <CardContent sx={{ paddingBottom: 0 }}>
           {location && (
             <S.Location variant="subtitle2" sx={{ fontWeight: "bold" }}>
               {location}

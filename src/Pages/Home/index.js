@@ -9,6 +9,16 @@ import { AppContext } from "../../App";
 export default function Home() {
   const appContext = useContext(AppContext);
   const { selectedCountries } = appContext;
+  let C = selectedCountries.length;
+
+  let class_name;
+  if (C < 3 && C >= 1) {
+    class_name = "short";
+  } else if (C <= 6 && C >= 3) {
+    class_name = "medium";
+  } else {
+    class_name = "long";
+  }
 
   return (
     <>
@@ -17,7 +27,7 @@ export default function Home() {
         Introtext uitleg dat dit overzichtspagina is met uitgelichte verhalen en
         dat de rest van de tips en routes via het navigatiemenu te vinden zijn.
       </Text>
-      <S.PageContainer className="Home">
+      <S.PageContainer className={class_name}>
         {data.map((card) =>
           selectedCountries.length === 0
             ? card.stories
@@ -43,6 +53,7 @@ export default function Home() {
                   story.category === "card" ? (
                     <Cards
                       key={storyIndex}
+                      // className={}
                       title={story.title}
                       location={story.location}
                       text={story.text}

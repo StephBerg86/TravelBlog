@@ -36,7 +36,6 @@ export default function Dropdown() {
     } = event;
     setSelectedCountries(typeof value === "string" ? value.split(",") : value);
   };
-  console.log("CN", selectedCountries);
 
   return (
     <div>
