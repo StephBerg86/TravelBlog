@@ -4,12 +4,12 @@ import { Link as rrdLink } from "react-router-dom";
 
 export const Container = styled.div`
   height: 60px;
-  width: 100%;
   background-color: transparent;
   border-bottom: 1px solid #ededed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0 36px;
 `;
 
 export const NavText = styled.p`
@@ -22,7 +22,6 @@ export const NavText = styled.p`
 `;
 
 export const Logo = styled.p`
-  margin: 0px 20px;
   font-family: Montserrat;
   line-height: 20px;
   font-weight: 700;

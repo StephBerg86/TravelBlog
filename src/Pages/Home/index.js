@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import Cards from "../../Components/Cards";
 
 import * as S from "./styles";
 import { data } from "../../Components/Data";
 import { PageTitle, Text } from "../../Constants/OverallStyles";
+import { AppContext } from "../../App";
 
 export default function Home() {
+  const appContext = useContext(AppContext);
+  const { selectedCountries } = appContext;
+
   return (
     <>
       <PageTitle>Welkom titel</PageTitle>
@@ -15,22 +19,42 @@ export default function Home() {
       </Text>
       <S.PageContainer className="Home">
         {data.map((card) =>
-          card.stories
-            ? card.stories.map((story, storyIndex) =>
-                story.category === "card" ? (
-                  <Cards
-                    key={storyIndex}
-                    title={story.title}
-                    location={story.location}
-                    text={story.text}
-                    image={story.image}
-                    alt={story.alt}
-                    onClick={story.onClick}
-                  />
-                ) : (
-                  ""
+          selectedCountries.length === 0
+            ? card.stories
+              ? card.stories.map((story, storyIndex) =>
+                  story.category === "card" ? (
+                    <Cards
+                      key={storyIndex}
+                      title={story.title}
+                      location={story.location}
+                      text={story.text}
+                      image={story.image}
+                      alt={story.alt}
+                      onClick={story.onClick}
+                    />
+                  ) : (
+                    ""
+                  )
                 )
-              )
+              : ""
+            : selectedCountries.includes(card.location)
+            ? card.stories
+              ? card.stories.map((story, storyIndex) =>
+                  story.category === "card" ? (
+                    <Cards
+                      key={storyIndex}
+                      title={story.title}
+                      location={story.location}
+                      text={story.text}
+                      image={story.image}
+                      alt={story.alt}
+                      onClick={story.onClick}
+                    />
+                  ) : (
+                    ""
+                  )
+                )
+              : ""
             : ""
         )}
       </S.PageContainer>

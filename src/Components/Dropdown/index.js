@@ -1,15 +1,15 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { useTheme } from "@mui/material/styles";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { data } from "../Data";
+import { AppContext } from "../../App";
 
 const MenuProps = {
   PaperProps: {
     style: {
-      width: "160px",
       maxHeight: "350px",
       left: "772px",
     },
@@ -27,32 +27,28 @@ function getStyles(country, countryName, theme) {
 
 export default function Dropdown() {
   const theme = useTheme();
-  const [countryName, setCountryName] = useState([]);
+  const appContext = useContext(AppContext);
+  const { selectedCountries, setSelectedCountries } = appContext;
 
   const handleChange = (event) => {
     const {
       target: { value },
     } = event;
-    setCountryName(
-      // On autofill we get a stringified value.
-      typeof value === "string" ? value.split(",") : value
-    );
+    setSelectedCountries(typeof value === "string" ? value.split(",") : value);
   };
+  console.log("CN", selectedCountries);
 
   return (
     <div>
-      <FormControl sx={{ m: 1, width: 160, mt: 1 }}>
+      <FormControl sx={{ m: 1, width: 150, mt: 1 }}>
         <Select
           multiple
           displayEmpty
-          value={countryName}
+          value={selectedCountries}
           onChange={handleChange}
           input={<OutlinedInput />}
           renderValue={(selected) => {
-            if (selected.length === 0) {
-              return <em style={{ height: 0 }}>Landen</em>;
-            }
-            return selected.join(", ");
+            return <em style={{ height: 0, fontStyle: "normal" }}>Landen</em>;
           }}
           MenuProps={MenuProps}
           inputProps={{ "aria-label": "Without label" }}
@@ -71,7 +67,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -86,7 +82,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -101,7 +97,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -116,7 +112,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -132,7 +128,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -147,7 +143,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>
@@ -162,7 +158,7 @@ export default function Dropdown() {
                 <MenuItem
                   key={index}
                   value={country.location}
-                  style={getStyles(country, countryName, theme)}
+                  style={getStyles(country, selectedCountries, theme)}
                 >
                   {country.location}
                 </MenuItem>

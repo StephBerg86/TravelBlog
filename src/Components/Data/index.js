@@ -675,11 +675,9 @@ export const data = [
   },
 ];
 
-{
-  /* <ul>
+/* <ul>
   <li>Londen</li>
   <li>Zuid Afrika</li>
   <li>Noorwegen</li>
   <li>Polen</li>
 </ul>; */
-}

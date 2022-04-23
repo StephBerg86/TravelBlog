@@ -31,10 +31,10 @@ export default function NavBar() {
         <S.Link to="/stories">
           <S.NavText>Verhalen</S.NavText>
         </S.Link> */}
-        <Dropdown />
         <S.Link to="/videos">
           <S.NavText>Reisvideos</S.NavText>
         </S.Link>
+        <Dropdown />
       </div>
     </S.Container>
   );
