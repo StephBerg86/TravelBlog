@@ -1,41 +1,22 @@
 import React from "react";
-import Cards from "../../Components/Cards";
+import { useParams } from "react-router-dom";
 import { data } from "../../Components/Data";
-import { PageTitle, Text } from "../../Constants/OverallStyles";
+import Story from "../../Components/Story";
 
-import * as S from "./styles";
+export default function StoryPage() {
+  let { country } = useParams();
 
-export default function StoryOverview() {
+  const currentCountry = data.find((c) => c.id === country);
+
   return (
     <>
-      <PageTitle>Verhalen</PageTitle>
-      <Text>
-        Hier vind je allerlei soorten reistips, handige reisinformatie en
-        reisnieuws dat je niet mag missen! Van inspirerende reisquotes en
-        interessante aanbiedingen tot websites die je als echte reiziger gezien
-        moet hebben. Laat je inspireren voor je volgende vakantie
-      </Text>
-      <S.PageContainer className="Home">
-        {data.map(
-          (card) =>
-            card.stories &&
-            card.stories.map((story, storyIndex) =>
-              story.category === "card" ? (
-                <Cards
-                  key={storyIndex}
-                  title={story.title}
-                  location={story.location}
-                  text={story.text}
-                  image={story.image}
-                  alt={story.alt}
-                  onClick={story.onClick}
-                />
-              ) : (
-                ""
-              )
-            )
-        )}
-      </S.PageContainer>
+      {currentCountry.stories.map((story, storyIndex) =>
+        story.category === "story" ? (
+          <Story key={storyIndex} data={story} />
+        ) : (
+          ""
+        )
+      )}
     </>
   );
 }
