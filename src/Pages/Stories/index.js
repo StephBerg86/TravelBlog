@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { data } from "../../Components/Data";
+import { data } from "../../Components/DataReisverhalen";
 import Story from "../../Components/Story";
 
 export default function StoryPage() {

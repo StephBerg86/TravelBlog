@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Cards from "../../Components/Cards";
 
 import * as S from "./styles";
-import { data } from "../../Components/Data";
+import { data } from "../../Components/DataReisverhalen";
 import { PageTitle, Text } from "../../Constants/OverallStyles";
 import { AppContext } from "../../App";
 
@@ -53,7 +53,6 @@ export default function Home() {
                   story.category === "card" ? (
                     <Cards
                       key={storyIndex}
-                      // className={}
                       title={story.title}
                       location={story.location}
                       text={story.text}

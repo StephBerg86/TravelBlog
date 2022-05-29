@@ -513,7 +513,7 @@ export const data = [
         onClick: GOTOPAGE.SpainRoute,
       },
       {
-        category: "route",
+        category: "story",
         title: "Een paradijs in Europa, Formentera",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -534,14 +534,9 @@ export const data = [
       {
         category: "story",
         title: "De andere kant van party-eiland Ibiza",
-        image1:
-          "https://media.tacdn.com/media/attractions-splice-spp-720x480/0a/9e/26/3e.jpg",
-        alt1: "zwemmende varkens",
-        image2:
-          "https://www.sailcloudybay.com/wp-content/uploads/2020/01/IMG_4611.jpg",
-        alt2: "nurse sharks",
-        video: "https://www.youtube.com/embed/sBlKHQUUM0k",
-        videoTitle: "Miami, Bahamas",
+
+        video: "https://www.youtube.com/embed/WxHuNd_KrCU",
+        videoTitle: "Ibiza & Formentera",
         location: "Ibiza",
         text: "Ibiza, het eiland van de jetset en chique restaurants, waar alle mensen half naakt en met bloemen in hun haar rondlopen en waar je kan feesten tot je erbij neervalt. Dat was het beeld wat ik van Ibiza had voordat ik er zelf geweest was. Inmiddels weet ik dat Ibiza juist ook zeer geschikt is voor de liefhebber van rust, natuur en mooie stranden.",
         text1: "",
@@ -553,6 +548,44 @@ export const data = [
           "Natuurlijk kan je ervoor kiezen om een week bij je hotel te blijven en aan het strand te liggen. De stranden zijn er super mooi dus ik kan je geen ongelijk geven. Zelf wilde ik graag zoveel mogelijk van het eiland zien. Ik heb verschillende opties van vervoer overwogen. Een optie is om de bus te pakken. Nadeel is wel dat de verbindingen niet altijd even goed zijn en je dus niet makkelijk overal kan komen. Stiptheid is iets wat niet in het vocabulaire van de buschauffeurs voorkomt. Bovendien stoppen de bussen vaak dus doe je er een eeuwigheid over. Meer informatie over de bustijden en routes kun je vinden op Ibizabus.com. Een leuke manier om Ibiza ter verkennen is met de boot. Via de website van Santaeulalia fery kan je verschillende routes kiezen en je tickets vast online kopen. Ik heb deze ferry ook gebruikt om van Es Canar naar Formentera te gaan.",
         text4:
           "De boot is een leuke optie maar niet de snelste manier en je kan alleen naar de kustplaatsen reizen. Voor mij was de beste optie om het eiland te verkennen met de auto of scooter. Toen ik bij het verhuurbedrijf vroeg wat zij mij aanraden zeiden was het antwoord een scooter. Als je een auto huurt moet je vaak parkeergeld betalen (is trouwens niet heel duur) maar vooral in ibiza stad zijn parkeerplekken soms lastig te vinden. En je kan nergens echt hard rijden. Er zijn stukjes waar je 80 mag maar het meeste is 50km/ph. Daarom heb ik gekozen voor een scooter. In principe kan je op de scooter een groot deel van het eiland in 1 dag zien, maar als je ook af en toe ergens wat wil drinken of op het strand wil liggen kan je er beter twee of drie dagen de tijd voor nemen. Ik heb mijn tour opgedeeld in twee dagen. De eerste dag heb ik het noorden gedaan en de tweede dag Ibiza stad en het zuiden.",
+        subTitle5: "Plaatsen om te bezoeken:",
+        text5: "   ",
+        subTitle6: "Cala Llonga",
+        text6:
+          "Het plaatsje Cala Llonga is centraal gelegen aan de oostkust. Vanaf hier ben je binnen tien minuten met de auto in Ibiza stad of als je richting het noorden rijdt in Santa Eularia. Cala Llonga heeft een zandstrand dat langzaam afloopt en omdat het in een baai ligt heb je weinig golven en wind. Het dorpje is niet heel bruisend maar het heeft een aantal winkels en restaurants.",
+        image6:
+          "https://zone1-ibizaspotlightsl.netdna-ssl.com/sites/default/files/styles/auto_1500_width/public/beach-images/69727/slideshow-1540806823_1.jpg",
+        alt6: "Cala Llonga",
+        subTitle7: "Es Canar",
+        text7:
+          "Dit is een klein badplaatsje met een zandstrand, leuke winkeltjes, restaurants en er zijn enkele uitgaansgelegenheden. Es Canar heeft niet het mooiste strand of de beste clubs maar er is wel voor ieder wat wils. Es Canar is ook de locatie van de grootste hippiemarkt van Ibiza 'Punta Arabi'. Ik sliep in 'Hotel Club Punta Arabi' en het voordeel hiervan is dat de hippiemarkt voor de deur is.",
+        image7:
+          "https://lh3.googleusercontent.com/ZqgikydpLvt5MUVt4NV8OIX5PRC0msWZb8FqBrsOFDoaiE0bD0dyBRssYauy_qVX-69GmcTFtOBDjq_azhhXZ7U=l80-w1500-e365",
+        alt7: "Hippie market Es Canar",
+        subTitle8: "Aguas Blancas",
+        text8:
+          "Ik ben zelf niet zo'n held in het vinden van de weg maar ik hoorde ook van andere mensen dat het even zoeken is naar het strand van Aguas Blancas. Maar daardoor is de beloning misschien wel groter als je het uiteindelijk gevonden hebt. Het goudkleurige zandstrandje ligt tussen de hoge rotsen. Het strand is te bereiken via een trap en daarom niet geschikt voor mensen die slecht ter been zijn. Het is officieel een naaktstrand maar je vindt er ook genoeg mensen die gewoon in badkleding lopen. Alles mag, niets hoeft.",
+        image8:
+          "https://zone1-ibizaspotlightsl.netdna-ssl.com/sites/default/files/styles/auto_1500_width/public/beach-images/69713/slideshow-1472063900.jpg",
+        alt8: "Aguas Blancas",
+        subTitle9: "Portinatx",
+        text9:
+          "Toen ik aan kwam rijden met mijn scooter zag ik van bovenaf al de prachtige baai liggen met super helder blauw water en mooie boten. Portinatx heeft veel hotels en appartementencomplexen en er is genoeg keuze wat bars en restaurants betreft. Je kan er goed snorkelen en het strand loop heel langzaam af.",
+        image9:
+          "https://vakantiespanje.nl/wp-content/uploads/2013/10/portinatx-image.jpg",
+        alt9: "Portinatx",
+        subTitle10: "Benirras",
+        text10:
+          "Bij Benirrás kreeg ik direct het hippie gevoel. Er hangt een goede sfeer en in het hoogseizoen is er een klein hippiemarktje. Het is een wit zand-, kiezelstrand en glashelder water. Een ideaal strandje om te zwemmen en te snorkelen. Aan deze kant van het eiland kan je genieten van een prachtige zonsondergang. Overdag is het hier meestal vrij rustig maar als je op zondag tegen het eind van de middag naar Benirrás gaat, dan wordt er een trommelconcert gegeven. Hier komen veel mensen op af en het brengt je meteen in hippie sferen.",
+        image10:
+          "https://i.pinimg.com/originals/26/b9/cb/26b9cbcd713a7c27a605e79693b73f25.jpg",
+        alt10: "Trommelconcert Benirras",
+        subTitle11: "Dalt Vila",
+        text11:
+          "Dit vond ik persoonlijk het leukste stukje van Ibiza Stad en het is behoorlijk Instagram-proof. Dalt Vila is omringt door enorme muren en is het hoogste punt van de stad. Het is heerlijk om tussen alle smalle straatjes en gezellige pleintjes te lopen. Vanuit het hoogste punt heb je een prachtig uitzicht over de haven van Ibiza.",
+        image11:
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ibiza_town%2C_Dalt_Vila_-_panoramio.jpg",
+        alt11: "Dalt Vila",
       },
     ],
   },
