@@ -17,8 +17,8 @@ export const GOTOPAGE = {
   SouthAfricaStory: "/story/southafrica",
   MiamiRoute: "/route/miami",
   MiamiStory: "/story/miami",
-  SpainRoute: "/route/spain",
-  SpainStory: "/story/spain",
+  SpainStoryIbiza: "/story/spain/ibiza",
+  SpainStoryFormentera: "/story/spain/formentera",
   SrilankaRoute: "/route/srilanka",
   SrilankaStory: "/story/srilanka",
 };
@@ -46,6 +46,7 @@ export const data = [
       },
       {
         category: "route",
+        id: 1,
         title: "Mijn route door Yucatan",
         location: "Mexico",
         text: "Dit is de tekst over de route ....",
@@ -76,6 +77,7 @@ export const data = [
       },
       {
         category: "route",
+        id: 1,
         title: "Wijn, wildlife en woestijn",
         location: "Namibie",
         period: "Eind september t/m begin oktober",
@@ -278,6 +280,7 @@ export const data = [
       },
       {
         category: "route",
+        id: 1,
         title: "van Hiroshima naar Tokyo en de Yaeyama islands",
         location: "Japan",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -297,6 +300,7 @@ export const data = [
       },
       {
         category: "story",
+        id: 2,
         title: "Mario Kart in Tokyo",
         location: "Japan",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -327,6 +331,7 @@ export const data = [
       },
       {
         category: "route",
+        id: 1,
         title: "Waterval paradijs",
         location: "Ijsland",
         text: "Als je van mooie watervallen houdt dan in IJsland echt 'the place to be'. Dit zijn de mooiste.",
@@ -358,6 +363,7 @@ export const data = [
       },
       {
         category: "story",
+        id: 1,
         title: "Alles wat je moet weten over zwemmen met varkens",
         location: "Bahamas",
         period: "Februari 2017",
@@ -422,6 +428,7 @@ export const data = [
       },
       {
         category: "story",
+        id: 1,
         title: "Streetart in Wynwood",
         location: "Miami",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -453,6 +460,7 @@ export const data = [
       },
       {
         category: "story",
+        id: 1,
         title: "De mooiste eilandentours",
         location: "Philipijnen",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -484,6 +492,7 @@ export const data = [
       },
       {
         category: "story",
+        id: 1,
         title: "Wijntour in Fransschoek",
         location: "ZuidAfrika",
         text: "Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -504,17 +513,18 @@ export const data = [
     stories: [
       {
         category: "card",
-        title: "Een paradijs in Europa, Formentera",
+        title: "Paradijs in de Middelandse zee, Formentera",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
           "https://www.wandelingen.info/wp-content/uploads/2016/12/Formentera-trucadors-plankierpad.jpg",
         alt: "strand formentera",
-        onClick: GOTOPAGE.SpainRoute,
+        onClick: GOTOPAGE.SpainStoryFormentera,
       },
       {
         category: "story",
-        title: "Een paradijs in Europa, Formentera",
+        id: "formentera",
+        title: "Paradijs in de Middelandse zee, Formentera",
         location: "Spanje",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         image:
@@ -529,12 +539,12 @@ export const data = [
         image:
           "https://www.travelvalley.nl/uploads/images/pleintje-ibiza-stad.jpeg",
         alt: "Dalt Vila",
-        onClick: GOTOPAGE.SpainStory,
+        onClick: GOTOPAGE.SpainStoryIbiza,
       },
       {
         category: "story",
+        id: "ibiza",
         title: "De andere kant van party-eiland Ibiza",
-
         video: "https://www.youtube.com/embed/WxHuNd_KrCU",
         videoTitle: "Ibiza & Formentera",
         location: "Ibiza",

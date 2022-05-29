@@ -33,6 +33,10 @@ function App() {
                   <Route path="/" element={<Home />}></Route>
                   <Route path="/route/:country" element={<RoutePage />}></Route>
                   <Route path="/story/:country" element={<StoryPage />}></Route>
+                  <Route
+                    path="/story/:country/:city"
+                    element={<StoryPage />}
+                  ></Route>
                   <Route path="/videos" element={<Videos />}></Route>
                 </Routes>
               </S.ContentContainer>

@@ -4,18 +4,21 @@ import { data } from "../../Components/DataReisverhalen";
 import Story from "../../Components/Story";
 
 export default function StoryPage() {
-  let { country } = useParams();
+  let { country, city } = useParams();
 
   const currentCountry = data.find((c) => c.id === country);
 
   return (
     <>
       {currentCountry.stories.map((story, storyIndex) =>
-        story.category === "story" ? (
-          <Story key={storyIndex} data={story} />
-        ) : (
-          ""
-        )
+        city
+          ? story.id === city &&
+            story.category === "story" && (
+              <Story key={storyIndex} data={story} />
+            )
+          : story.category === "story" && (
+              <Story key={storyIndex} data={story} />
+            )
       )}
     </>
   );
