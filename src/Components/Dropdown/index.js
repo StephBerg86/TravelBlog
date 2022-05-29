@@ -35,6 +35,9 @@ export default function Dropdown() {
       target: { value },
     } = event;
     setSelectedCountries(typeof value === "string" ? value.split(",") : value);
+    if (window.location.pathname !== "/") {
+      window.location.pathname = "/";
+    }
   };
 
   return (
@@ -45,6 +48,7 @@ export default function Dropdown() {
           displayEmpty
           value={selectedCountries}
           onChange={handleChange}
+          // onClick={}
           input={<OutlinedInput />}
           renderValue={(selected) => {
             return <em style={{ height: 0, fontStyle: "normal" }}>Landen</em>;
