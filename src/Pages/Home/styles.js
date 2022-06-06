@@ -13,7 +13,7 @@ export const PageContainer = styled.div`
     max-height: 500px;
   }
   &.medium {
-    max-height: 900px;
+    max-height: 1000px;
   }
   &.long {
     max-height: 1400;

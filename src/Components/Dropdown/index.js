@@ -48,7 +48,6 @@ export default function Dropdown() {
           displayEmpty
           value={selectedCountries}
           onChange={handleChange}
-          // onClick={}
           input={<OutlinedInput />}
           renderValue={(selected) => {
             return <em style={{ height: 0, fontStyle: "normal" }}>Landen</em>;

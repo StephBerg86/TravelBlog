@@ -9,12 +9,26 @@ import { AppContext } from "../../App";
 export default function Home() {
   const appContext = useContext(AppContext);
   const { selectedCountries } = appContext;
-  let C = selectedCountries.length;
+
+  let newDataArray = data.filter((ele) => {
+    if (selectedCountries.includes(ele.location)) {
+      return ele;
+    }
+    return null;
+  });
+
+  let nrOfCards = newDataArray.reduce((res, ele) => {
+    let num = ele.stories.reduce(
+      (r, e) => (e.category === "card" ? r + 1 : r),
+      0
+    );
+    return res + num;
+  }, 0);
 
   let class_name;
-  if (C < 3 && C >= 1) {
+  if (nrOfCards < 4 && nrOfCards >= 1) {
     class_name = "short";
-  } else if (C <= 6 && C >= 3) {
+  } else if (nrOfCards <= 6 && nrOfCards >= 4) {
     class_name = "medium";
   } else {
     class_name = "long";
@@ -30,9 +44,9 @@ export default function Home() {
       <S.PageContainer className={class_name}>
         {data.map((card) =>
           selectedCountries.length === 0
-            ? card.stories
-              ? card.stories.map((story, storyIndex) =>
-                  story.category === "card" ? (
+            ? card?.stories?.map(
+                (story, storyIndex) =>
+                  story.category === "card" && (
                     <Cards
                       key={storyIndex}
                       title={story.title}
@@ -42,15 +56,13 @@ export default function Home() {
                       alt={story.alt}
                       onClick={story.onClick}
                     />
-                  ) : (
-                    ""
                   )
-                )
-              : ""
-            : selectedCountries.includes(card.location)
-            ? card.stories
-              ? card.stories.map((story, storyIndex) =>
-                  story.category === "card" ? (
+              )
+            : // Below is needed for the dropdown selection
+              selectedCountries.includes(card.location) &&
+              card?.stories?.map(
+                (story, storyIndex) =>
+                  story.category === "card" && (
                     <Cards
                       key={storyIndex}
                       title={story.title}
@@ -60,12 +72,8 @@ export default function Home() {
                       alt={story.alt}
                       onClick={story.onClick}
                     />
-                  ) : (
-                    ""
                   )
-                )
-              : ""
-            : ""
+              )
         )}
       </S.PageContainer>
     </>
