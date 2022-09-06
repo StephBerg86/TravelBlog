@@ -22,4 +22,8 @@ export const accent = {
   dark: css`
     color: #29191c;
   `,
+  button: css`
+    background-color: #5a393e;
+    color: white;
+  `,
 };

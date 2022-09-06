@@ -10,7 +10,7 @@ import { AppContext } from "../../App";
 const MenuProps = {
   PaperProps: {
     style: {
-      maxHeight: "350px",
+      maxHeight: "400px",
       left: "772px",
     },
   },
@@ -18,6 +18,7 @@ const MenuProps = {
 
 function getStyles(country, countryName, theme) {
   return {
+    // fontSize: "1.5rem",
     fontWeight:
       countryName.indexOf(country) === -1
         ? theme.typography.fontWeightRegular
@@ -50,7 +51,7 @@ export default function Dropdown() {
           onChange={handleChange}
           input={<OutlinedInput />}
           renderValue={(selected) => {
-            return <em style={{ height: 0, fontStyle: "normal" }}>Landen</em>;
+            return <em style={{ height: 0, fontStyle: "normal" }}>LANDEN</em>;
           }}
           MenuProps={MenuProps}
           inputProps={{ "aria-label": "Without label" }}
@@ -58,6 +59,9 @@ export default function Dropdown() {
             minHeight: 0,
             height: "30px",
             minWidth: 0,
+            // fontSize: "1.6rem",
+            // fontFamily: "Montserrat",
+            fontWeight: "700",
           }}
         >
           <MenuItem disabled value="">

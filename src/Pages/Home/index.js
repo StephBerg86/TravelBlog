@@ -36,10 +36,14 @@ export default function Home() {
 
   return (
     <>
-      <PageTitle>Titel</PageTitle>
+      <PageTitle>Reisblog</PageTitle>
       <Text>
-        Introtext uitleg dat dit overzichtspagina is met uitgelichte verhalen en
-        dat de rest van de tips en routes via het navigatiemenu te vinden zijn.
+        Hi! Ik ben Stephanie en met deze site wil ik mensen inspireren en
+        informeren over de bestemmingen waar ik ben geweest. Hieronder vind je
+        een overzicht van alle reisverhalen. Rechtsboven kun je één of meerdere
+        landen selecteren, zodat je alleen de verhalen ziet die jij interessant
+        vindt. Ook kun je rechtsboven al mijn reisvideo's bekijken. <br />
+        Deze site is nog niet af maar je kunt er nu vast even rondkijken.
       </Text>
       <S.PageContainer className={class_name}>
         {data.map((card) =>
