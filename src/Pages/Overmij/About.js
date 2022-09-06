@@ -6,7 +6,7 @@ import Traveler from "../../Images/About/traveler.jpg";
 import Lissabon from "../../Images/About/lissabon.jpg";
 import Japan from "../../Images/About/japan.jpg";
 import IJsland from "../../Images/About/ijsland.jpg";
-import LinkedinBadge from "./LinkedinBadge";
+// import LinkedinBadge from "./LinkedinBadge";
 
 export default function About() {
   return (
