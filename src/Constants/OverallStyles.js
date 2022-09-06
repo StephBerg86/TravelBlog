@@ -2,6 +2,7 @@ import { Typography } from "@mui/material";
 import styled from "styled-components";
 import { accent } from "./Tokens";
 import { Link } from "react-router-dom";
+import MenuItem from "@mui/material/MenuItem";
 
 export const CardTitle = styled(Typography)`
   ${accent.brown}
@@ -67,4 +68,17 @@ export const ListItem = styled(Typography)`
   &&.MuiTypography-root {
     font-size: smaller;
   }
+`;
+
+export const Button = styled.button`
+  ${accent.button}
+  width: 100px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+`;
+
+export const Item = styled(MenuItem)`
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
 `;

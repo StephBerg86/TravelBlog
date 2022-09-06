@@ -22,19 +22,13 @@ export default function NavBar() {
           alignItems: "center",
         }}
       >
-        {/* <S.Link to="/landen">
-          <S.NavText>Landen</S.NavText>
-        </S.Link>
-        <S.Link to="/route">
-          <S.NavText>Routes</S.NavText>
-        </S.Link>
-        <S.Link to="/stories">
-          <S.NavText>Verhalen</S.NavText>
-        </S.Link> */}
+        <Dropdown />
         <S.Link to="/videos">
           <S.NavText>Reisvideos</S.NavText>
         </S.Link>
-        <Dropdown />
+        <S.Link to="/overmij">
+          <S.NavText>Over mij</S.NavText>
+        </S.Link>
       </div>
     </S.Container>
   );

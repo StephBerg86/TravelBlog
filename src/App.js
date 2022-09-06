@@ -8,6 +8,7 @@ import StoryPage from "./Pages/Stories/index.js";
 import Videos from "./Pages/Reisvideos/index.js";
 import Footer from "./Components/Footer/index.js";
 import RoutePage from "./Pages/Route/index.js";
+import About from "./Pages/Overmij/About.js";
 
 export const AppContext = createContext();
 
@@ -38,6 +39,7 @@ function App() {
                     element={<StoryPage />}
                   ></Route>
                   <Route path="/videos" element={<Videos />}></Route>
+                  <Route path="/overmij" element={<About />}></Route>
                 </Routes>
               </S.ContentContainer>
               <Footer />
