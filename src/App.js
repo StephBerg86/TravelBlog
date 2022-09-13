@@ -9,6 +9,7 @@ import Videos from "./Pages/Reisvideos/index.js";
 import Footer from "./Components/Footer/index.js";
 import RoutePage from "./Pages/Route/index.js";
 import About from "./Pages/Overmij/About.js";
+import { data } from "./Components/DataReisverhalen/index.js";
 
 export const AppContext = createContext();
 
@@ -20,7 +21,27 @@ function App() {
   });
 
   const [selectedCountries, setSelectedCountries] = useState([]);
-  const appContext = { selectedCountries, setSelectedCountries };
+
+  let newDataArray = data.filter((ele) => {
+    if (selectedCountries.includes(ele.location)) {
+      return ele;
+    }
+    return null;
+  });
+
+  let nrOfCards = newDataArray.reduce((res, ele) => {
+    let num = ele.stories.reduce(
+      (r, e) => (e.category === "card" ? r + 1 : r),
+      0
+    );
+    return res + num;
+  }, 0);
+
+  const appContext = {
+    selectedCountries,
+    setSelectedCountries,
+    nrOfCards,
+  };
 
   return (
     <div className="App">

@@ -4,18 +4,52 @@ export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 1800px; // Aanpassen als er meer stories komen
   width: 100%;
+  max-width: 100%;
   align-content: center;
   gap: 24px;
+  overflow: hidden;
 
-  &.short {
+  &.a {
     max-height: 500px;
   }
-  &.medium {
+  &.b {
     max-height: 1000px;
   }
-  &.long {
-    max-height: 1400;
+  &.c {
+    max-height: 1400px;
+  }
+  &.d {
+    max-height: 1600px;
+  }
+  &.e {
+    max-height: 2000px;
+  }
+  &.f {
+    max-height: 2400px;
+  }
+  &.g {
+    max-height: 1400px;
+  }
+  &.h {
+    max-height: 1400px;
+  }
+  &.i {
+    max-height: 1400px;
+  }
+  &.j {
+    max-height: 1400px;
+  }
+  &.k {
+    max-height: 1400px;
+  }
+  &.l {
+    max-height: 1400px;
+  }
+  &.m {
+    max-height: 1400px;
+  }
+  &.verylong {
+    max-height: 2700px; // moet genoeg zijn om alle stories te showen
   }
 `;

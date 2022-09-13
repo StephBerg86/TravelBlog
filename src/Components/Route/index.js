@@ -582,35 +582,39 @@ export default function Route({ props }) {
         )}
       </div>
 
-      <Location style={{ marginTop: "36px" }}>
-        Belangrijke tips voor {props.location}
-      </Location>
-      <ul>
-        <li>
-          <ListItem>{props.important1}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important2}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important3}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important4}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important5}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important6}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important7}</ListItem>
-        </li>
-        <li>
-          <ListItem>{props.important8}</ListItem>
-        </li>
-      </ul>
+      {props.important1 && (
+        <>
+          <Location style={{ marginTop: "36px" }}>
+            Belangrijke tips voor {props.location}
+          </Location>
+          <ul>
+            <li>
+              <ListItem>{props.important1}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important2}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important3}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important4}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important5}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important6}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important7}</ListItem>
+            </li>
+            <li>
+              <ListItem>{props.important8}</ListItem>
+            </li>
+          </ul>
+        </>
+      )}
     </>
   );
 }

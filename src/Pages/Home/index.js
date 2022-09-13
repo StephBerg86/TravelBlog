@@ -8,30 +8,39 @@ import { AppContext } from "../../App";
 
 export default function Home() {
   const appContext = useContext(AppContext);
-  const { selectedCountries } = appContext;
-
-  let newDataArray = data.filter((ele) => {
-    if (selectedCountries.includes(ele.location)) {
-      return ele;
-    }
-    return null;
-  });
-
-  let nrOfCards = newDataArray.reduce((res, ele) => {
-    let num = ele.stories.reduce(
-      (r, e) => (e.category === "card" ? r + 1 : r),
-      0
-    );
-    return res + num;
-  }, 0);
+  const { selectedCountries, nrOfCards } = appContext;
 
   let class_name;
   if (nrOfCards < 4 && nrOfCards >= 1) {
-    class_name = "short";
+    class_name = "a";
   } else if (nrOfCards <= 6 && nrOfCards >= 4) {
-    class_name = "medium";
+    class_name = "b";
+  } else if (nrOfCards <= 9 && nrOfCards >= 6) {
+    class_name = "c";
+  } else if (nrOfCards <= 12 && nrOfCards >= 9) {
+    class_name = "d";
+  } else if (nrOfCards <= 15 && nrOfCards >= 12) {
+    class_name = "e";
+  } else if (nrOfCards <= 18 && nrOfCards >= 15) {
+    class_name = "f";
+  } else if (nrOfCards <= 24 && nrOfCards >= 21) {
+    class_name = "g";
+  } else if (nrOfCards <= 27 && nrOfCards >= 24) {
+    class_name = "h";
+  } else if (nrOfCards <= 30 && nrOfCards >= 27) {
+    class_name = "i";
+  } else if (nrOfCards <= 33 && nrOfCards >= 30) {
+    class_name = "j";
+  } else if (nrOfCards <= 37 && nrOfCards >= 33) {
+    class_name = "k";
+  } else if (nrOfCards <= 39 && nrOfCards >= 37) {
+    class_name = "l";
+  } else if (nrOfCards <= 42 && nrOfCards >= 39) {
+    class_name = "m";
+  } else if (selectedCountries === []) {
+    class_name = "verylong";
   } else {
-    class_name = "long";
+    class_name = "verylong";
   }
 
   return (
