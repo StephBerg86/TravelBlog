@@ -6,7 +6,8 @@ import Traveler from "../../Images/About/traveler.jpg";
 import Lissabon from "../../Images/About/lissabon.jpg";
 import Japan from "../../Images/About/japan.jpg";
 import IJsland from "../../Images/About/ijsland.jpg";
-// import LinkedinBadge from "./LinkedinBadge";
+import Linkedin from "../../Images/About/linkedin.png";
+import Github from "../../Images/About/github.png";
 
 export default function About() {
   return (
@@ -86,19 +87,47 @@ export default function About() {
         gebruiken bij mijn huidige rol als frontend developer.
         <br />
         <br />
-        Wil je meer weten over mijn werkervaring? <br />
         <div style={{ marginBottom: "16px" }}>
-          Neem dan een kijkje op mijn LinkedIn pagina <br />
+          Wil je meer weten over mijn werkervaring? Neem dan een kijkje op mijn
+          LinkedIn pagina, of kijk op mijn Github.
         </div>
         <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-          {/* <LinkedinBadge /> Dit fokt de styling op van navbar. Dus zelf even een badge maken. */}
+          <img
+            src={Linkedin}
+            alt="Developer"
+            style={{
+              width: "15%",
+              marginBottom: "16px",
+              maxWidth: "281px",
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              window.open(
+                "https://www.linkedin.com/in/stephanie-bergman/",
+                "_blank"
+              );
+            }}
+          />
           <img
             src={Developer}
             alt="Developer"
             style={{
-              width: "30%",
+              width: "15%",
               marginBottom: "16px",
               maxWidth: "281px",
+            }}
+          />
+          <img
+            src={Github}
+            alt="Developer"
+            style={{
+              width: "15%",
+              marginBottom: "16px",
+              maxWidth: "281px",
+              cursor: "pointer",
+            }}
+            onClick={() => {
+              window.open("https://github.com/StephBerg86", "_blank");
             }}
           />
         </div>
