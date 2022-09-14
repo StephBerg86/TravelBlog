@@ -29,6 +29,7 @@ export const GOTOPAGE = {
   MalaysiaRoute: "/route/maleisie",
   ThailandRoute: "/route/thailand",
   VietnamRoute: "/route/vietnam",
+  AustralieRoute: "/route/australie",
 };
 
 export const data = [
@@ -57,8 +58,56 @@ export const data = [
         id: 1,
         title: "Mijn route door Yucatan",
         location: "Mexico",
-        period: "datum",
-        introtext: "Nog even geduld, deze tekst volgt snel!",
+        period: "december 2019 - januari 2020",
+        introtext:
+          "Mijn reis naar Mexico was anders dan al mijn voorgaande reizen. Deze reis heb ik samen met een vriendin gemaakt en we vonden dat we onszelf wel een keer goed mochten trakteren. Daarom hebben we net wat luxere hotels en wat duurdere restaurants uitgekozen dan ik normaal (in mn eentje) zou doen. Dat maakte deze reis extra speciaal, maar ook als je weinig budget hebt is deze route door Yucatan echt een aanrader!",
+        dagTitel1: "Cancun",
+        text1:
+          "We begonnen onze reis in Cancun omdat de meeste vluchten naar Mexico hier nou eenmaal op aanvliegen. Dit was ook echt de enige reden. Wij vonden Cancun niet de moeite waard om lang te blijven dus na één nachtje hebben we dan ook de bus en de ferry gepakt om door te reizen naar Isla Holbox.",
+        // todo1:
+        // tip1:
+        slapen1:
+          "We sliepen in Hotel Mezcal. Toen ik dat net ging opzoeken bleek dat het hotel tegenwoordig Nomads Boutique Hotel & Hostel heet. Dit was en leuk hotelletje, vlak bij het busstation waar we de bus naar Isla Holbox konden nemen.",
+        link1: "",
+        dagTitel2: "Isla Holbox",
+        text2:
+          "Isla Holbox is een klein (toeristisch) paradijsje. Het eiland zit vol met leuke restaurants, bars en hotels. Daarnaast zie je overal streetart en hangt er een hele fijne sfeer. Als je ook van leuke eettentjes en een gezellige eilandsfeer houdt dan is Isla Holbox perfect voor jou. Je kan je er dan zeker een dag of drie goed vermaken. Wat ik wel een kleine afknapper vond was dat het strand bezaait lag met stinkend zeewier. Het schijn dat het in sommige maanden erger is dan in andere, maar dit is wel iets om rekening mee te houden als je je verheugd op een parelwit strand.",
+        todo2:
+          "Eigenlijk is dit iets wat je naar mijn mening juist niet moet doen; de 3 islands tour. Je gaat eerst naar bird island waar een heleboel, niet bijzondere, stinkende vogels bij elkaar op een klein eilandje zitten. Daarna ga je naar een cenote wat meer op een soort modderpoel lijkt met 100 andere toeristen. En als laatste ga je naar Isla Paraiso. Oke, ik geef toe, dit was best een leuk onderdeel van de tour. Onderweg naar dit eiland zagen we een groep dolfijnen en bij Isla Paraiso zelf zijn veel flamingo's te vinden. Het eiland zelf is een soort zandbank waar je wat rond kunt lopen. Als je tijd over hebt kun je je dus prima een dag vermaken met deze tour, maar het is niet het mooiste wat je gaat zien in Mexico. Je kan je hier prima een dag mee vermaken, en wij hebben dolfijnen gezien wat heel leuk was, maar verder is het niet bijzonder. ",
+        tip2: "Holbox zit vol met heerlijke eetplekjes. Hier komen mijn favorieten: Alma Bar (Rooftop en cocktailbar, erg instagramwaardig), Roots (Leuk tentje met live muziek. Probeer dan vooral de lobster pizza), Caracol (Je kunt hier de hele dag op strandbedjes liggen als je 350 peso pp besteedt en het eten is super lekker), El sushi de Holbox (Heerlijk en erg vers), Basico (Wel van tevoren reserveren want het is klein en vrij chique. De porties zijn wat kleiner en het eten wat duurder maar het is het zeker waard), Painapol (Perfect voor ontbijt en lunch).",
+        slapen2:
+          "Er zijn tal van goeie hotels en hostels te vinden op Holbox, maar wij verbleven toch wel in een waar paradijsje; El Pueblito. Je kunt op deze tekst klikken om het hotel te bekijken. De foto's spreken voor zich.",
+        link2:
+          "https://www.booking.com/hotel/mx/el-pueblito.nl.html?auth_success=1",
+        dagTitel3: "Tulum",
+        text3:
+          "Tulum, wie kent het niet? Als iemand vertelt dat hij in Mexico is geweest, kun je er zeker van zijn dat hij in ieder geval Tulum heeft bezocht. Tulum is hardstikke hot en dat zie je ook aan het aantal toeristen. Gelukkig is Tulum ook vrij groot. Groter in iedergeval dan dat ik me op voorhand had voorgesteld. Tulum heeft eigenlijk twee delen; Tulum Pueblo en Tulum Beach. Beide zijn absoluut de moeite waard maar let hierop bij het boeken van je accomodatie. Tulum Pueblo is het dorpje waar veel winkels en restaurants zitten. Hier heb je een gezellige boulevard waar 's avonds van alles te doen is. Tulum Beach is een enorme lange strook langs de kust. Je hebt een prachtig strand met aan een stuk door strandtenten en beachclubs. Achter de strandtenten zijn aan de weg vaak ook nog wat winkeltjes. Net buiten Tulum kun je ook nog de Tulum ruines bezoeken en tal van cenotes. Kortom je kunt je alleen in Tulum makkelijk een hele vakantie vermaken.",
+        tip3: "Ik krijg wel eens de vraag naar welke strandtent je absoluut moet gaan in Tulum. Omdat Tulum zo groot is en ook zo veel prachtige strandtenten heeft vind ik dit lastig te zeggen. Daarnaast was ik met Oud & Nieuw in Tulum, wat alles ook anders maakt. Strandtenten waar wij zijn geweest en die we ook zeker de moeite waard vonden zijn: Alma, Mezzanine, Ahau en Mia.",
+        todo3:
+          "Huur een fiets! Je bent niet voor niets een Nederlander. Bovendien kun je niet even door Tulum heen wandelen vanwege de afstanden. Een auto is ook een optie maar er staan vaak dikke files langs het strand omdat iedereen een parkeerplekje zoekt. Bovendien zijn de meeste cenotes en de tulum ruines ook op fiets afstand. Cenotes die je zeker (op de fiets) moet bezoeken zijn: Zacil-ha, Carwash, Gran Cenote & Calvera. Het beste kun je 's ochtends zo vroeg mogelijk gaan om de drukte te vermijden.",
+        slapen3:
+          "Wij sliepen in hotel Zendero. Een top hotel met een fantastisch ontbijt. Het hotel was net geopend toen wij er waren en is zeker een aanrader om te verblijven, maar het hotel staat wel in Tulum Pueblo. De prijzen van de accomodaties in Tulum Beach zijn vaak net iets hoger, maar ik denk wel dat het leuker is om daar een hotel te boeken. Dus als je de kans hebt kies dan voor een slaapplek bij het strand.",
+        link3:
+          "https://www.booking.com/hotel/mx/zendero-tulum.nl.html?aid=318615&label=New_Dutch_NL_NL_21456919225-h80T2porWQu2AcvphCQ7XAS84729679105%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=42b3a27b4ae2f7713172914e7a062a11&dest_id=-1707023&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1663176416&srpvid=a1997aaf2fdb00f5&type=total&ucfs=1&activeTab=main",
+        dagTitel4: "Bacalar",
+        text4:
+          "The blue lagoon oftwel; Bacalar. De paradijselijke foto's in magazines over Mexico zijn vaak gemaakt in Bacalar. Dit komt omdat het meer, Laguna Bacalar, door de verschillende dieptes 7 verschillende kleuren blauw heeft. Alles in Bacalar draait dan ook om activiteiten op het water.",
+        todo4:
+          "Je kunt op het meer suppen of kayakken, maar wij kozen ervoor om te gaan zeilen. Dit wordt door veel reisorganisaties aangeboden en duurt meestal een halve dag. Ik vond zeilen wel echt de beste manier om de laguna goed te bekijken. Als je een dagje wilt chillen dan kun je naar Los Cocalitos. Dit is een grasveldje waar ze hangmatten in het water hebben gehangen en waar je kunt zwemmen. Dit is helaas geen verborgen pareltje meer dus ga vroeg als je het massatoerisme wil ontwijken. Een andere leuke activiteit is snorkelen bij Los Rapidos. Dit is een stroomversnelling waar je lekker met de stroming mee kunt drijven en aan het einde kun je weer terug lopen. Er is hier ook een restaurant en er zijn fijne plekjes met hangmatten waar je kunt kijken naar de voorbijstromende mensen.",
+        tip4: "Wij hebben ook in Bacalar weer heerlijk gegeten, en wel op de volgende plekken: Bote de Leche (Neem Pan de Ajo als voorgerecht), El Manati (voor ontbijt en lunch), Yerbabuena Smoothie bar (voor ontbijt), Meztitoz (beste guacamole die ik in Mexico heb gegeten).",
+        dagTitel5: "Valladolid",
+        text5:
+          "Valladolid, is een goede uitvalsbasis om zowel cultuur te snuiven of de natuur in te gaan. Zo zijn wij vanuit hier naar Izamal, cenote Suytun en Chitzen Itza geweest. Izamal is een mooie, gele stad. Leuk om doorheen te wandelen en winkeltjes te bekijken. Bij cenote Suytun hadden wij de mazzel dat het super rustig was en dat we de hele cenote bijna voor onszelf hadden. Het is een prachtige grot met een plateau in het midden. Bij ons kon je op het plateau staan maar ik heb ook foto's gezien dat het plateau helemaal onder water staat.",
+        todo5:
+          "Chitzen Itza. De bekendste trekpleister van Yucatan. Vanwege het grote aantal toeristen wat hier dagelijks komt was ik een beetje sceptisch of ik hier wel heel wilde gaan. Het was de bedoeling om hier op tijd heen te gaan maar we waren er uiteindelijk veel later dan gepland. Het park is van 8:00 tot 16:00 uur open en het zag er naar uit dat we daar te laat voor zouden zijn. Wat ze op de meeste sites niet vermelden is dat er nog een tweede kans is om naar binnen te gaan en wel van 17:00 tot 18:00. Dit is natuurlijk veel korter en daarom is de prijs ook lager. In deze korte tijd heb je geen tijd om alle ruines te bekijken maar je kunt toch best veel zien. Zelfs met een vriendin die kreupel liep hebben we nog een aardig groot deel van het park kunnen zien. En het mooiste is dat er maar een handjevol mensen binnen is en dat de zon op dat moment langzaam onder gaat. Dat betekent dat je de ruines ziet met een prachtige oranje / roze gloed op de achtergrond.",
+        slapen5:
+          "Le Muuch, echt weer een plaatje van een hotel midden in Valladolid.",
+        link5: "",
+        dagTitel6: "Playa del Carmen",
+        text6:
+          "Toeristischer dan dit wordt het niet. Persoonlijk vind ik dit soort plekken vreselijk maar omdat we met onze huurauto wel iets dichter in de buurt van de luchthaven wilde zijn hebben we toch de keuze gemaakt om hier nog een nachtje te slapen. En ik moet zeggen; voor een dagje is dit helemaal leuk. Je kijkt je ogen uit.",
+        todo6:
+          "Omdat we in Playa del Carmen niet heel veel wilden bezoeken en omdat we onszelf nog even wilden verwennen voor dat we weer naar het koude Nederland terug vlogen (nee, we waren nog niet genoeg verwend op deze reis), boekten we een all inclusive hotel. En wat voor één. The reef 28. Super de luxe, niks te klagen, heerlijk gegeten.",
       },
     ],
   },
@@ -86,15 +135,17 @@ export const data = [
         id: 1,
         title: "Wijn, wildlife en woestijn",
         location: "Namibie",
-        period: "Eind september t/m begin oktober",
+        period: "Eind september t/m begin oktober 2021",
         introtext:
           "In een 4x4 met een tent op het dak, zijn wij van Kaapstad naar Windhoek gereden. Wij bleven één week in Zuid Afrika en twee in Namibië. In twee weken kun je alle highlights van Namibië zien maar je brengt wel veel tijd in de auto door. Als je wat meer tijd hebt raden we aan om 3 weken voor deze route door Namibië te nemen. Hieronder kun je lezen hoe wij in twee weken van Noordoewer naar Windhoek zijn gereden. (Klik op de text bij 'slapen' om naar de site van de campsites te gaan)",
+        dagTitel1: "Dag 1",
         text1:
           "Als je net als wij via Zuid Afrika naar Namibië reist zorg dan dat je op tijd bij de grensovergang bent. Wij waren rond 15:00 uur bij de grens maar alles duurde zo lang dat we pas 18:15 uur Namibië in konden rijden. Stipt om 18:00 uur ging het licht uit dus dat betekent dat je door het pikkedonker (want geen straatverlichting) jouw slaapplek moet zien te vinden.",
         slapen1:
           "Wij sliepen in Noordoewer, dit is de plaats waar je direct na de grensovergang aankomt. Na een kwartiertje rijden kom je dan aan bij Amanzi Trails River Adventures. Dit is een mooie camping aan een rivier waar ook genoeg activiteiten te doen zijn.",
         link1: "https://www.amanzitrails.co.za/amanzi-river-camp/",
         tip1: "Direct na de grensovergang zit een groot tankstation. Zorg dat je hier je auto direct vol gooit en geld pint. In (zuid) Namibië zijn tankstations en pinautomaten namelijk schaars en je wil niet (net zoals wij) zonder cash en benzine komen te staan.",
+        dagTitel2: "Dag 2",
         text2:
           "Op deze dag reden we van Noordoewer naar Ai-Ais (richting Hobas). Voor ons was dit echt een pech dag want onze benzine raakte op en we hebben het op het nippertje gehaald tot Hobas. Hier zou een tankstation zijn volgens Google maps maar die bleek leeg te zijn. We hebben toen in Hobas bij onze campsite gewacht tot iemand 80km heen en weer had gereden naar het eerstvolgende tankstation.",
         todo2:
@@ -102,6 +153,7 @@ export const data = [
         slapen2:
           "Wij sliepen in Hobas op de Ai-Ais Hotsprings Spa Campsite. Dit is een hele mooie campsite met zwembad. Goede alternatieven zijn Hobas Campsite en Canyon Roadhouse (Hier hebben ze een pinautomaat en tankstation! Pinautomaat was wel leeg toen wij daar aankwamen)",
         link2: "http://www.nwrnamibia.com/ai-ais.htm",
+        dagTitel3: "Dag 3",
         text3:
           "In de ochtend zijn we naar Fish River Canyon gereden. Dit was 50 minuten rijden vanuit Hobas. Daarna zijn we nog 3,5 uur doorgereden naar Klein-aus-vista",
         todo3:
@@ -111,51 +163,59 @@ export const data = [
         link3:
           "https://www.klein-aus-vista.com/accommodation/desert-horse-campsite/",
         tip3: "Vanaf de camping is er één rechte weg richting Kolmanskop. Aan het begin van deze weg is er aan de rechterkant een pad richting een waterhole. Deze staat ontzettend slecht aangegeven dus je moet goed opletten. Wij zagen geen paarden bij deze waterhole maar er zijn meestal wel wat struisvogels, herten en andere beestjes te vinden. Het schijnt dat je heel vroeg 's ochtends of juist laat in de middag de meeste kans hebt om de paarden te zien.",
+        dagTitel4: "Dag 4",
         text4:
           "Vroeger was Kolmanskop één van de rijkste dorpen van Afrika vanwege de diamanthandel. Toen er geen diamant meer te vinden was hebben alle bewoners het dorp verlaten. Sommigen hebben letterlijk alleen hun kleren ingepakt en zijn weggegaan. Je kunt nu ronddwalen in dit volledig verlaten dorp en ook de huizen van binnen bekijken. Omdat er in de omgeving vrijwel niets anders is dan zand, zijn de huizen in de loop der jaren steeds meer onder het zand komen te liggen. Dit geeft een surreel beeld en is fantastisch om te zien. Wij kwam al vroeg aan in Kolmanskop en daarom was er verder ook helemaal niemand. Dit maakte het extra speciaal. En omdat we nog 5 uur moesten rijden naar Sesriem was het ook nodig om vroeg te gaan.",
         slapen4:
           "Omdat we de volgende ochtend meteen met zonsopkomst Sossusvlei wilden bezoeken, hebben we gekozen voor een camping naast de ingang; Sossus Oasis Campsite. Dit was een mooie campsite met zwembad en je had je eigen toilet/badkamer/keuken gebouwtje. Daarnaast hebben ze ook een eigen tankstation, wat super handig is!",
         link4: "https://www.sossus-oasis.com/",
         tip4: "Bij een benzinestation kun je je bandenspanning laten verlagen (naar 1.6). Dit wordt overal aangeraden maar is niet nodig als je alleen op de normale weg rijdt. Aan het einde van de normale weg heb je de keuze om voor weinig geld met een jeep mee te rijden die je naar de verschillende duinen rijdt, of om zelf te gaan rijden. Als je zelf gaat rijden heb je inderdaad de lage bandenspanning nodig maar dit raden wij je niet aan. We zagen een aantal mensen die vast waren komen te zitten in het zand. Dit betekent dan ook letterlijk dat je daar vast zit want de auto kan er pas de volgende ochtend uit gesleept worden omdat het zand vanwege de warmte te zacht wordt in de middag. Ik zou het risico niet nemen want het is super makkelijk (en leuk) om één van de jeepjes te pakken die constant heen en weer rijden.",
+        dagTitel5: "Dag 5",
         text5:
           "De dag van de Sossusvlei. Iets wat je absoluut niet mag overslaan als je naar Namibië gaat. Voor zonsopkomst rijdt je naar de poort, waar je naar binnen gelaten wordt zodra de eerste zonnestraal tevoorschijn komt. Je rijdt over een lange rechte weg met aan beide kanten prachtige rode zandduinen, in het oranje licht van de opkomende zon. Je kunt ervoor kiezen om zonsopkomst te bekijken bij Dune 45. Dit is een duin die je ziet na 45km op deze lange weg, vandaar ook de naam. Wij hebben ervoor gekozen om helemaal door te rijden tot het einde van de weg. Onze auto lieten we hier achter op de parkeerplaats en met een jeep gingen we verder naar Dodevlei. De zonsopkomst hier was magisch. Je kunt hier de verschillende duinen op klimmen of gewoon rondlopen over de uitgedroogde zoutpan van de Dodevlei. De oranje duinen met daarvoor het witte zout en de grijze dode bomen zijn super fotogeniek. Met de jeep zijn we nog naar Big Mamma en Hidden Vlei geweest.",
         slapen5:
           "Tussen Sesriem en Swakopmund in ligt camping: Bushman's Desert Camp. Het ligt een beetje verscholen. Zorg dat je niet net als wij vol gas gaat over het zandweggetje. De weg houdt namelijk ineens op en dan rij je een soort ravijn in waar de camping ligt. Wij waren bijna bovenop de camping gevlogen met onze auto. Wat leuk is, is dat ze ook een eigen waterhole hebben waar je 's avonds dieren kunt spotten.",
         link5: "https://bushmans-desert-camp-self-catering.business.site/",
         tip5: "Wij dachten dat we een hele dag zouden spenderen in de Sossusvlei maar na een halve dag hadden we het wel gezien. Voornamelijk omdat het op een gegeven moment echt te heet wordt om door het zand heen te banjeren. Neem dan ook voldoende water mee. En mocht je wel in de middag nog rond willen lopen door de duinen, doe dan dichte schoenen aan en ga niet net als wij op slippers. Als je voor de echte hitte weg gaat kun je trouwens prima op slippers lopen.",
-
+        dagTitel6: "Dag 6",
         text6:
           "Vandaag staat weer een autorit van ruim 4 uur op het programma. We zijn vanuit onze campging doorgereden naar Walvisbaai en Swakopmund. Hier hebben we rondgelopen en geluncht. Omdat het toen wij er waren erg koud was (en wij hier neit op gekleed waren) zijn we uiteindelijk doorgereden naar Cape Cross Bay om hier te overnachten. Naast deze campsite zit een rescue center voor zeehondjes dus je ziet hier op het strand aardig wat van deze beestjes.",
         slapen6:
           "Een van de laatste campsites voordat je aankomt bij de Skeleton Coast is Cape Cross Campsite. Hier hebben wij geslapen omdat we de volgende dag graag via de Skeleton Coast wilden rijden.",
         link6: "https://www.capecross.org/Campsite.htm",
+        dagTitel7: "Dag 7",
         text7:
           "Het schijnt aan de kust en dan voornamelijk het stuk bij de Skeleton Coast, elke morgen grijs en bewolkt te zijn. Dit past ook super goed bij het spookachtige sfeertje wat er hier hangt. Het heet natuurlijk niet voor niks 'Skeleton Coast'. Nadat je door een hek met allemaal doodshoofden bent gereden, rij je officieel langs de Skeleton Coast. Langs deze route zijn een paar afslagen waar je shipwrecks kunt bekijken. Wij zijn ook bij de huab lagoon van de weg af gegaan om flamingo's te bekijken. Toen ik wilde uitstappen om van dichterbij een foto van de flamingo's te maken zag ik net op tijd het bord: 'Blijf in je auto! Er loopt hier een leeuw!'. De leeuw hebben we hier helaas niet gezien. We waren erg blij dat zodra we weer landinwaards reden, weg van de Skeleton Coast, de zon meteen weer begon te schijnen.",
         slapen7:
           "We sliepen op een plek waarvan we dachten dat het handig was voor de route richting Etosha, maar het bleek ook nog één van de mooiste campsite te zijn van onze reis; Madisa Camp. Er is een zwembad en je hebt een privé badkamer / toilet / keuken in de buitenlucht. Ook is er een grote rots waar je op kan klimmen voor de zonsopgang. Als je mazzel hebt kun je vanaf hier ook olifanten spotten.",
         link7: "http://www.madisacamp.com/",
+        dagTitel8: "Dag 8",
         text8:
           "Vergis je niet in de afstanden in Namibië. Ook vandaag zaten we weer 5 uur in de auto. Toch is het geen straf om hier te rijden. Oke, de wegen zijn niet altijd een pretje maar het landschap is prachtig! Hoe dichter je bij Etosha in de buurt komt, hoe meer wilde beesten je kunt spotten. Maar soms zie je ook urenlang alleen maar zandvlaktes. Als je een tegenligger tegenkomt dan zwaai je naar elkaar want dit gebeurd namelijk niet zo vaak.",
         slapen8:
           "Om op tijd in Etosha te kunnen zijn en daar drie volle dagen te kunnen besteden slapen we deze nacht in Etosha Safari Camp, net voor de ingang van Etosha. Dit was weer een prachtige campsite, van alle gemakken voorzien. Deze camping vonden wij extra bijzonder door wat er 's nachts gebeurde. Mijn vriend moest naar de wc en klom de tent uit. Ineens hoorde we allemaal hoeven wegrennen. Ik ritste de tent open en onze auto was omringt door zebra's en verschillende soorten hertjes. Even later zagen we ook een giraf langslopen. Zo bizar dat deze gewoon om je tent heen lopen. Wel een fijn idee dat je dan hoog bovenop de auto slaapt.",
         link8:
           "https://gondwana-collection.com/lodgedetail?LodgeName=ETOSHA%20SAFARI%20CAMP",
+        dagTitel9: "Dag 9",
         text9:
           "Ook vandaag staan we weer voor zonsopkomst op, om met zonsopgang het park binnen te kunnen rijden. Het is ook mogelijk om georganiseerde tours te doen met een gids, maar wij vonden het veel leuker om zelf te rijden. Ook is het niet heel moeilijk om de beesten te spotten. Alleen de katachtigen zijn soms wat lastiger. Maar vaak als er een grote groep auto's ergens stilstaat dan weet je genoeg. Je rijdt eigenlijk van de ene waterhole naar de andere. Bij deze waterholes is het, zeker in de droge periode waarin wij er waren, super druk met allerlei beesten.",
         slapen9:
           "De eerste nacht in Etosha sliepen we in Okaukuejo. Dit is een vrij simpele camping maar de ligging is perfect voor de eerste nacht. Ook is er een grote waterhole waar je super veel dieren kunt spotten.",
         link9: "https://www.etoshanationalpark.org/accommodation/okaukuejo",
         tip9: "Je mag alleen tussen zonsopkomst en zonsondergang in het park rijden en hier zijn ze heel streng in. Als je met zonsondergang de campsite oprijdt, ga dan direkt naar de waterhole. Dit is het moment waarop veel dieren naar de waterhole komen omdat het minder heet is. En al deze dieren bij elkaar met de ondergaande zon op de achtergrond is prachtig om te zien!",
+        dagTitel10: "Dag 10",
         text10:
           "Ook vandaag hebben we weer een hele dag rondgereden in Etosha. Het park is heel groot dus je moet er ook wel minstens twee dagen voor uittrekken. En het verveelt nooit. Als je even denkt dat je geen wildlife meer tegen gaat komen dan ligt er ineens een groep leeuwen op de weg. Het is niet te voorspellen en elke dag is anders. Maar dat je bijzondere dingen gaat zien, dat staat vast.",
         slapen10:
           "Tamboti Campsite hadden we gekozen omdat het helemaal aan de andere kant van Etosha ligt ten opzichte van Okaukuejo. Alleen dachten we dat de camping ook in Etosha lag maar dit bleek niet het geval. Dit maakt echter niet heel veel uit want de camping ligt letterlijk meteen na de uitgang van Etosha. De campsite is super mooi. Eigenlijk is het bijna zonde dat we hier alleen tijd hebben doorgebracht tussen zonsondergang en voor zonsopkomst.",
         link10: "https://onguma.com/tamboti-luxury-campsite/",
+        dagTitel11: "Dag 11",
         text11:
           "Ondanks dat het op sommige websites wel vertelt wordt kun je de big five niet zien in Etosha. Dit komt omdat de buffel niet in Etosha leeft. (Deze kun je wel b.v. bij Waterbergplateau tegenkomen.) Maar ook zonder de buffel was Etosha een van de mooiste ervaringen uit mijn leven. Dit zijn een aantal van de beesten die wij gezien hebben tijdens onze ritjes door het park: olifanten, zebra's, giraffen, neushoorns, leeuwen, hyena's, jackhalzen, luipaarden en ontelbare vogels en verschillende soorten herten.",
         slapen11:
           "We sliepen in Sachsenheim Guest Farm. Dit is een campsite vlakbij Tambobi. We wilden onze laatste dag in Etosha nog wel goed kunnen benutten dus we wilden niet te ver rijden. Het leuke aan deze campsite is dat het ook een soort boerderij is. Dan slaap je ineens tussen de koeien ipv tussen ze zebra's.",
         link11: "https://sachsenheim-guest-farm.business.site/",
+        dagTitel12: "Dag 12",
         text12:
           "Vandaag rijden we naar Waterberg plateau (4 uur). Ook deze route is prachtig, en wat opvalt is dat dit deel van Namibië een stuk groener is. Wij hebben maar één dag voor Waterberg maar anders zou dit een mooie omgeving zijn voor een langere hike.",
         todo12:
@@ -164,88 +224,77 @@ export const data = [
           "We slapen op Waterberg Plateau Campsite. Deze campsite ligt in het nationaal park.",
         link12:
           "https://www.waterberg-wilderness.com/waterberg-plateau-campsite.html",
+        dagTitel13: "Dag 13",
         text13:
           "Onze laatste bestemming is Windhoek, de hoofdstad van Namibië. Het is weer eens wat anders om weer in een grote stad te zijn, na zo lang weinig mensen te zijn tegengekomen. Er is van alles te doen in Windhoek en er is voor het eerst keuze uit restaurants. Windhoek is een stad waar je prima één of twee dagen kunt verblijven omdat je reis hier vaak begint of eindigd. Maar je komt naar namibië voor de natuur en daar is in Windhoek vrijwel niets van te zien.",
         slapen13:
           "Omdat we de volgende dag terug naar Nederland vliegen en omdat we in de ochtend eerst nog onze 4x4 moeten inleveren slapen we op een campsite net buiten Windhoek, in de buurt van de luchthaven: Ondekaremba. Dit is een mooie campsite waar je prima langere tijd kunt verblijven als je wat meer dagen in Windhoek wilt blijven.",
         link13: "https://www.ondekaremba.com/",
+        dagTitel14: "Dag 14",
         text14:
           "Helaas is dit alweer de laatste dag van een fantastische reis. Namibië is geen land waar je zomaar even last-minute naar toe gaat. Het is belangijk om je van te voren wel even te verdiepen in het land. Maar wat een onvergetelijke reis is dit geworden. Bekijk onze tips voor Namnibië hieronder en dan kan ik iedereen aanraden om er een keer heen te gaan!",
-        image1: namibiaImages[0],
-        alt1: "Sossusvlei",
-        image2: namibiaImages[1],
-        alt2: "view from tent",
-        image3: namibiaImages[2],
-        alt3: "Bushman's Desert Camp",
 
-        image4: namibiaImages[3],
-        alt4: "Pool at Ai-Ais campsite",
-        image5: namibiaImages[4],
-        alt5: "Fish River Canyon",
-        image6:
+        image11: namibiaImages[0],
+        alt11: "Sossusvlei",
+        image12: namibiaImages[1],
+        alt12: "view from tent",
+        image13: namibiaImages[2],
+        alt13: "Bushman's Desert Camp",
+
+        image31: namibiaImages[3],
+        alt31: "Pool at Ai-Ais campsite",
+        image32: namibiaImages[4],
+        alt32: "Fish River Canyon",
+        image33:
           "https://images.unsplash.com/photo-1579990555377-c0abf314dcdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1481&q=80",
-        alt6: "Fish River Canyon",
+        alt33: "Fish River Canyon",
 
-        image7: namibiaImages[5],
-        alt7: "Kolmanskop",
-        image8:
+        image41: namibiaImages[5],
+        alt41: "Kolmanskop",
+        image42:
           "https://images.unsplash.com/photo-1516822671976-480ad5131e92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        alt8: "Kolmanskop",
-        image9:
+        alt42: "Kolmanskop",
+        image43:
           "https://images.unsplash.com/photo-1588453610237-cfe7f3abfc17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80",
-        alt9: "Kolmanskop",
+        alt43: "Kolmanskop",
 
-        image10: namibiaImages[6],
-        alt10: "Sossusvlei",
-        image11:
+        image51: namibiaImages[6],
+        alt51: "Sossusvlei",
+        image52:
           "https://media-cdn.tripadvisor.com/media/photo-s/16/fa/05/2b/sossusvlei.jpg",
-        alt11: "Dodevlei",
-        image12: namibiaImages[7],
-        alt12: "Sossusvlei",
+        alt52: "Dodevlei",
+        image53: namibiaImages[7],
+        alt53: "Sossusvlei",
 
-        image13:
+        image71:
           "https://images.unsplash.com/photo-1592161443742-5dc4651dce11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-        alt13: "Swakopmund",
-        image14:
+        alt71: "Swakopmund",
+        image72:
           "https://live.staticflickr.com/2947/15256164828_61a58911aa_c.jpg",
-        alt14: "Skeleton Coast",
-        image15: namibiaImages[8],
-        alt15: "Madisa Camp sunset",
+        alt72: "Skeleton Coast",
+        image73: namibiaImages[8],
+        alt73: "Madisa Camp sunset",
 
-        image16: namibiaImages[9],
-        alt16: "giraf",
-        image17: namibiaImages[10],
-        alt17: "Sunset Okaukuejo",
-        image18: namibiaImages[11],
-        alt18: "Leeuwin etosha",
+        image91: namibiaImages[9],
+        alt91: "giraf",
+        image92: namibiaImages[10],
+        alt92: "Sunset Okaukuejo",
+        image93: namibiaImages[11],
+        alt93: "Leeuwin etosha",
 
-        image19: namibiaImages[12],
-        alt19: "Leeuwen Etosha",
-        image20: namibiaImages[13],
-        alt20: "Neushoorn en Springbokken Etosha",
-        image21: namibiaImages[14],
-        alt21: "Waterhole Etosha",
+        image111: namibiaImages[12],
+        alt111: "Leeuwen Etosha",
+        image112: namibiaImages[13],
+        alt112: "Neushoorn en Springbokken Etosha",
+        image113: namibiaImages[14],
+        alt113: "Waterhole Etosha",
 
-        image22: namibiaImages[15],
-        alt22: "Zebra's Etosha",
-        image23: namibiaImages[16],
-        alt23: "Jakhals",
-        image24: namibiaImages[17],
-        alt24: "Luipaard etosha",
-
-        image25: namibiaImages[18],
-        alt25: "Sossusvlei",
-        image26: namibiaImages[19],
-        alt26: "view from tent",
-        image27: namibiaImages[20],
-        alt27: "",
-
-        image28: "",
-        alt28: "",
-        image29: "",
-        alt29: "",
-        image30: "",
-        alt30: "",
+        image131: namibiaImages[15],
+        alt131: "Zebra's Etosha",
+        image132: namibiaImages[16],
+        alt132: "Jakhals",
+        image133: namibiaImages[17],
+        alt133: "Luipaard etosha",
 
         important1:
           "Zodra je een ATM ziet: pinnen! Pinautomaten zijn schaars en het komt ook vaak voor dat er geen geld meer in zit",
@@ -861,17 +910,34 @@ export const data = [
   //   alt: "Flag Brazilië",
   //   stories: [],
   // },
-  // {
-  //   id: "australia",
-  //   location: "Australie",
-  //   continent: "Oceanie",
-  //   title: "Australië",
-  //   text: "Intro about Australië",
-  //   image:
-  //     "https://www.sport-histoire.fr/Sources/Drapeaux/Oceanie/Australie.png",
-  //   alt: "Flag Australië",
-  //   stories: [],
-  // },
+  {
+    id: "australia",
+    location: "Australie",
+    continent: "Oceanie",
+    title: "Australië",
+    text: "Intro about Australië",
+    image:
+      "https://www.sport-histoire.fr/Sources/Drapeaux/Oceanie/Australie.png",
+    alt: "Flag Australië",
+    stories: [
+      {
+        category: "card",
+        title: "De oostkust van Australie",
+        location: "Australie",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaOSY5Y13US6Xqig0_M9dw-ZIHW5U6f6hyRg&usqp=CAU",
+        alt: "Great Ocean Road",
+        onClick: GOTOPAGE.AustralieRoute,
+      },
+      {
+        category: "route",
+        title: "De oostkust van Australie",
+        location: "Australie",
+        introtext: "Nog even geduld, deze tekst volgt snel!",
+      },
+    ],
+  },
 ];
 
 /* <ul>
