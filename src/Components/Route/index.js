@@ -30,7 +30,7 @@ export default function Route({ props }) {
       </div>
       <Location style={{ marginBottom: "16px" }}>{props.location}</Location>
       <Text>{props.introtext}</Text>
-      {props.text1 && <SubTitle>Dag 1</SubTitle>}
+      {props.text1 && <SubTitle>{props.dagTitel1}</SubTitle>}
       {props.text1 && <Text>{props.text1}</Text>}
       {props.todo1 && (
         <S.routeTips>
@@ -53,30 +53,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image1 && (
+        {props.image11 && (
           <img
-            src={props.image1}
-            alt={props.alt1}
+            src={props.image11}
+            alt={props.alt11}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image2 && (
+        {props.image12 && (
           <img
-            src={props.image2}
-            alt={props.alt2}
+            src={props.image12}
+            alt={props.alt12}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image3 && (
+        {props.image13 && (
           <img
-            src={props.image3}
+            src={props.image13}
             alt={props.alt3}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text2 && <SubTitle>Dag 2</SubTitle>}
+      {props.text2 && <SubTitle>{props.dagTitel2}</SubTitle>}
       {props.text2 && <Text>{props.text2}</Text>}
       {props.todo2 && (
         <S.routeTips>
@@ -99,7 +99,31 @@ export default function Route({ props }) {
         </S.Links>
       )}
 
-      {props.text3 && <SubTitle>Dag 3</SubTitle>}
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        {props.image21 && (
+          <img
+            src={props.image21}
+            alt={props.alt21}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image22 && (
+          <img
+            src={props.image22}
+            alt={props.alt22}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image23 && (
+          <img
+            src={props.image23}
+            alt={props.alt23}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+      </div>
+
+      {props.text3 && <SubTitle>{props.dagTitel3}</SubTitle>}
       {props.text3 && <Text>{props.text3}</Text>}
       {props.todo3 && (
         <S.routeTips>
@@ -122,30 +146,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image4 && (
+        {props.image31 && (
           <img
-            src={props.image4}
-            alt={props.alt4}
+            src={props.image31}
+            alt={props.alt31}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image5 && (
+        {props.image32 && (
           <img
-            src={props.image5}
-            alt={props.alt5}
+            src={props.image32}
+            alt={props.alt32}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image6 && (
+        {props.image33 && (
           <img
-            src={props.image6}
-            alt={props.alt6}
+            src={props.image33}
+            alt={props.alt33}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text4 && <SubTitle>Dag 4</SubTitle>}
+      {props.text4 && <SubTitle>{props.dagTitel4}</SubTitle>}
       {props.text4 && <Text>{props.text4}</Text>}
       {props.todo4 && (
         <S.routeTips>
@@ -168,30 +192,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image7 && (
+        {props.image41 && (
           <img
-            src={props.image7}
-            alt={props.alt7}
+            src={props.image41}
+            alt={props.alt41}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image8 && (
+        {props.image42 && (
           <img
-            src={props.image8}
-            alt={props.alt8}
+            src={props.image42}
+            alt={props.alt42}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image9 && (
+        {props.image43 && (
           <img
-            src={props.image9}
-            alt={props.alt9}
+            src={props.image43}
+            alt={props.alt43}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text5 && <SubTitle>Dag 5</SubTitle>}
+      {props.text5 && <SubTitle>{props.dagTitel5}</SubTitle>}
       {props.text5 && <Text>{props.text5}</Text>}
       {props.todo5 && (
         <S.routeTips>
@@ -214,30 +238,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image10 && (
+        {props.image51 && (
           <img
-            src={props.image10}
-            alt={props.alt10}
+            src={props.image51}
+            alt={props.alt51}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image11 && (
+        {props.image52 && (
           <img
-            src={props.image11}
-            alt={props.alt11}
+            src={props.image52}
+            alt={props.alt52}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image12 && (
+        {props.image53 && (
           <img
-            src={props.image12}
-            alt={props.alt12}
+            src={props.image53}
+            alt={props.alt53}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text6 && <SubTitle>Dag 6</SubTitle>}
+      {props.text6 && <SubTitle>{props.dagTitel6}</SubTitle>}
       {props.text6 && <Text>{props.text6}</Text>}
       {props.todo6 && (
         <S.routeTips>
@@ -260,7 +284,31 @@ export default function Route({ props }) {
         </S.Links>
       )}
 
-      {props.text7 && <SubTitle>Dag 7</SubTitle>}
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        {props.image61 && (
+          <img
+            src={props.image61}
+            alt={props.alt61}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image62 && (
+          <img
+            src={props.image62}
+            alt={props.alt62}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image63 && (
+          <img
+            src={props.image63}
+            alt={props.alt63}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+      </div>
+
+      {props.text7 && <SubTitle>{props.dagTitel7}</SubTitle>}
       {props.text7 && <Text>{props.text7}</Text>}
       {props.todo7 && (
         <S.routeTips>
@@ -283,30 +331,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image13 && (
+        {props.image71 && (
           <img
-            src={props.image13}
-            alt={props.alt13}
+            src={props.image71}
+            alt={props.alt71}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image14 && (
+        {props.image72 && (
           <img
-            src={props.image14}
-            alt={props.alt14}
+            src={props.image72}
+            alt={props.alt72}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image15 && (
+        {props.image73 && (
           <img
-            src={props.image15}
-            alt={props.alt15}
+            src={props.image73}
+            alt={props.alt73}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text8 && <SubTitle>Dag 8</SubTitle>}
+      {props.text8 && <SubTitle>{props.dagTitel8}</SubTitle>}
       {props.text8 && <Text>{props.text8}</Text>}
       {props.todo8 && (
         <S.routeTips>
@@ -329,7 +377,31 @@ export default function Route({ props }) {
         </S.Links>
       )}
 
-      {props.text9 && <SubTitle>Dag 9</SubTitle>}
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        {props.image81 && (
+          <img
+            src={props.image81}
+            alt={props.alt81}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image82 && (
+          <img
+            src={props.image82}
+            alt={props.alt82}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image83 && (
+          <img
+            src={props.image83}
+            alt={props.alt83}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+      </div>
+
+      {props.text9 && <SubTitle>{props.dagTitel9}</SubTitle>}
       {props.text9 && <Text>{props.text9}</Text>}
       {props.todo9 && (
         <S.routeTips>
@@ -352,30 +424,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image16 && (
+        {props.image91 && (
           <img
-            src={props.image16}
-            alt={props.alt16}
+            src={props.image91}
+            alt={props.alt91}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image17 && (
+        {props.image92 && (
           <img
-            src={props.image17}
-            alt={props.alt17}
+            src={props.image92}
+            alt={props.alt92}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image18 && (
+        {props.image93 && (
           <img
-            src={props.image18}
-            alt={props.alt18}
+            src={props.image93}
+            alt={props.alt93}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text10 && <SubTitle>Dag 10</SubTitle>}
+      {props.text10 && <SubTitle>{props.dagTitel10}</SubTitle>}
       {props.text10 && <Text>{props.text10}</Text>}
       {props.todo10 && (
         <S.routeTips>
@@ -398,30 +470,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image19 && (
+        {props.image101 && (
           <img
-            src={props.image19}
-            alt={props.alt19}
+            src={props.image101}
+            alt={props.alt101}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image20 && (
+        {props.image102 && (
           <img
-            src={props.image20}
-            alt={props.alt20}
+            src={props.image102}
+            alt={props.alt102}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image21 && (
+        {props.image103 && (
           <img
-            src={props.image21}
-            alt={props.alt21}
+            src={props.image103}
+            alt={props.alt103}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text11 && <SubTitle>Dag 11</SubTitle>}
+      {props.text11 && <SubTitle>{props.dagTitel11}</SubTitle>}
       {props.text11 && <Text>{props.text11}</Text>}
       {props.todo11 && (
         <S.routeTips>
@@ -444,30 +516,30 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image22 && (
+        {props.image111 && (
           <img
-            src={props.image22}
-            alt={props.alt22}
+            src={props.image111}
+            alt={props.alt111}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image23 && (
+        {props.image112 && (
           <img
-            src={props.image23}
-            alt={props.alt23}
+            src={props.image112}
+            alt={props.alt112}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image24 && (
+        {props.image113 && (
           <img
-            src={props.image24}
-            alt={props.alt24}
+            src={props.image113}
+            alt={props.alt113}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text12 && <SubTitle>Dag 12</SubTitle>}
+      {props.text12 && <SubTitle>{props.dagTitel12}</SubTitle>}
       {props.text12 && <Text>{props.text12}</Text>}
       {props.todo12 && (
         <S.routeTips>
@@ -490,31 +562,31 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image25 && (
+        {props.image121 && (
           <img
-            src={props.image25}
-            alt={props.alt25}
+            src={props.image121}
+            alt={props.alt121}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image26 && (
+        {props.image122 && (
           <img
-            src={props.image26}
-            alt={props.alt26}
+            src={props.image122}
+            alt={props.alt122}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image27 && (
+        {props.image123 && (
           <img
-            src={props.image27}
-            alt={props.alt27}
+            src={props.image123}
+            alt={props.alt123}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
       </div>
 
-      {props.text13 && <SubTitle>Dag 13</SubTitle>}
-      {props.text11 && <Text>{props.text13}</Text>}
+      {props.text13 && <SubTitle>{props.dagTitel13}</SubTitle>}
+      {props.text13 && <Text>{props.text13}</Text>}
       {props.todo13 && (
         <S.routeTips>
           <RouteInfo>To do:</RouteInfo>
@@ -536,7 +608,31 @@ export default function Route({ props }) {
         </S.Links>
       )}
 
-      {props.text14 && <SubTitle>Dag 14</SubTitle>}
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        {props.image131 && (
+          <img
+            src={props.image131}
+            alt={props.alt131}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image132 && (
+          <img
+            src={props.image132}
+            alt={props.alt132}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+        {props.image133 && (
+          <img
+            src={props.image133}
+            alt={props.alt133}
+            style={{ width: "30%", marginBottom: "16px" }}
+          />
+        )}
+      </div>
+
+      {props.text14 && <SubTitle>{props.dagTitel14}</SubTitle>}
       {props.text14 && <Text>{props.text14}</Text>}
       {props.todo14 && (
         <S.routeTips>
@@ -559,24 +655,24 @@ export default function Route({ props }) {
         </S.Links>
       )}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        {props.image28 && (
+        {props.image141 && (
           <img
-            src={props.image28}
-            alt={props.alt28}
+            src={props.image141}
+            alt={props.alt141}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image29 && (
+        {props.image142 && (
           <img
-            src={props.image29}
-            alt={props.alt29}
+            src={props.image142}
+            alt={props.alt142}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}
-        {props.image30 && (
+        {props.image143 && (
           <img
-            src={props.image30}
-            alt={props.alt30}
+            src={props.image143}
+            alt={props.alt143}
             style={{ width: "30%", marginBottom: "16px" }}
           />
         )}

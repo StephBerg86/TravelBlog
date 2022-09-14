@@ -20,10 +20,10 @@ export const PageContainer = styled.div`
     max-height: 1400px;
   }
   &.d {
-    max-height: 1600px;
+    max-height: 1700px;
   }
   &.e {
-    max-height: 2000px;
+    max-height: 2100px;
   }
   &.f {
     max-height: 2400px;
@@ -50,6 +50,6 @@ export const PageContainer = styled.div`
     max-height: 1400px;
   }
   &.verylong {
-    max-height: 2700px; // moet genoeg zijn om alle stories te showen
+    max-height: 2800px; // moet genoeg zijn om alle stories te showen
   }
 `;

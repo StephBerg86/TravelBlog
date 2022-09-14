@@ -1,4 +1,5 @@
 import { namibiaImages } from "../../Images/Namibia";
+import { mexicoImages } from "../../Images/Mexico";
 
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
@@ -64,8 +65,6 @@ export const data = [
         dagTitel1: "Cancun",
         text1:
           "We begonnen onze reis in Cancun omdat de meeste vluchten naar Mexico hier nou eenmaal op aanvliegen. Dit was ook echt de enige reden. Wij vonden Cancun niet de moeite waard om lang te blijven dus na één nachtje hebben we dan ook de bus en de ferry gepakt om door te reizen naar Isla Holbox.",
-        // todo1:
-        // tip1:
         slapen1:
           "We sliepen in Hotel Mezcal. Toen ik dat net ging opzoeken bleek dat het hotel tegenwoordig Nomads Boutique Hotel & Hostel heet. Dit was en leuk hotelletje, vlak bij het busstation waar we de bus naar Isla Holbox konden nemen.",
         link1: "",
@@ -79,6 +78,12 @@ export const data = [
           "Er zijn tal van goeie hotels en hostels te vinden op Holbox, maar wij verbleven toch wel in een waar paradijsje; El Pueblito. Je kunt op deze tekst klikken om het hotel te bekijken. De foto's spreken voor zich.",
         link2:
           "https://www.booking.com/hotel/mx/el-pueblito.nl.html?auth_success=1",
+        image21: mexicoImages[0],
+        alt21: "Alma bar",
+        image22: mexicoImages[1],
+        alt22: "streetart",
+        image23: mexicoImages[2],
+        alt23: "Holbox sign",
         dagTitel3: "Tulum",
         text3:
           "Tulum, wie kent het niet? Als iemand vertelt dat hij in Mexico is geweest, kun je er zeker van zijn dat hij in ieder geval Tulum heeft bezocht. Tulum is hardstikke hot en dat zie je ook aan het aantal toeristen. Gelukkig is Tulum ook vrij groot. Groter in iedergeval dan dat ik me op voorhand had voorgesteld. Tulum heeft eigenlijk twee delen; Tulum Pueblo en Tulum Beach. Beide zijn absoluut de moeite waard maar let hierop bij het boeken van je accomodatie. Tulum Pueblo is het dorpje waar veel winkels en restaurants zitten. Hier heb je een gezellige boulevard waar 's avonds van alles te doen is. Tulum Beach is een enorme lange strook langs de kust. Je hebt een prachtig strand met aan een stuk door strandtenten en beachclubs. Achter de strandtenten zijn aan de weg vaak ook nog wat winkeltjes. Net buiten Tulum kun je ook nog de Tulum ruines bezoeken en tal van cenotes. Kortom je kunt je alleen in Tulum makkelijk een hele vakantie vermaken.",
@@ -89,12 +94,28 @@ export const data = [
           "Wij sliepen in hotel Zendero. Een top hotel met een fantastisch ontbijt. Het hotel was net geopend toen wij er waren en is zeker een aanrader om te verblijven, maar het hotel staat wel in Tulum Pueblo. De prijzen van de accomodaties in Tulum Beach zijn vaak net iets hoger, maar ik denk wel dat het leuker is om daar een hotel te boeken. Dus als je de kans hebt kies dan voor een slaapplek bij het strand.",
         link3:
           "https://www.booking.com/hotel/mx/zendero-tulum.nl.html?aid=318615&label=New_Dutch_NL_NL_21456919225-h80T2porWQu2AcvphCQ7XAS84729679105%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=42b3a27b4ae2f7713172914e7a062a11&dest_id=-1707023&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1663176416&srpvid=a1997aaf2fdb00f5&type=total&ucfs=1&activeTab=main",
+        image31: mexicoImages[4],
+        alt31: "Fiets in Mexico",
+        image32: mexicoImages[3],
+        alt32: "Cenote carwash",
+        image33: mexicoImages[5],
+        alt33: "Tulum Ruines",
+
         dagTitel4: "Bacalar",
         text4:
           "The blue lagoon oftwel; Bacalar. De paradijselijke foto's in magazines over Mexico zijn vaak gemaakt in Bacalar. Dit komt omdat het meer, Laguna Bacalar, door de verschillende dieptes 7 verschillende kleuren blauw heeft. Alles in Bacalar draait dan ook om activiteiten op het water.",
         todo4:
           "Je kunt op het meer suppen of kayakken, maar wij kozen ervoor om te gaan zeilen. Dit wordt door veel reisorganisaties aangeboden en duurt meestal een halve dag. Ik vond zeilen wel echt de beste manier om de laguna goed te bekijken. Als je een dagje wilt chillen dan kun je naar Los Cocalitos. Dit is een grasveldje waar ze hangmatten in het water hebben gehangen en waar je kunt zwemmen. Dit is helaas geen verborgen pareltje meer dus ga vroeg als je het massatoerisme wil ontwijken. Een andere leuke activiteit is snorkelen bij Los Rapidos. Dit is een stroomversnelling waar je lekker met de stroming mee kunt drijven en aan het einde kun je weer terug lopen. Er is hier ook een restaurant en er zijn fijne plekjes met hangmatten waar je kunt kijken naar de voorbijstromende mensen.",
         tip4: "Wij hebben ook in Bacalar weer heerlijk gegeten, en wel op de volgende plekken: Bote de Leche (Neem Pan de Ajo als voorgerecht), El Manati (voor ontbijt en lunch), Yerbabuena Smoothie bar (voor ontbijt), Meztitoz (beste guacamole die ik in Mexico heb gegeten).",
+
+        image41:
+          "https://www.porquemegustaviajar.com/wp-content/uploads/2021/09/Los-Ra%CC%81pidos-Bacalar.jpeg?ezimgfmt=rs:3982x386/rscb5/ngcb5/notWebP",
+        alt41: "Los rapidos",
+        image42: mexicoImages[11],
+        alt42: "Our boat in Bacalar",
+        image43: mexicoImages[6],
+        alt43: "Los Cocalitos",
+
         dagTitel5: "Valladolid",
         text5:
           "Valladolid, is een goede uitvalsbasis om zowel cultuur te snuiven of de natuur in te gaan. Zo zijn wij vanuit hier naar Izamal, cenote Suytun en Chitzen Itza geweest. Izamal is een mooie, gele stad. Leuk om doorheen te wandelen en winkeltjes te bekijken. Bij cenote Suytun hadden wij de mazzel dat het super rustig was en dat we de hele cenote bijna voor onszelf hadden. Het is een prachtige grot met een plateau in het midden. Bij ons kon je op het plateau staan maar ik heb ook foto's gezien dat het plateau helemaal onder water staat.",
@@ -103,11 +124,20 @@ export const data = [
         slapen5:
           "Le Muuch, echt weer een plaatje van een hotel midden in Valladolid.",
         link5: "",
+        image51: mexicoImages[10],
+        alt51: "Valladolid",
+        image52: mexicoImages[7],
+        alt52: "Chitzen Itza sunset",
+        image53: mexicoImages[8],
+        alt53: "Izamal",
+
         dagTitel6: "Playa del Carmen",
         text6:
           "Toeristischer dan dit wordt het niet. Persoonlijk vind ik dit soort plekken vreselijk maar omdat we met onze huurauto wel iets dichter in de buurt van de luchthaven wilde zijn hebben we toch de keuze gemaakt om hier nog een nachtje te slapen. En ik moet zeggen; voor een dagje is dit helemaal leuk. Je kijkt je ogen uit.",
         todo6:
           "Omdat we in Playa del Carmen niet heel veel wilden bezoeken en omdat we onszelf nog even wilden verwennen voor dat we weer naar het koude Nederland terug vlogen (nee, we waren nog niet genoeg verwend op deze reis), boekten we een all inclusive hotel. En wat voor één. The reef 28. Super de luxe, niks te klagen, heerlijk gegeten.",
+        image61: mexicoImages[9],
+        alt61: "The Reef 28",
       },
     ],
   },
