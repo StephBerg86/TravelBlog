@@ -1,9 +1,8 @@
-import { namibiaImages } from "../../Images/Namibia";
-import { mexicoImages } from "../../Images/Mexico";
+import { namibiaImages } from "../Images/Namibia";
+import { mexicoImages } from "../Images/Mexico";
 
 export const GOTOPAGE = {
   MexicoRoute: "/route/mexico",
-  // MexicoStory: "/story/mexico",
   IcelandRoute: "/route/iceland",
   IcelandStory: "/story/iceland",
   BahamasRoute: "/route/bahamas",
@@ -13,7 +12,6 @@ export const GOTOPAGE = {
   PhilippinesRoute: "/route/philippines",
   PhilippinesStory: "/story/philippines",
   NamibiaRoute: "/route/namibia",
-  // NamibiaStory: "/story/namibia",
   SouthAfricaRoute: "/route/southafrica",
   SouthAfricaStory: "/story/southafrica",
   MiamiRoute: "/route/miami",
@@ -31,6 +29,7 @@ export const GOTOPAGE = {
   ThailandRoute: "/route/thailand",
   VietnamRoute: "/route/vietnam",
   AustralieRoute: "/route/australie",
+  IerlandStory: "/story/ierland",
 };
 
 export const data = [
@@ -628,9 +627,15 @@ export const data = [
         subTitle6: "Cala Llonga",
         text6:
           "Het plaatsje Cala Llonga is centraal gelegen aan de oostkust. Vanaf hier ben je binnen tien minuten met de auto in Ibiza stad of als je richting het noorden rijdt in Santa Eularia. Cala Llonga heeft een zandstrand dat langzaam afloopt en omdat het in een baai ligt heb je weinig golven en wind. Het dorpje is niet heel bruisend maar het heeft een aantal winkels en restaurants.",
-        image6:
+        image6a:
+          "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_700,h_462/https://www.ibizaontdekker.nl/wp-content/uploads/2022/03/ibiza-cala-llonga-rustige-badplaats-vakantie.jpg",
+        alt6a: "Cala Llonga",
+        image6b:
+          "https://lh5.googleusercontent.com/p/AF1QipP2wZxfW9YEWST_ObdD8nJC_nSAgREMvHNSkdhO=s1600",
+        alt6b: "Cala Llonga",
+        image6c:
           "https://zone1-ibizaspotlightsl.netdna-ssl.com/sites/default/files/styles/auto_1500_width/public/beach-images/69727/slideshow-1540806823_1.jpg",
-        alt6: "Cala Llonga",
+        alt6c: "Cala Llonga",
         subTitle7: "Es Canar",
         text7:
           "Dit is een klein badplaatsje met een zandstrand, leuke winkeltjes, restaurants en er zijn enkele uitgaansgelegenheden. Es Canar heeft niet het mooiste strand of de beste clubs maar er is wel voor ieder wat wils. Es Canar is ook de locatie van de grootste hippiemarkt van Ibiza 'Punta Arabi'. Ik sliep in 'Hotel Club Punta Arabi' en het voordeel hiervan is dat de hippiemarkt voor de deur is.",
@@ -965,6 +970,76 @@ export const data = [
         title: "De oostkust van Australie",
         location: "Australie",
         introtext: "Nog even geduld, deze tekst volgt snel!",
+      },
+    ],
+  },
+  {
+    id: "ierland",
+    location: "Ierland",
+    continent: "Europa",
+    title: "Dublin",
+    text: "1 dag in Dublin, dit zijn mijn tips",
+    image:
+      "https://images.unsplash.com/photo-1605969353711-234dea348ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    alt: "Temple bar Dublin",
+    stories: [
+      {
+        category: "card",
+        title: "1 dag in Dublin, dit zijn mijn tips",
+        location: "Ierland",
+        text: "Heb je net als ik een stopover, of ga je voor een korte trip naar Dublin? Ik kan je vertellen wat leuke plekken zijn om te bekijken en wat je zeker niet mag missen tijdens je korte trip.",
+        image:
+          "https://images.unsplash.com/photo-1605969353711-234dea348ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        alt: "Temple bar Dublin",
+        onClick: GOTOPAGE.IerlandStory,
+      },
+      {
+        category: "story",
+        title: "1 dag in Dublin, dit zijn mijn tips",
+        location: "Ierland",
+        period: "Oktober 2022",
+        text1:
+          "Als je op reis gaat komt het vaak voor dat je een tussenstop moet maken. En als je dan toch via een andere plek moet reizen, waarom dan niet wat langer de tijd nemen en meteen die stad bekijken. Dat is wat ik heb gedaan in Dublin toen ik onderweg was naar Spanje. In dit artikel deel ik de tips die ik kreeg en de plekken waar ik zelf geweest ben.",
+        subTitle2: "Walking tour",
+        text2:
+          "Wat ik zelf vaak aan het begin van een stedentrip doe is een 'Walking Tour'. Zo leer je de stad kennen door de ogen van een local. In elke stad hebben ze dit wel en je betaald wat je de wandeltoch zelf waard vond. Op deze manier leer je vaak iets over de historie van de stad, loop je op plekken waar je misschien zelf niet zo snel zou komen en krijg je tips voor leuke restaurants of dingen die je verder nog kunt doen. In Dublin heb ik ook zo'n wandeltocht gedaan en een aantal tips die ik toen gekregen heb deel ik ook in dit artikel.",
+        subTitle3: "Wat valt er te zien",
+        text3:
+          "Het enige plan wat ik had voordat ik naar Dublin ging was een whisky drinken. Maar er is natuurlijk veel meer te doen en zien dan dat. Als je niet veel budget hebt dan kun je alsnog veel zien in Dublin. Rondwandelen door de stad is natuurlijk gratis maar ook alles waar 'National' voor staat is gratis, zoals bijvoorbeeld het National Museum of Ireland. Verder mag een bezoek aan Trinity College niet ontbreken. Je kunt hier rondlopen tussen de studenten en naar de mooie gebouwen kijken, maar wat eigenlijk echt moet bekijken is de bibliotheek van Trinity College met daarin het beroemde Book of Kells. Voor de bibliotheek moet je wel van tevoren een kaartje kopen.",
+        image3a:
+          "https://images.unsplash.com/photo-1515963931004-51a07139e710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMzfHxkdWJsaW58ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        alt3a: "Temple bar Dublin",
+        image3b:
+          "https://images.unsplash.com/photo-1554581601-e61349bca2bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        alt3b: "Book of Kels",
+        image3c:
+          "https://images.unsplash.com/photo-1591986204420-196c41191ea9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+        alt3c: "Streets of Dublin",
+        subTitle4: "Temple Bar",
+        text4:
+          "Temple Bar is een wijk in Dublin met veel bars en restaurants. Midden in deze wijk staat een bar die ook de naam Temple Bar draagt. Dit is de meest gefotografeerde kroeg van Dublin en daarom ook erg populair bij toeristen. Dat komt omdat toeristen vaak denken dat deze bar door zijn naam erg belangrijk is in de wijk, maar dat blijkt absoluut niet waar te zijn. Het gebied Temple Bar dankt zijn naam aan de familie Temple die eigenaar was van deze wijk. 'Bar' komt van de zandbank (sandbar) die vroeger aan dit gebied lag. De naam Temple Bar heeft dus niets met een kroeg te maken. De eigenaren van het cafe Temple Bar zijn gewoon slim geweest door hun bar zo te noemen. Je zal in deze bar echter geen enkele Ier vinden en de Ieren vinden dit een grote toeristische valkuil. Er zijn in de buurt van de Temple Bar ook genoeg andere leuke kroegen waar je ongeveer de helft betaald voor je Guinness. Dus ga vooral naar de wijk Temple Bar, maar sla het cafe de Temple Bar maar even over. Tenminste, je hoeft er niet naar binnen. Een foto maken van buiten zou ik wel doen want het is niet voor niets de meest gefotografeerde bar van deze wijk. Vooral met kerst schijnen ze erg veel aan de aankleding van de bar te doen.",
+        text5:
+          "Als je dan toch door Temple Bar heen loopt kijk dan vooral goed om je heen naar de streetart en loop via love lane naar de wall of love.",
+        image5a:
+          "https://images.unsplash.com/photo-1605969353711-234dea348ce1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        alt5a: "Temple bar Dublin",
+        image5b:
+          "https://images.unsplash.com/photo-1573564827193-fadecce712db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+        alt5b: "Book of Kels",
+        image5c:
+          "https://www.independent.ie/regionals/dublin/dublin-news/95176/41684224.ece/AUTOCROP/w1240h700/Love%20Lane%203.jpg",
+        alt5c: "Streets of Dublin",
+        subTitle6: "Whisky",
+        text6:
+          "Ik ben een Whisky liefhebber dus de hoofdreden om even te stoppen in Dublin was voor mij om een whisky te drinken in een Ierse pub. Ik ben echter totaal geen Whisky kenner dus het leek me wel leuk om eerst wat meer te leren over het Whisky proces. Je hebt twee grote distillerijen in Dublin; Jameson en Teeling. De Whisky van Jameson wordt gemaakt in Cork en dus kun je in Dublin alleen verhalen over Whisky horen maar niet zien hoe het gemaakt wordt. Dus koos ik ervoor om naar de Teeling distillery te gaan. Je krijgt hier een uitgebreide rondleiding waarbij het hele proces wordt uitgelegd en aan het einde krijg je een Whisky proeverij. Als je niet kan kiezen tussen Jameson en Teeling is het Whisky museum ook een goede optie. Hier kun je het proces van het maken niet zien maar krijg je wel de verhalen over alle Ierse Whisky's.",
+        text7:
+          "Als in een bar Whisky wil drinken (of Guinness natuurlijk, maar dat is niet echt mijn ding), dan kan dat in principe op elke hoek van de straat. Een aanrader volgens mijn gids is de Palace bar. Dit is een bar waar veel Ierse mensen komen om bij te kletsen. Er staat namelijk geen muziek aan in deze bar en dat is uniek. Waar ik zelf heen geweest ben is Peruke & Periwig. Als je hier binnenstapt waan je je in een scene van Peaky Blinders. Je schijnt hier ook heerlijk te kunnen eten en cocktails te kunnen drinken. Als je sowieso meer een cocktail mens bent dan vind je in de straat van Peruke & Periwig (Dawsen street) een hele hoop fancy cocktailbars.",
+        subTitle8: "Lunch en diner",
+        text8:
+          "Natuurlijk wil je als je in Ierland bent, scones eten (Ik wel in ieder geval). Ik ben zelf geen koffie drinker maar ik heb van meerdere mensen gehoord dat de koffie op de meeste plekken niet te zuipen is. Maar er is een uitzondering; Butlers Chocolate cafe. Je kunt hier super lekkere koffie halen (schijnt), en daarnaast hebben ze heerlijke scones en de beste warme chocolademelk. Heb je wat meer trek dan alleen een scone dan zijn er genoeg andere opties. De Ierse keuken bestaat voornamelijk uit aardappelen en vlees. Dit klinkt als de Nederlandse keuken maar er zijn een aantal locale gerechten die je moet proberen. Zo is er bijvoorbeeld 'Boxty', dit is een soort aardappel pannekoek die ze vullen met verschillende dingen. In de wijk Temple Bar heb je een restaurant die ook Boxty heet en hier serveren ze hele goede Boxty's. Als je zin hebt in iets gezonds, of gewoon een hippe lunch dan moet je bij Tang zijn. Dit is een café naast het St.Stephen's Green park. Heb je zin in een simpele maar heerlijke burger? Ga dan naar Bunsen, de beste burgerbar van Dublin (volgens mijn wandeltour gids dan). Deze burgerbar zit tegenover de Temple Bar.",
+        subTitle10: "Muziek en dans",
+        text10:
+          "Van Riverdance heb je vast wel eens gehoord en het is natuurlijk heel leuk om wat van de Ierse cultuur mee te krijgen in de vorm van de Ierse dans. Er zijn veel commerciële Ierse dans shows waar je veel geld voor betaald en waar alleen toeristen komen. Ik wilde meer de local experience dus ben ik naar de Church bar geweest. Je kunt hier ontzettend lekker eten. Ik had spare ribs gegaard in Guinness (toch nog wat Guinness binnen gekregen), en Irish stew. Tijdens het eten is er de hele avond live muziek en tussendoor komen er steeds optredens van Ierse dansers. Daarnaast is dit restaurant gemaakt in een voormalige kerk, wat het ook een pracht lokatie maakt. Voor meer Ierse live muziek kreeg ik ook nog de tip om naar de Cobble Stone bar te gaan.",
       },
     ],
   },

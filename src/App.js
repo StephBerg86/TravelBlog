@@ -9,7 +9,7 @@ import Videos from "./Pages/Reisvideos/index.js";
 import Footer from "./Components/Footer/index.js";
 import RoutePage from "./Pages/Route/index.js";
 import About from "./Pages/Overmij/About.js";
-import { data } from "./Components/DataReisverhalen/index.js";
+import { data } from "./DataReisverhalen/index.js";
 
 export const AppContext = createContext();
 
@@ -44,31 +44,29 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <S.Background>
       <ThemeProvider theme={theme}>
         <AppContext.Provider value={appContext}>
-          <S.Background>
-            <S.PageContainer className="PageContainer">
-              <NavBar />
-              <S.ContentContainer>
-                <Routes>
-                  <Route path="/" element={<Home />}></Route>
-                  <Route path="/route/:country" element={<RoutePage />}></Route>
-                  <Route path="/story/:country" element={<StoryPage />}></Route>
-                  <Route
-                    path="/story/:country/:city"
-                    element={<StoryPage />}
-                  ></Route>
-                  <Route path="/videos" element={<Videos />}></Route>
-                  <Route path="/overmij" element={<About />}></Route>
-                </Routes>
-              </S.ContentContainer>
-              <Footer />
-            </S.PageContainer>
-          </S.Background>
+          <S.PageContainer className="PageContainer">
+            <NavBar />
+            <S.ContentContainer>
+              <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/route/:country" element={<RoutePage />}></Route>
+                <Route path="/story/:country" element={<StoryPage />}></Route>
+                <Route
+                  path="/story/:country/:city"
+                  element={<StoryPage />}
+                ></Route>
+                <Route path="/videos" element={<Videos />}></Route>
+                <Route path="/overmij" element={<About />}></Route>
+              </Routes>
+            </S.ContentContainer>
+            <Footer />
+          </S.PageContainer>
         </AppContext.Provider>
       </ThemeProvider>
-    </div>
+    </S.Background>
   );
 }
 

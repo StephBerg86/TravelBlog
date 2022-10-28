@@ -7,9 +7,12 @@ export const Background = styled.div`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  min-height: 100vh;
+  min-height: calc(100vh + 60px);
   background-image: url(${BackgroundImage});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 `;
 
 export const PageContainer = styled.div`
@@ -17,7 +20,8 @@ export const PageContainer = styled.div`
   width: 80vw;
   margin: 25px 0;
   ${backgrounds.primary};
-
+  position: relative;
+  overflow-x: scroll;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;

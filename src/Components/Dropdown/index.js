@@ -4,7 +4,7 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { data } from "../DataReisverhalen";
+import { data } from "../../DataReisverhalen";
 import { AppContext } from "../../App";
 
 const MenuProps = {
