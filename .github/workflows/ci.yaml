@@ -30,12 +30,3 @@ jobs:
         run: |
           docker build --pull -t ghcr.io/stephberg86/travelblog/prod -f docker/Dockerfile .
           docker push ghcr.io/stephberg86/travelblog/prod
-
-  deploy:
-    name: Deploy to production
-    runs-on: ubuntu-latest
-    needs: [ build ]
-    if: github.event_name == 'push'
-    steps:
-      -    name: Call deploy endpoint
-           run: curl --user ${{ secrets.DEPLOY_TOKEN }} ${{ secrets.DEPLOY_URI }}
